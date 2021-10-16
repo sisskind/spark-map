@@ -1,0 +1,2857 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-10-16T15:21:43Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599059",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "84",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427311",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Morris Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8236235,
+              42.688946
+            ],
+            [
+              -73.8234893,
+              42.6888654
+            ],
+            [
+              -73.8232495,
+              42.6890813
+            ],
+            [
+              -73.8233837,
+              42.6891619
+            ],
+            [
+              -73.8236235,
+              42.688946
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599061",
+        "building": "dormitory",
+        "name": "Bleecker Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8274539,
+              42.685308
+            ],
+            [
+              -73.8273254,
+              42.6852376
+            ],
+            [
+              -73.8270882,
+              42.6854713
+            ],
+            [
+              -73.8272166,
+              42.6855417
+            ],
+            [
+              -73.8274539,
+              42.685308
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599062",
+        "building": "dormitory",
+        "ele": "73",
+        "gnis:feature_id": "2427281",
+        "name": "Onondaga Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8244755,
+              42.6834394
+            ],
+            [
+              -73.8247096,
+              42.6832126
+            ],
+            [
+              -73.8245811,
+              42.6831409
+            ],
+            [
+              -73.824347,
+              42.6833677
+            ],
+            [
+              -73.8244755,
+              42.6834394
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599063",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "84",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427313",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Delancy Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8249712,
+              42.6892627
+            ],
+            [
+              -73.824838,
+              42.6891828
+            ],
+            [
+              -73.8245991,
+              42.6893979
+            ],
+            [
+              -73.8247322,
+              42.6894778
+            ],
+            [
+              -73.8249712,
+              42.6892627
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599064",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "81",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427306",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Whitman Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8196185,
+              42.6870534
+            ],
+            [
+              -73.8192307,
+              42.6868274
+            ],
+            [
+              -73.8191171,
+              42.6869327
+            ],
+            [
+              -73.8195048,
+              42.6871587
+            ],
+            [
+              -73.8196185,
+              42.6870534
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599065",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "81",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427302",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Anthony Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8192172,
+              42.6867839
+            ],
+            [
+              -73.8194718,
+              42.6865482
+            ],
+            [
+              -73.8193245,
+              42.6864622
+            ],
+            [
+              -73.8190699,
+              42.686698
+            ],
+            [
+              -73.8192172,
+              42.6867839
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599067",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "81",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427307",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Tappan Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8200589,
+              42.6873085
+            ],
+            [
+              -73.8196709,
+              42.6870824
+            ],
+            [
+              -73.8195572,
+              42.6871878
+            ],
+            [
+              -73.8199451,
+              42.687414
+            ],
+            [
+              -73.8200589,
+              42.6873085
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599068",
+        "building": "dormitory",
+        "name": "Ten Eyck Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8275815,
+              42.6859609
+            ],
+            [
+              -73.8279517,
+              42.6861741
+            ],
+            [
+              -73.8280583,
+              42.686074
+            ],
+            [
+              -73.8276881,
+              42.6858608
+            ],
+            [
+              -73.8275815,
+              42.6859609
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599071",
+        "building": "dormitory",
+        "ele": "73",
+        "gnis:feature_id": "2427277",
+        "name": "Tuscarora Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8241153,
+              42.6828221
+            ],
+            [
+              -73.8242292,
+              42.6827174
+            ],
+            [
+              -73.8238484,
+              42.6824937
+            ],
+            [
+              -73.8237345,
+              42.6825985
+            ],
+            [
+              -73.8241153,
+              42.6828221
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599079",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "82",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427310",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Johnson Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8239407,
+              42.6886591
+            ],
+            [
+              -73.8238091,
+              42.6885802
+            ],
+            [
+              -73.8235715,
+              42.6887941
+            ],
+            [
+              -73.8237031,
+              42.688873
+            ],
+            [
+              -73.8239407,
+              42.6886591
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599081",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "building:levels": "22",
+        "ele": "81",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427303",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "height": "87",
+        "name": "Eastman Tower",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8204058,
+              42.6867716
+            ],
+            [
+              -73.8202185,
+              42.6866624
+            ],
+            [
+              -73.8200681,
+              42.6868016
+            ],
+            [
+              -73.8202554,
+              42.6869109
+            ],
+            [
+              -73.8204058,
+              42.6867716
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599082",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "79",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427316",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Zenger Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8240859,
+              42.6897997
+            ],
+            [
+              -73.8241896,
+              42.6897031
+            ],
+            [
+              -73.8238772,
+              42.689522
+            ],
+            [
+              -73.8237736,
+              42.6896186
+            ],
+            [
+              -73.8240859,
+              42.6897997
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599087",
+        "addr:city": "Albany",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "building:levels": "22",
+        "ele": "84",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427312",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "height": "87",
+        "name": "Livingston Tower",
+        "source": "USGS Geonames",
+        "start_date": "1965"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.824051,
+              42.6891111
+            ],
+            [
+              -73.8241987,
+              42.688975
+            ],
+            [
+              -73.824014,
+              42.6888667
+            ],
+            [
+              -73.8238663,
+              42.6890028
+            ],
+            [
+              -73.824051,
+              42.6891111
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599088",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "82",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427314",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Clinton Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.824653,
+              42.6895598
+            ],
+            [
+              -73.8245211,
+              42.6894806
+            ],
+            [
+              -73.8242832,
+              42.6896948
+            ],
+            [
+              -73.8244151,
+              42.689774
+            ],
+            [
+              -73.824653,
+              42.6895598
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599089",
+        "building": "dormitory",
+        "name": "Van Rensselaer Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8288261,
+              42.6856246
+            ],
+            [
+              -73.8286953,
+              42.6855529
+            ],
+            [
+              -73.8284563,
+              42.6857883
+            ],
+            [
+              -73.8285871,
+              42.6858601
+            ],
+            [
+              -73.8288261,
+              42.6856246
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599092",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "84",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427309",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Hamilton Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8248025,
+              42.6890902
+            ],
+            [
+              -73.8249056,
+              42.6889941
+            ],
+            [
+              -73.824594,
+              42.6888135
+            ],
+            [
+              -73.8244909,
+              42.6889096
+            ],
+            [
+              -73.8248025,
+              42.6890902
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599095",
+        "building": "dormitory",
+        "name": "Beverwyck Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8278416,
+              42.6850194
+            ],
+            [
+              -73.8282138,
+              42.6852338
+            ],
+            [
+              -73.8283221,
+              42.6851322
+            ],
+            [
+              -73.8279498,
+              42.6849178
+            ],
+            [
+              -73.8278416,
+              42.6850194
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599102",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "83",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427304",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Melville Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8205976,
+              42.6870914
+            ],
+            [
+              -73.8208561,
+              42.686852
+            ],
+            [
+              -73.8207038,
+              42.6867632
+            ],
+            [
+              -73.8204454,
+              42.6870026
+            ],
+            [
+              -73.8205976,
+              42.6870914
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599105",
+        "addr:city": "Albany",
+        "building": "dormitory",
+        "building:levels": "22",
+        "ele": "76",
+        "gnis:feature_id": "2427290",
+        "height": "87",
+        "name": "Stuyvesant Tower",
+        "start_date": "1964"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8278607,
+              42.6855122
+            ],
+            [
+              -73.8276808,
+              42.6854072
+            ],
+            [
+              -73.8275435,
+              42.6855342
+            ],
+            [
+              -73.8277233,
+              42.6856393
+            ],
+            [
+              -73.8278607,
+              42.6855122
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599106",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "81",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427300",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Irving Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.820808,
+              42.6866244
+            ],
+            [
+              -73.8204202,
+              42.6863984
+            ],
+            [
+              -73.8203066,
+              42.6865037
+            ],
+            [
+              -73.8206944,
+              42.6867297
+            ],
+            [
+              -73.820808,
+              42.6866244
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599107",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "83",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427305",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Steinmetz Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8202626,
+              42.6873904
+            ],
+            [
+              -73.8205195,
+              42.6871526
+            ],
+            [
+              -73.8203693,
+              42.687065
+            ],
+            [
+              -73.8201125,
+              42.6873028
+            ],
+            [
+              -73.8202626,
+              42.6873904
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599108",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "87",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427308",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Herkimer Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8243739,
+              42.6888466
+            ],
+            [
+              -73.824477,
+              42.6887505
+            ],
+            [
+              -73.8241654,
+              42.6885698
+            ],
+            [
+              -73.8240623,
+              42.6886659
+            ],
+            [
+              -73.8243739,
+              42.6888466
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599110",
+        "building": "dormitory",
+        "building:levels": "22",
+        "ele": "75",
+        "gnis:feature_id": "2427283",
+        "height": "87",
+        "name": "Mohawk Tower"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.82391,
+              42.6834448
+            ],
+            [
+              -73.8240589,
+              42.6833073
+            ],
+            [
+              -73.8238772,
+              42.683201
+            ],
+            [
+              -73.8237283,
+              42.6833384
+            ],
+            [
+              -73.82391,
+              42.6834448
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599116",
+        "building": "dormitory",
+        "gnis:feature_id": "2427292",
+        "name": "Ryckman Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8285134,
+              42.6859156
+            ],
+            [
+              -73.8283838,
+              42.6858445
+            ],
+            [
+              -73.8281457,
+              42.686079
+            ],
+            [
+              -73.8282753,
+              42.6861501
+            ],
+            [
+              -73.8285134,
+              42.6859156
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599127",
+        "building": "dormitory",
+        "ele": "75",
+        "gnis:feature_id": "2427280",
+        "name": "Cayuga Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8230883,
+              42.6831426
+            ],
+            [
+              -73.8233222,
+              42.6829161
+            ],
+            [
+              -73.823194,
+              42.6828446
+            ],
+            [
+              -73.8229602,
+              42.6830711
+            ],
+            [
+              -73.8230883,
+              42.6831426
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599129",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "81",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427299",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Fulton Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8203497,
+              42.6863533
+            ],
+            [
+              -73.8199621,
+              42.6861274
+            ],
+            [
+              -73.8198487,
+              42.6862326
+            ],
+            [
+              -73.8202363,
+              42.6864585
+            ],
+            [
+              -73.8203497,
+              42.6863533
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599131",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "79",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427315",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Paine Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8236627,
+              42.6895498
+            ],
+            [
+              -73.8237661,
+              42.6894534
+            ],
+            [
+              -73.823454,
+              42.6892725
+            ],
+            [
+              -73.8233505,
+              42.6893689
+            ],
+            [
+              -73.8236627,
+              42.6895498
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599133",
+        "addr:state": "NY",
+        "building": "dormitory",
+        "ele": "81",
+        "gnis:county_name": "Albany",
+        "gnis:feature_id": "2427301",
+        "gnis:import_uuid": "57871b70-0100-4405-bb30-88b2e001a944",
+        "gnis:reviewed": "no",
+        "name": "Cooper Hall",
+        "source": "USGS Geonames"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8195317,
+              42.686481
+            ],
+            [
+              -73.8197882,
+              42.6862434
+            ],
+            [
+              -73.8196384,
+              42.686156
+            ],
+            [
+              -73.8193819,
+              42.6863936
+            ],
+            [
+              -73.8195317,
+              42.686481
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599134",
+        "building": "dormitory",
+        "ele": "75",
+        "gnis:feature_id": "2427282",
+        "name": "Oneida Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8241593,
+              42.683733
+            ],
+            [
+              -73.8243923,
+              42.6835073
+            ],
+            [
+              -73.8242653,
+              42.6834364
+            ],
+            [
+              -73.8240323,
+              42.6836621
+            ],
+            [
+              -73.8241593,
+              42.683733
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599136",
+        "building": "dormitory",
+        "name": "Van Cortlandt Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8277427,
+              42.685033
+            ],
+            [
+              -73.8276158,
+              42.6849634
+            ],
+            [
+              -73.8273797,
+              42.685196
+            ],
+            [
+              -73.8275066,
+              42.6852656
+            ],
+            [
+              -73.8277427,
+              42.685033
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599139",
+        "building": "dormitory",
+        "ele": "72",
+        "gnis:feature_id": "2427279",
+        "name": "Adirondack Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.823421,
+              42.6828281
+            ],
+            [
+              -73.8236525,
+              42.6826038
+            ],
+            [
+              -73.8235274,
+              42.6825339
+            ],
+            [
+              -73.8232958,
+              42.6827582
+            ],
+            [
+              -73.823421,
+              42.6828281
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599142",
+        "building": "dormitory",
+        "ele": "76",
+        "gnis:feature_id": "2427284",
+        "name": "Montauk Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8238132,
+              42.6837862
+            ],
+            [
+              -73.8239253,
+              42.683683
+            ],
+            [
+              -73.8235468,
+              42.6834606
+            ],
+            [
+              -73.8234346,
+              42.6835638
+            ],
+            [
+              -73.8238132,
+              42.6837862
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599143",
+        "building": "dormitory",
+        "name": "Schuyler Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.828267,
+              42.6852748
+            ],
+            [
+              -73.8286397,
+              42.6854895
+            ],
+            [
+              -73.8287483,
+              42.6853876
+            ],
+            [
+              -73.8283756,
+              42.685173
+            ],
+            [
+              -73.828267,
+              42.6852748
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599148",
+        "building": "dormitory",
+        "ele": "76",
+        "gnis:feature_id": "2427293",
+        "name": "Ten Broeck Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8271309,
+              42.6857037
+            ],
+            [
+              -73.8275005,
+              42.6859166
+            ],
+            [
+              -73.8276067,
+              42.6858169
+            ],
+            [
+              -73.8272371,
+              42.6856041
+            ],
+            [
+              -73.8271309,
+              42.6857037
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599149",
+        "building": "dormitory",
+        "ele": "76",
+        "gnis:feature_id": "2427285",
+        "name": "Mahican Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8233647,
+              42.6835142
+            ],
+            [
+              -73.8234756,
+              42.6834122
+            ],
+            [
+              -73.8230986,
+              42.6831908
+            ],
+            [
+              -73.8229877,
+              42.6832928
+            ],
+            [
+              -73.8233647,
+              42.6835142
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103599150",
+        "building": "dormitory",
+        "name": "Seneca Hall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8245761,
+              42.6830857
+            ],
+            [
+              -73.8246903,
+              42.6829807
+            ],
+            [
+              -73.8243092,
+              42.6827568
+            ],
+            [
+              -73.824195,
+              42.6828619
+            ],
+            [
+              -73.8245761,
+              42.6830857
+            ]
+          ]
+        ]
+      },
+      "id": "way/103599150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143847",
+        "building": "dormitory",
+        "name": "A3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8288297,
+              42.6894525
+            ],
+            [
+              -73.8290775,
+              42.6892395
+            ],
+            [
+              -73.8289095,
+              42.6891339
+            ],
+            [
+              -73.8286617,
+              42.6893468
+            ],
+            [
+              -73.8288297,
+              42.6894525
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143849",
+        "building": "dormitory",
+        "name": "C2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8291588,
+              42.6903914
+            ],
+            [
+              -73.8294621,
+              42.6905667
+            ],
+            [
+              -73.8295441,
+              42.6904901
+            ],
+            [
+              -73.8296049,
+              42.6904332
+            ],
+            [
+              -73.8293016,
+              42.6902579
+            ],
+            [
+              -73.8291588,
+              42.6903914
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143851",
+        "building": "dormitory",
+        "name": "D3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8297453,
+              42.69104
+            ],
+            [
+              -73.8300433,
+              42.6912122
+            ],
+            [
+              -73.8301819,
+              42.6910827
+            ],
+            [
+              -73.829884,
+              42.6909105
+            ],
+            [
+              -73.8297453,
+              42.69104
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143853",
+        "building": "dormitory",
+        "name": "G3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8273296,
+              42.6908446
+            ],
+            [
+              -73.8275717,
+              42.6906365
+            ],
+            [
+              -73.8274103,
+              42.690535
+            ],
+            [
+              -73.8271682,
+              42.6907431
+            ],
+            [
+              -73.8273296,
+              42.6908446
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143854",
+        "building": "dormitory",
+        "name": "G2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8271412,
+              42.6903447
+            ],
+            [
+              -73.8274478,
+              42.690522
+            ],
+            [
+              -73.8275933,
+              42.6903861
+            ],
+            [
+              -73.8272866,
+              42.6902088
+            ],
+            [
+              -73.8271412,
+              42.6903447
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143858",
+        "building": "dormitory",
+        "name": "C1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8287193,
+              42.6901329
+            ],
+            [
+              -73.8290251,
+              42.6903098
+            ],
+            [
+              -73.82917,
+              42.6901744
+            ],
+            [
+              -73.8288641,
+              42.6899975
+            ],
+            [
+              -73.8287193,
+              42.6901329
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143859",
+        "building": "dormitory",
+        "name": "E3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8290059,
+              42.6917065
+            ],
+            [
+              -73.8293209,
+              42.6918886
+            ],
+            [
+              -73.8294729,
+              42.6917465
+            ],
+            [
+              -73.8291579,
+              42.6915644
+            ],
+            [
+              -73.8290059,
+              42.6917065
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143860",
+        "building": "dormitory",
+        "name": "E1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8290817,
+              42.6915846
+            ],
+            [
+              -73.8293312,
+              42.6913702
+            ],
+            [
+              -73.8291612,
+              42.6912634
+            ],
+            [
+              -73.8289117,
+              42.6914777
+            ],
+            [
+              -73.8290817,
+              42.6915846
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143862",
+        "building": "dormitory",
+        "name": "C5"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8283036,
+              42.6905332
+            ],
+            [
+              -73.8286121,
+              42.6907115
+            ],
+            [
+              -73.828759,
+              42.6905742
+            ],
+            [
+              -73.8284505,
+              42.6903959
+            ],
+            [
+              -73.8283036,
+              42.6905332
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143864",
+        "building": "dormitory",
+        "name": "D2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8294816,
+              42.6912025
+            ],
+            [
+              -73.8297345,
+              42.6909852
+            ],
+            [
+              -73.8295606,
+              42.6908758
+            ],
+            [
+              -73.8293077,
+              42.6910931
+            ],
+            [
+              -73.8294816,
+              42.6912025
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143866",
+        "building": "dormitory",
+        "name": "A2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8286738,
+              42.6896068
+            ],
+            [
+              -73.8289705,
+              42.6897784
+            ],
+            [
+              -73.8291082,
+              42.6896497
+            ],
+            [
+              -73.8288115,
+              42.6894781
+            ],
+            [
+              -73.8286738,
+              42.6896068
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143867",
+        "building": "dormitory",
+        "name": "C4"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8287522,
+              42.6907864
+            ],
+            [
+              -73.8290539,
+              42.6909608
+            ],
+            [
+              -73.8291359,
+              42.6908842
+            ],
+            [
+              -73.8291955,
+              42.6908285
+            ],
+            [
+              -73.8288938,
+              42.690654
+            ],
+            [
+              -73.8287522,
+              42.6907864
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143870",
+        "building": "dormitory",
+        "name": "A1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8282121,
+              42.6893533
+            ],
+            [
+              -73.8285122,
+              42.6895269
+            ],
+            [
+              -73.8286526,
+              42.6893957
+            ],
+            [
+              -73.8283524,
+              42.6892222
+            ],
+            [
+              -73.8282121,
+              42.6893533
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143872",
+        "building": "dormitory",
+        "name": "E2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8287361,
+              42.6919028
+            ],
+            [
+              -73.828991,
+              42.6916838
+            ],
+            [
+              -73.8288148,
+              42.691573
+            ],
+            [
+              -73.8285599,
+              42.6917919
+            ],
+            [
+              -73.8287361,
+              42.6919028
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143873",
+        "building": "dormitory",
+        "name": "B4",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8299107,
+              42.6896956
+            ],
+            [
+              -73.8302103,
+              42.6898687
+            ],
+            [
+              -73.8303501,
+              42.689738
+            ],
+            [
+              -73.8300506,
+              42.6895648
+            ],
+            [
+              -73.8299107,
+              42.6896956
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143875",
+        "building": "dormitory",
+        "name": "B2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8295182,
+              42.6900891
+            ],
+            [
+              -73.8298161,
+              42.6902552
+            ],
+            [
+              -73.8298777,
+              42.6901955
+            ],
+            [
+              -73.8299419,
+              42.6901333
+            ],
+            [
+              -73.829644,
+              42.6899672
+            ],
+            [
+              -73.8295182,
+              42.6900891
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143876",
+        "building": "dormitory",
+        "name": "B1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.829066,
+              42.6898292
+            ],
+            [
+              -73.829365,
+              42.6900021
+            ],
+            [
+              -73.8295045,
+              42.6898717
+            ],
+            [
+              -73.8292055,
+              42.6896988
+            ],
+            [
+              -73.829066,
+              42.6898292
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143877",
+        "building": "dormitory",
+        "name": "G1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8275659,
+              42.6905947
+            ],
+            [
+              -73.8278745,
+              42.6907731
+            ],
+            [
+              -73.8280215,
+              42.6906357
+            ],
+            [
+              -73.8277129,
+              42.6904573
+            ],
+            [
+              -73.8275659,
+              42.6905947
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143878",
+        "building": "dormitory",
+        "name": "F2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.827971,
+              42.6908254
+            ],
+            [
+              -73.8282855,
+              42.6910072
+            ],
+            [
+              -73.8284371,
+              42.6908655
+            ],
+            [
+              -73.8281227,
+              42.6906837
+            ],
+            [
+              -73.827971,
+              42.6908254
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143879",
+        "building": "dormitory",
+        "name": "D1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8298215,
+              42.6909093
+            ],
+            [
+              -73.8300654,
+              42.6906997
+            ],
+            [
+              -73.829902,
+              42.6905969
+            ],
+            [
+              -73.8296581,
+              42.6908065
+            ],
+            [
+              -73.8298215,
+              42.6909093
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143880",
+        "building": "dormitory",
+        "name": "B3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8296741,
+              42.6899385
+            ],
+            [
+              -73.8299165,
+              42.6897302
+            ],
+            [
+              -73.8297548,
+              42.6896285
+            ],
+            [
+              -73.8295125,
+              42.6898368
+            ],
+            [
+              -73.8296741,
+              42.6899385
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143881",
+        "building": "dormitory",
+        "name": "C3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8289229,
+              42.6906356
+            ],
+            [
+              -73.8291629,
+              42.6904295
+            ],
+            [
+              -73.829004,
+              42.6903296
+            ],
+            [
+              -73.8287641,
+              42.6905358
+            ],
+            [
+              -73.8289229,
+              42.6906356
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143882",
+        "building": "dormitory",
+        "name": "B5"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8294873,
+              42.6894578
+            ],
+            [
+              -73.8297891,
+              42.6896323
+            ],
+            [
+              -73.8299308,
+              42.6894998
+            ],
+            [
+              -73.829629,
+              42.6893253
+            ],
+            [
+              -73.8294873,
+              42.6894578
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143883",
+        "building": "dormitory",
+        "name": "F3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8281757,
+              42.6913505
+            ],
+            [
+              -73.8284322,
+              42.6911301
+            ],
+            [
+              -73.828254,
+              42.691018
+            ],
+            [
+              -73.8279975,
+              42.6912385
+            ],
+            [
+              -73.8281757,
+              42.6913505
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117143884",
+        "building": "dormitory",
+        "name": "F1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.828418,
+              42.6910689
+            ],
+            [
+              -73.8287275,
+              42.6912478
+            ],
+            [
+              -73.8288753,
+              42.6911098
+            ],
+            [
+              -73.8285658,
+              42.6909308
+            ],
+            [
+              -73.828418,
+              42.6910689
+            ]
+          ]
+        ]
+      },
+      "id": "way/117143884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/257695870",
+        "building": "dormitory",
+        "building:levels": "6",
+        "name": "Liberty Terrace Apartments"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.8206826,
+              42.6788355
+            ],
+            [
+              -73.8206616,
+              42.6788044
+            ],
+            [
+              -73.8206771,
+              42.6788001
+            ],
+            [
+              -73.8207106,
+              42.6788189
+            ],
+            [
+              -73.8207564,
+              42.6787747
+            ],
+            [
+              -73.8207864,
+              42.6787916
+            ],
+            [
+              -73.8207986,
+              42.6787798
+            ],
+            [
+              -73.8208107,
+              42.6787681
+            ],
+            [
+              -73.8207807,
+              42.6787513
+            ],
+            [
+              -73.8208135,
+              42.6787196
+            ],
+            [
+              -73.8207816,
+              42.6787018
+            ],
+            [
+              -73.8207831,
+              42.6786959
+            ],
+            [
+              -73.820827,
+              42.6787015
+            ],
+            [
+              -73.8208203,
+              42.6786663
+            ],
+            [
+              -73.8208438,
+              42.6785689
+            ],
+            [
+              -73.8208364,
+              42.678545
+            ],
+            [
+              -73.8208512,
+              42.6783919
+            ],
+            [
+              -73.8208438,
+              42.6783624
+            ],
+            [
+              -73.8208653,
+              42.6782635
+            ],
+            [
+              -73.8208726,
+              42.6782581
+            ],
+            [
+              -73.820938,
+              42.6782492
+            ],
+            [
+              -73.8209374,
+              42.6782561
+            ],
+            [
+              -73.8210899,
+              42.6782601
+            ],
+            [
+              -73.8211248,
+              42.6782734
+            ],
+            [
+              -73.8212559,
+              42.6782736
+            ],
+            [
+              -73.8212964,
+              42.6782855
+            ],
+            [
+              -73.8214312,
+              42.6782904
+            ],
+            [
+              -73.8214718,
+              42.678301
+            ],
+            [
+              -73.8214708,
+              42.6782662
+            ],
+            [
+              -73.8214889,
+              42.6782672
+            ],
+            [
+              -73.8214922,
+              42.6781997
+            ],
+            [
+              -73.8214232,
+              42.6782135
+            ],
+            [
+              -73.8214259,
+              42.6781879
+            ],
+            [
+              -73.8213645,
+              42.6781867
+            ],
+            [
+              -73.8213668,
+              42.6781521
+            ],
+            [
+              -73.8212287,
+              42.6781472
+            ],
+            [
+              -73.8211942,
+              42.6781354
+            ],
+            [
+              -73.8210591,
+              42.6781354
+            ],
+            [
+              -73.8210205,
+              42.6781233
+            ],
+            [
+              -73.8208867,
+              42.6781176
+            ],
+            [
+              -73.820812,
+              42.6780971
+            ],
+            [
+              -73.8208146,
+              42.6780912
+            ],
+            [
+              -73.8207721,
+              42.6780853
+            ],
+            [
+              -73.8207684,
+              42.6780974
+            ],
+            [
+              -73.8207228,
+              42.678091
+            ],
+            [
+              -73.8207315,
+              42.6781245
+            ],
+            [
+              -73.8207415,
+              42.678123
+            ],
+            [
+              -73.8207079,
+              42.6782207
+            ],
+            [
+              -73.8207161,
+              42.6782512
+            ],
+            [
+              -73.8207011,
+              42.6783335
+            ],
+            [
+              -73.8206819,
+              42.6783261
+            ],
+            [
+              -73.8206644,
+              42.6784494
+            ],
+            [
+              -73.8206738,
+              42.6784772
+            ],
+            [
+              -73.820647,
+              42.678578
+            ],
+            [
+              -73.8206966,
+              42.6785844
+            ],
+            [
+              -73.8206859,
+              42.6786296
+            ],
+            [
+              -73.8207194,
+              42.6786335
+            ],
+            [
+              -73.8207132,
+              42.6786634
+            ],
+            [
+              -73.820645,
+              42.6786252
+            ],
+            [
+              -73.8205984,
+              42.6786702
+            ],
+            [
+              -73.8205663,
+              42.6786522
+            ],
+            [
+              -73.8205542,
+              42.6786638
+            ],
+            [
+              -73.8205421,
+              42.6786755
+            ],
+            [
+              -73.8205742,
+              42.6786935
+            ],
+            [
+              -73.8205421,
+              42.6787244
+            ],
+            [
+              -73.8206061,
+              42.6787602
+            ],
+            [
+              -73.8205881,
+              42.6787715
+            ],
+            [
+              -73.8205758,
+              42.6787474
+            ],
+            [
+              -73.8205195,
+              42.6787655
+            ],
+            [
+              -73.8205015,
+              42.6787334
+            ],
+            [
+              -73.820371,
+              42.6787748
+            ],
+            [
+              -73.8203319,
+              42.6787778
+            ],
+            [
+              -73.8202079,
+              42.6788201
+            ],
+            [
+              -73.8201714,
+              42.6788237
+            ],
+            [
+              -73.82017,
+              42.6788185
+            ],
+            [
+              -73.8200476,
+              42.6788603
+            ],
+            [
+              -73.8200101,
+              42.6788619
+            ],
+            [
+              -73.8198899,
+              42.6788986
+            ],
+            [
+              -73.8198882,
+              42.6789055
+            ],
+            [
+              -73.8198456,
+              42.6789058
+            ],
+            [
+              -73.8198631,
+              42.6789334
+            ],
+            [
+              -73.8198478,
+              42.6789383
+            ],
+            [
+              -73.8198555,
+              42.678952
+            ],
+            [
+              -73.8198639,
+              42.6789669
+            ],
+            [
+              -73.8198717,
+              42.6789643
+            ],
+            [
+              -73.8199174,
+              42.6790138
+            ],
+            [
+              -73.8199537,
+              42.6791099
+            ],
+            [
+              -73.8199773,
+              42.6791326
+            ],
+            [
+              -73.8200138,
+              42.6792267
+            ],
+            [
+              -73.8200354,
+              42.6792515
+            ],
+            [
+              -73.8200746,
+              42.6793507
+            ],
+            [
+              -73.8200977,
+              42.679375
+            ],
+            [
+              -73.8201338,
+              42.6794695
+            ],
+            [
+              -73.8201856,
+              42.6794594
+            ],
+            [
+              -73.8201835,
+              42.6794895
+            ],
+            [
+              -73.8202812,
+              42.6794655
+            ],
+            [
+              -73.8202541,
+              42.6793971
+            ],
+            [
+              -73.8202971,
+              42.6793866
+            ],
+            [
+              -73.8202706,
+              42.6793583
+            ],
+            [
+              -73.8202342,
+              42.6792616
+            ],
+            [
+              -73.820209,
+              42.6792375
+            ],
+            [
+              -73.8201744,
+              42.6791449
+            ],
+            [
+              -73.8201506,
+              42.6791204
+            ],
+            [
+              -73.820114,
+              42.679022
+            ],
+            [
+              -73.8200971,
+              42.6789473
+            ],
+            [
+              -73.8201371,
+              42.6789388
+            ],
+            [
+              -73.8201553,
+              42.6789717
+            ],
+            [
+              -73.8203105,
+              42.6789202
+            ],
+            [
+              -73.8203126,
+              42.678924
+            ],
+            [
+              -73.8203512,
+              42.6789226
+            ],
+            [
+              -73.8203517,
+              42.6789185
+            ],
+            [
+              -73.8204712,
+              42.6788781
+            ],
+            [
+              -73.8205148,
+              42.6788762
+            ],
+            [
+              -73.8206397,
+              42.6788386
+            ],
+            [
+              -73.8206651,
+              42.678838
+            ],
+            [
+              -73.8206826,
+              42.6788355
+            ]
+          ]
+        ]
+      },
+      "id": "way/257695870"
+    }
+  ]
+}
