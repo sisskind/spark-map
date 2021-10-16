@@ -17,32 +17,86 @@
 </head>
 <body>
 	<div id="map"></div>
-		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity=sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-	
-	<script>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+		<script src="https://unpkg.com/@turf/turf@3.5.2/turf.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="data/ualbany-dorms.geojson" type="text/javascript"></script>
+	<script type="text/javascript">
 
-		var map = L.map('map').setView([42.6850, -73.8248], 15);
+		/* Map Variables */
 
-		var marker = L.marker([42.6850, -73.8248])
-			.addTo(map)
-			.bindPopup("<b>University at Albany</b></br>Home of the Great Danes!")
-			.openPopup();
-
-		var popup = L.popup();
+		var map = L.map('map')
+			.setView([42.6850, -73.8248], 15)
+			.on('click', onMapClick);
 
 		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
           	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       		}).addTo(map);
-		
-		function onMapClick(e) {
-			console.log(e.latlng.toString());
-			popup
-        		.setLatLng(e.latlng)
-        		.setContent("You clicked the map at " + e.latlng.toString())
-        		.openOn(map);
+
+		// var myStyle = {
+		//     color: "#ff7800",
+		//     weight: 5,
+		//     opacity: 0.65
+		// };
+
+		$.getJSON("data/ualbany-dorms.geojson", function(data){
+			/* Add the data with popup */
+			L.geoJSON(data, {
+				onEachFeature: onEachFeature
+			})
+
+			/* Add the data with custom styling for all features */
+			// L.geoJSON(data, {
+			// 	onEachFeature: onEachFeature,
+			// 	style: {color: "#ff7800", weight: 5, opacity: 0.65}
+			// })
+
+			/* Add the data with custom styling based on feature property */
+			// L.geoJSON(data, {
+			// 	onEachFeature: onEachFeature
+			// 	style: function(feature) {
+			// 	switch (true) {
+			// 		case /Tower/.test(feature.properties.name): return{color: "#ff0000"};
+			// 		default: return{color: "#ff7800"};
+			// 	}
+			// }
+			// })
+			.addTo(map);
+		});
+
+		/* Functions */
+
+		function onEachFeature(feature, layer) {
+			var popupTxt = "";
+			var osmURL = ""
+			// Try to get the name of the feature
+			if (feature.properties && feature.properties.name) {
+				popupTxt += `<b>${feature.properties.name}</b>`;
+			}
+
+		    // does this feature have a property named id?
+		    if (feature.properties && feature.properties['@id']) {
+		    	// Excellent! We can now link directly to the feature
+		    	osmURL = `https://www.openstreetmap.org/${feature.properties['@id']}`
+		    } else if (feature.properties && feature.geometry.coordinates) {
+		    	// Since we don't have the ID, let's try for the centroid of the feature
+		    	var centroid;
+		    	if (feature.geometry.type === 'Polygon') {
+		    		centroid = turf.centroid(feature).geometry.coordinates;
+		    	}
+		    	osmURL = `https://www.openstreetmap.org/edit/#map=${map.getZoom()}/${centroid[0]}/${centroid[0]}`;
+		    }
+
+		    if (osmURL != "") {
+		    	popupTxt += `</br></br>View this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
+		    }
+		    layer.bindPopup(popupTxt);
+		    
 		}
 
-		map.on('click', onMapClick);
+		function onMapClick(e) {
+			console.log(e.latlng.toString());
+		}
 
 	</script>
 
