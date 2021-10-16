@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-10-16T20:39:44Z"/>
+
+  <way id="103599059">
+    <nd ref="1196185842"/>
+    <nd ref="1196185723"/>
+    <nd ref="1196186080"/>
+    <nd ref="1196185761"/>
+    <nd ref="1196185842"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="84"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427311"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Morris Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599061">
+    <nd ref="1196186008"/>
+    <nd ref="1196186261"/>
+    <nd ref="1196185568"/>
+    <nd ref="1196186077"/>
+    <nd ref="1196186008"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="Bleecker Hall"/>
+  </way>
+  <way id="103599062">
+    <nd ref="1196185937"/>
+    <nd ref="1196185966"/>
+    <nd ref="1196185856"/>
+    <nd ref="1196186119"/>
+    <nd ref="1196185937"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="73"/>
+    <tag k="gnis:feature_id" v="2427281"/>
+    <tag k="name" v="Onondaga Hall"/>
+  </way>
+  <way id="103599063">
+    <nd ref="1196186153"/>
+    <nd ref="1196185551"/>
+    <nd ref="1196186034"/>
+    <nd ref="1196186255"/>
+    <nd ref="1196186153"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="84"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427313"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Delancy Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599064">
+    <nd ref="1196185828"/>
+    <nd ref="1196185803"/>
+    <nd ref="1196185825"/>
+    <nd ref="1196186138"/>
+    <nd ref="1196185828"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="81"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427306"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Whitman Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599065">
+    <nd ref="1196185640"/>
+    <nd ref="1196186311"/>
+    <nd ref="1196185736"/>
+    <nd ref="1196185750"/>
+    <nd ref="1196185640"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="81"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427302"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Anthony Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599067">
+    <nd ref="1196186198"/>
+    <nd ref="1196185552"/>
+    <nd ref="1196186098"/>
+    <nd ref="1196185503"/>
+    <nd ref="1196186198"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="81"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427307"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Tappan Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599068">
+    <nd ref="1196186318"/>
+    <nd ref="1196185721"/>
+    <nd ref="1196185903"/>
+    <nd ref="1196185961"/>
+    <nd ref="1196186318"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="Ten Eyck Hall"/>
+  </way>
+  <way id="103599071">
+    <nd ref="1196185950"/>
+    <nd ref="1196186020"/>
+    <nd ref="1196185657"/>
+    <nd ref="1196185596"/>
+    <nd ref="1196185950"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="73"/>
+    <tag k="gnis:feature_id" v="2427277"/>
+    <tag k="name" v="Tuscarora Hall"/>
+  </way>
+  <way id="103599079">
+    <nd ref="1196186094"/>
+    <nd ref="1196185897"/>
+    <nd ref="1196185774"/>
+    <nd ref="1196186182"/>
+    <nd ref="1196186094"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="82"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427310"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Johnson Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599081">
+    <nd ref="1196186316"/>
+    <nd ref="1196186079"/>
+    <nd ref="1196186312"/>
+    <nd ref="1196185489"/>
+    <nd ref="1196186316"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="building:levels" v="22"/>
+    <tag k="ele" v="81"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427303"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="height" v="87"/>
+    <tag k="name" v="Eastman Tower"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599082">
+    <nd ref="1196186280"/>
+    <nd ref="1196186189"/>
+    <nd ref="1196185782"/>
+    <nd ref="1196185689"/>
+    <nd ref="1196186280"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="79"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427316"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Zenger Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599087">
+    <nd ref="1196185648"/>
+    <nd ref="1196185851"/>
+    <nd ref="1196185684"/>
+    <nd ref="1196186074"/>
+    <nd ref="1196185648"/>
+    <tag k="addr:city" v="Albany"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="building:levels" v="22"/>
+    <tag k="ele" v="84"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427312"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="height" v="87"/>
+    <tag k="name" v="Livingston Tower"/>
+    <tag k="source" v="USGS Geonames"/>
+    <tag k="start_date" v="1965"/>
+  </way>
+  <way id="103599088">
+    <nd ref="1196186110"/>
+    <nd ref="1196186283"/>
+    <nd ref="1196185711"/>
+    <nd ref="1196186073"/>
+    <nd ref="1196186110"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="82"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427314"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Clinton Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599089">
+    <nd ref="1196186322"/>
+    <nd ref="1196185554"/>
+    <nd ref="1196186248"/>
+    <nd ref="1196186237"/>
+    <nd ref="1196186322"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="Van Rensselaer Hall"/>
+  </way>
+  <way id="103599092">
+    <nd ref="1196185719"/>
+    <nd ref="1196185727"/>
+    <nd ref="1196185740"/>
+    <nd ref="1196186200"/>
+    <nd ref="1196185719"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="84"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427309"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Hamilton Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599095">
+    <nd ref="1196185749"/>
+    <nd ref="1196185959"/>
+    <nd ref="1196186229"/>
+    <nd ref="1196185780"/>
+    <nd ref="1196185749"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="Beverwyck Hall"/>
+  </way>
+  <way id="103599102">
+    <nd ref="1196185621"/>
+    <nd ref="1196185575"/>
+    <nd ref="1196185927"/>
+    <nd ref="1196185526"/>
+    <nd ref="1196185621"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="83"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427304"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Melville Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599105">
+    <nd ref="1196185718"/>
+    <nd ref="1196185690"/>
+    <nd ref="1196186319"/>
+    <nd ref="1196186105"/>
+    <nd ref="1196185718"/>
+    <tag k="addr:city" v="Albany"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="building:levels" v="22"/>
+    <tag k="ele" v="76"/>
+    <tag k="gnis:feature_id" v="2427290"/>
+    <tag k="height" v="87"/>
+    <tag k="name" v="Stuyvesant Tower"/>
+    <tag k="start_date" v="1964"/>
+  </way>
+  <way id="103599106">
+    <nd ref="1196185668"/>
+    <nd ref="1196185733"/>
+    <nd ref="1196185907"/>
+    <nd ref="1196185853"/>
+    <nd ref="1196185668"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="81"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427300"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Irving Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599107">
+    <nd ref="1196185948"/>
+    <nd ref="1196186071"/>
+    <nd ref="1196185896"/>
+    <nd ref="1196186131"/>
+    <nd ref="1196185948"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="83"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427305"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Steinmetz Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599108">
+    <nd ref="1196185815"/>
+    <nd ref="1196186219"/>
+    <nd ref="1196185841"/>
+    <nd ref="1196186177"/>
+    <nd ref="1196185815"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="87"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427308"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Herkimer Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599110">
+    <nd ref="1196185663"/>
+    <nd ref="1196185505"/>
+    <nd ref="1196186083"/>
+    <nd ref="1196185623"/>
+    <nd ref="1196185663"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="building:levels" v="22"/>
+    <tag k="ele" v="75"/>
+    <tag k="gnis:feature_id" v="2427283"/>
+    <tag k="height" v="87"/>
+    <tag k="name" v="Mohawk Tower"/>
+  </way>
+  <way id="103599116">
+    <nd ref="1196185681"/>
+    <nd ref="1196185661"/>
+    <nd ref="1196186016"/>
+    <nd ref="1196185829"/>
+    <nd ref="1196185681"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="gnis:feature_id" v="2427292"/>
+    <tag k="name" v="Ryckman Hall"/>
+  </way>
+  <way id="103599127">
+    <nd ref="1196185972"/>
+    <nd ref="1196185613"/>
+    <nd ref="1196185806"/>
+    <nd ref="1196185755"/>
+    <nd ref="1196185972"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="75"/>
+    <tag k="gnis:feature_id" v="2427280"/>
+    <tag k="name" v="Cayuga Hall"/>
+  </way>
+  <way id="103599129">
+    <nd ref="1196185574"/>
+    <nd ref="1196186084"/>
+    <nd ref="1196185787"/>
+    <nd ref="1196185746"/>
+    <nd ref="1196185574"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="81"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427299"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Fulton Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599131">
+    <nd ref="1196185991"/>
+    <nd ref="1196186204"/>
+    <nd ref="1196186239"/>
+    <nd ref="1196185921"/>
+    <nd ref="1196185991"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="79"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427315"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Paine Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599133">
+    <nd ref="1196185603"/>
+    <nd ref="1196186132"/>
+    <nd ref="1196185546"/>
+    <nd ref="1196185976"/>
+    <nd ref="1196185603"/>
+    <tag k="addr:state" v="NY"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="81"/>
+    <tag k="gnis:county_name" v="Albany"/>
+    <tag k="gnis:feature_id" v="2427301"/>
+    <tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+    <tag k="gnis:reviewed" v="no"/>
+    <tag k="name" v="Cooper Hall"/>
+    <tag k="source" v="USGS Geonames"/>
+  </way>
+  <way id="103599134">
+    <nd ref="1196185708"/>
+    <nd ref="1196186180"/>
+    <nd ref="1196185868"/>
+    <nd ref="1196186296"/>
+    <nd ref="1196185708"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="75"/>
+    <tag k="gnis:feature_id" v="2427282"/>
+    <tag k="name" v="Oneida Hall"/>
+  </way>
+  <way id="103599136">
+    <nd ref="1196186228"/>
+    <nd ref="1196186245"/>
+    <nd ref="1196186058"/>
+    <nd ref="1196186103"/>
+    <nd ref="1196186228"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="Van Cortlandt Hall"/>
+  </way>
+  <way id="103599139">
+    <nd ref="1196186179"/>
+    <nd ref="1196186218"/>
+    <nd ref="1196186045"/>
+    <nd ref="1196186253"/>
+    <nd ref="1196186179"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="72"/>
+    <tag k="gnis:feature_id" v="2427279"/>
+    <tag k="name" v="Adirondack Hall"/>
+  </way>
+  <way id="103599142">
+    <nd ref="1196186211"/>
+    <nd ref="1196185530"/>
+    <nd ref="1196186230"/>
+    <nd ref="1196185544"/>
+    <nd ref="1196186211"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="76"/>
+    <tag k="gnis:feature_id" v="2427284"/>
+    <tag k="name" v="Montauk Hall"/>
+  </way>
+  <way id="103599143">
+    <nd ref="1196185525"/>
+    <nd ref="1196185865"/>
+    <nd ref="1196186166"/>
+    <nd ref="1196185669"/>
+    <nd ref="1196185525"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="Schuyler Hall"/>
+  </way>
+  <way id="103599148">
+    <nd ref="1196185743"/>
+    <nd ref="1196186046"/>
+    <nd ref="1196185584"/>
+    <nd ref="1196186250"/>
+    <nd ref="1196185743"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="76"/>
+    <tag k="gnis:feature_id" v="2427293"/>
+    <tag k="name" v="Ten Broeck Hall"/>
+  </way>
+  <way id="103599149">
+    <nd ref="1196186209"/>
+    <nd ref="1196185818"/>
+    <nd ref="1196185633"/>
+    <nd ref="1196186270"/>
+    <nd ref="1196186209"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="ele" v="76"/>
+    <tag k="gnis:feature_id" v="2427285"/>
+    <tag k="name" v="Mahican Hall"/>
+  </way>
+  <way id="103599150">
+    <nd ref="1196185737"/>
+    <nd ref="1196185667"/>
+    <nd ref="1196186221"/>
+    <nd ref="1196185507"/>
+    <nd ref="1196185737"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="Seneca Hall"/>
+  </way>
+  <way id="117143847">
+    <nd ref="1319559111"/>
+    <nd ref="1319559129"/>
+    <nd ref="1319559049"/>
+    <nd ref="1319559094"/>
+    <nd ref="1319559111"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="A3"/>
+  </way>
+  <way id="117143849">
+    <nd ref="1319559075"/>
+    <nd ref="1319559091"/>
+    <nd ref="1319559071"/>
+    <nd ref="3397331552"/>
+    <nd ref="1319559120"/>
+    <nd ref="1319559075"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="C2"/>
+  </way>
+  <way id="117143851">
+    <nd ref="1319559073"/>
+    <nd ref="1319559052"/>
+    <nd ref="1319559187"/>
+    <nd ref="1319559082"/>
+    <nd ref="1319559073"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="D3"/>
+  </way>
+  <way id="117143853">
+    <nd ref="1319559180"/>
+    <nd ref="1319559159"/>
+    <nd ref="1319559196"/>
+    <nd ref="1319559031"/>
+    <nd ref="1319559180"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="G3"/>
+  </way>
+  <way id="117143854">
+    <nd ref="1319559133"/>
+    <nd ref="1319559032"/>
+    <nd ref="1319559112"/>
+    <nd ref="1319559181"/>
+    <nd ref="1319559133"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="G2"/>
+  </way>
+  <way id="117143858">
+    <nd ref="1319559012"/>
+    <nd ref="1319559141"/>
+    <nd ref="1319559058"/>
+    <nd ref="1319559006"/>
+    <nd ref="1319559012"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="C1"/>
+  </way>
+  <way id="117143862">
+    <nd ref="1319559107"/>
+    <nd ref="1319559191"/>
+    <nd ref="1319559051"/>
+    <nd ref="1319559125"/>
+    <nd ref="1319559107"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="C5"/>
+  </way>
+  <way id="117143864">
+    <nd ref="1319559077"/>
+    <nd ref="1319559066"/>
+    <nd ref="1319559060"/>
+    <nd ref="1319559056"/>
+    <nd ref="1319559077"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="D2"/>
+  </way>
+  <way id="117143866">
+    <nd ref="1319559050"/>
+    <nd ref="1319559139"/>
+    <nd ref="1319559070"/>
+    <nd ref="1319559028"/>
+    <nd ref="1319559050"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="A2"/>
+  </way>
+  <way id="117143867">
+    <nd ref="1319559097"/>
+    <nd ref="1319558989"/>
+    <nd ref="1319559047"/>
+    <nd ref="3397331571"/>
+    <nd ref="1319559092"/>
+    <nd ref="1319559097"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="C4"/>
+  </way>
+  <way id="117143870">
+    <nd ref="1319559033"/>
+    <nd ref="1319558993"/>
+    <nd ref="1319559122"/>
+    <nd ref="1319559067"/>
+    <nd ref="1319559033"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="A1"/>
+  </way>
+  <way id="117143873">
+    <nd ref="1319559017"/>
+    <nd ref="1319559108"/>
+    <nd ref="1319559062"/>
+    <nd ref="1319559194"/>
+    <nd ref="1319559017"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="B4"/>
+    <tag k="source" v="Bing"/>
+  </way>
+  <way id="117143875">
+    <nd ref="1319559019"/>
+    <nd ref="1319559011"/>
+    <nd ref="1319559118"/>
+    <nd ref="3397331560"/>
+    <nd ref="1319559095"/>
+    <nd ref="1319559019"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="B2"/>
+  </way>
+  <way id="117143876">
+    <nd ref="1319559029"/>
+    <nd ref="1319559156"/>
+    <nd ref="1319559185"/>
+    <nd ref="1319559154"/>
+    <nd ref="1319559029"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="B1"/>
+  </way>
+  <way id="117143877">
+    <nd ref="1319558999"/>
+    <nd ref="1319559123"/>
+    <nd ref="1319559000"/>
+    <nd ref="1319559165"/>
+    <nd ref="1319558999"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="G1"/>
+  </way>
+  <way id="117143878">
+    <nd ref="1319558991"/>
+    <nd ref="1319558985"/>
+    <nd ref="1319559167"/>
+    <nd ref="1319558995"/>
+    <nd ref="1319558991"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="F2"/>
+  </way>
+  <way id="117143879">
+    <nd ref="1319559045"/>
+    <nd ref="1319559080"/>
+    <nd ref="1319559034"/>
+    <nd ref="1319559064"/>
+    <nd ref="1319559045"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="D1"/>
+  </way>
+  <way id="117143880">
+    <nd ref="1319559161"/>
+    <nd ref="1319559088"/>
+    <nd ref="1319559015"/>
+    <nd ref="1319559173"/>
+    <nd ref="1319559161"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="B3"/>
+  </way>
+  <way id="117143881">
+    <nd ref="1319559079"/>
+    <nd ref="1319559044"/>
+    <nd ref="1319559010"/>
+    <nd ref="1319559042"/>
+    <nd ref="1319559079"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="C3"/>
+  </way>
+  <way id="117143882">
+    <nd ref="1319559110"/>
+    <nd ref="1319558997"/>
+    <nd ref="1319558987"/>
+    <nd ref="1319559175"/>
+    <nd ref="1319559110"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="B5"/>
+  </way>
+  <way id="117143883">
+    <nd ref="1319559157"/>
+    <nd ref="1319559127"/>
+    <nd ref="1319559189"/>
+    <nd ref="1319558983"/>
+    <nd ref="1319559157"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="F3"/>
+  </way>
+  <way id="117143884">
+    <nd ref="1319559135"/>
+    <nd ref="1319559021"/>
+    <nd ref="1319559137"/>
+    <nd ref="1319559014"/>
+    <nd ref="1319559135"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="name" v="F1"/>
+  </way>
+  <way id="257695870">
+    <nd ref="2631754148"/>
+    <nd ref="5981280791"/>
+    <nd ref="5981280836"/>
+    <nd ref="5981280835"/>
+    <nd ref="5981280834"/>
+    <nd ref="5981280833"/>
+    <nd ref="5981280792"/>
+    <nd ref="5981280793"/>
+    <nd ref="5981280832"/>
+    <nd ref="5981280831"/>
+    <nd ref="5981280830"/>
+    <nd ref="5981280829"/>
+    <nd ref="5981280828"/>
+    <nd ref="5981280827"/>
+    <nd ref="5981280826"/>
+    <nd ref="5981280825"/>
+    <nd ref="5981280824"/>
+    <nd ref="2631754131"/>
+    <nd ref="2631754149"/>
+    <nd ref="5981280823"/>
+    <nd ref="2631754130"/>
+    <nd ref="5981280822"/>
+    <nd ref="5981280821"/>
+    <nd ref="5981280820"/>
+    <nd ref="5981280819"/>
+    <nd ref="5981280818"/>
+    <nd ref="5981280817"/>
+    <nd ref="5981280816"/>
+    <nd ref="5981280815"/>
+    <nd ref="5981280814"/>
+    <nd ref="5981280813"/>
+    <nd ref="5981280812"/>
+    <nd ref="5981280794"/>
+    <nd ref="5981280700"/>
+    <nd ref="5981280795"/>
+    <nd ref="5981280811"/>
+    <nd ref="5981280810"/>
+    <nd ref="5981280809"/>
+    <nd ref="5981280808"/>
+    <nd ref="5981280796"/>
+    <nd ref="5981280807"/>
+    <nd ref="5981280797"/>
+    <nd ref="5981280806"/>
+    <nd ref="5981280805"/>
+    <nd ref="5981280804"/>
+    <nd ref="5981280803"/>
+    <nd ref="5981280802"/>
+    <nd ref="5981280801"/>
+    <nd ref="5981280800"/>
+    <nd ref="5981280799"/>
+    <nd ref="5981280780"/>
+    <nd ref="5981280789"/>
+    <nd ref="5981280787"/>
+    <nd ref="5981280785"/>
+    <nd ref="5981280699"/>
+    <nd ref="5981280784"/>
+    <nd ref="5981280786"/>
+    <nd ref="5981280788"/>
+    <nd ref="5981280777"/>
+    <nd ref="5981280863"/>
+    <nd ref="5981280862"/>
+    <nd ref="5981280861"/>
+    <nd ref="5981280860"/>
+    <nd ref="5981280859"/>
+    <nd ref="5981280858"/>
+    <nd ref="5981280857"/>
+    <nd ref="5981280856"/>
+    <nd ref="5981280855"/>
+    <nd ref="5981280854"/>
+    <nd ref="5981280853"/>
+    <nd ref="5981280852"/>
+    <nd ref="5981280851"/>
+    <nd ref="5981280850"/>
+    <nd ref="5981280849"/>
+    <nd ref="5981280848"/>
+    <nd ref="5981280847"/>
+    <nd ref="5981280846"/>
+    <nd ref="5981280845"/>
+    <nd ref="5981280844"/>
+    <nd ref="5981280843"/>
+    <nd ref="5981280842"/>
+    <nd ref="5981280841"/>
+    <nd ref="5981280840"/>
+    <nd ref="2631754137"/>
+    <nd ref="2631754135"/>
+    <nd ref="2631754136"/>
+    <nd ref="2631754138"/>
+    <nd ref="2631754139"/>
+    <nd ref="2631754141"/>
+    <nd ref="2631754143"/>
+    <nd ref="2631754142"/>
+    <nd ref="2631754134"/>
+    <nd ref="5981280875"/>
+    <nd ref="5981280874"/>
+    <nd ref="5981280873"/>
+    <nd ref="5981280872"/>
+    <nd ref="5981280871"/>
+    <nd ref="5981280870"/>
+    <nd ref="5981280869"/>
+    <nd ref="5981280868"/>
+    <nd ref="5981280867"/>
+    <nd ref="5981280866"/>
+    <nd ref="5981280865"/>
+    <nd ref="2631754132"/>
+    <nd ref="5981280864"/>
+    <nd ref="5981280778"/>
+    <nd ref="2631754145"/>
+    <nd ref="5981280783"/>
+    <nd ref="2631754144"/>
+    <nd ref="5981280698"/>
+    <nd ref="2631754147"/>
+    <nd ref="5981280782"/>
+    <nd ref="5981280790"/>
+    <nd ref="5981280779"/>
+    <nd ref="5981280798"/>
+    <nd ref="2631754148"/>
+    <tag k="building" v="dormitory"/>
+    <tag k="building:levels" v="6"/>
+    <tag k="name" v="Liberty Terrace Apartments"/>
+  </way>
+  <node id="2631754130" lat="42.6794655" lon="-73.8202812"/>
+  <node id="2631754131" lat="42.6793583" lon="-73.8202706"/>
+  <node id="2631754132" lat="42.6787015" lon="-73.8208270"/>
+  <node id="2631754134" lat="42.6782736" lon="-73.8212559"/>
+  <node id="2631754135" lat="42.6782135" lon="-73.8214232"/>
+  <node id="2631754136" lat="42.6781997" lon="-73.8214922"/>
+  <node id="2631754137" lat="42.6781879" lon="-73.8214259"/>
+  <node id="2631754138" lat="42.6782672" lon="-73.8214889"/>
+  <node id="2631754139" lat="42.6782662" lon="-73.8214708"/>
+  <node id="2631754141" lat="42.6783010" lon="-73.8214718"/>
+  <node id="2631754142" lat="42.6782855" lon="-73.8212964"/>
+  <node id="2631754143" lat="42.6782904" lon="-73.8214312"/>
+  <node id="2631754144" lat="42.6787681" lon="-73.8208107"/>
+  <node id="2631754145" lat="42.6787196" lon="-73.8208135"/>
+  <node id="2631754147" lat="42.6787916" lon="-73.8207864"/>
+  <node id="2631754148" lat="42.6788355" lon="-73.8206826"/>
+  <node id="2631754149" lat="42.6793866" lon="-73.8202971"/>
+  <node id="5981280698" lat="42.6787798" lon="-73.8207986"/>
+  <node id="5981280699" lat="42.6786638" lon="-73.8205542"/>
+  <node id="5981280700" lat="42.6789520" lon="-73.8198555"/>
+  <node id="5981280777" lat="42.6786634" lon="-73.8207132"/>
+  <node id="5981280778" lat="42.6787018" lon="-73.8207816"/>
+  <node id="5981280779" lat="42.6788001" lon="-73.8206771"/>
+  <node id="5981280780" lat="42.6787602" lon="-73.8206061"/>
+  <node id="5981280782" lat="42.6787747" lon="-73.8207564"/>
+  <node id="5981280783" lat="42.6787513" lon="-73.8207807"/>
+  <node id="5981280784" lat="42.6786522" lon="-73.8205663"/>
+  <node id="5981280785" lat="42.6786755" lon="-73.8205421"/>
+  <node id="5981280786" lat="42.6786702" lon="-73.8205984"/>
+  <node id="5981280787" lat="42.6786935" lon="-73.8205742"/>
+  <node id="5981280788" lat="42.6786252" lon="-73.8206450"/>
+  <node id="5981280789" lat="42.6787244" lon="-73.8205421"/>
+  <node id="5981280790" lat="42.6788189" lon="-73.8207106"/>
+  <node id="5981280791" lat="42.6788380" lon="-73.8206651"/>
+  <node id="5981280792" lat="42.6789226" lon="-73.8203512"/>
+  <node id="5981280793" lat="42.6789240" lon="-73.8203126"/>
+  <node id="5981280794" lat="42.6789669" lon="-73.8198639"/>
+  <node id="5981280795" lat="42.6789383" lon="-73.8198478"/>
+  <node id="5981280796" lat="42.6788619" lon="-73.8200101"/>
+  <node id="5981280797" lat="42.6788185" lon="-73.8201700"/>
+  <node id="5981280798" lat="42.6788044" lon="-73.8206616"/>
+  <node id="5981280799" lat="42.6787715" lon="-73.8205881"/>
+  <node id="5981280800" lat="42.6787474" lon="-73.8205758"/>
+  <node id="5981280801" lat="42.6787655" lon="-73.8205195"/>
+  <node id="5981280802" lat="42.6787334" lon="-73.8205015"/>
+  <node id="5981280803" lat="42.6787748" lon="-73.8203710"/>
+  <node id="5981280804" lat="42.6787778" lon="-73.8203319"/>
+  <node id="5981280805" lat="42.6788201" lon="-73.8202079"/>
+  <node id="5981280806" lat="42.6788237" lon="-73.8201714"/>
+  <node id="5981280807" lat="42.6788603" lon="-73.8200476"/>
+  <node id="5981280808" lat="42.6788986" lon="-73.8198899"/>
+  <node id="5981280809" lat="42.6789055" lon="-73.8198882"/>
+  <node id="5981280810" lat="42.6789058" lon="-73.8198456"/>
+  <node id="5981280811" lat="42.6789334" lon="-73.8198631"/>
+  <node id="5981280812" lat="42.6789643" lon="-73.8198717"/>
+  <node id="5981280813" lat="42.6790138" lon="-73.8199174"/>
+  <node id="5981280814" lat="42.6791099" lon="-73.8199537"/>
+  <node id="5981280815" lat="42.6791326" lon="-73.8199773"/>
+  <node id="5981280816" lat="42.6792267" lon="-73.8200138"/>
+  <node id="5981280817" lat="42.6792515" lon="-73.8200354"/>
+  <node id="5981280818" lat="42.6793507" lon="-73.8200746"/>
+  <node id="5981280819" lat="42.6793750" lon="-73.8200977"/>
+  <node id="5981280820" lat="42.6794695" lon="-73.8201338"/>
+  <node id="5981280821" lat="42.6794594" lon="-73.8201856"/>
+  <node id="5981280822" lat="42.6794895" lon="-73.8201835"/>
+  <node id="5981280823" lat="42.6793971" lon="-73.8202541"/>
+  <node id="5981280824" lat="42.6792616" lon="-73.8202342"/>
+  <node id="5981280825" lat="42.6792375" lon="-73.8202090"/>
+  <node id="5981280826" lat="42.6791449" lon="-73.8201744"/>
+  <node id="5981280827" lat="42.6791204" lon="-73.8201506"/>
+  <node id="5981280828" lat="42.6790220" lon="-73.8201140"/>
+  <node id="5981280829" lat="42.6789473" lon="-73.8200971"/>
+  <node id="5981280830" lat="42.6789388" lon="-73.8201371"/>
+  <node id="5981280831" lat="42.6789717" lon="-73.8201553"/>
+  <node id="5981280832" lat="42.6789202" lon="-73.8203105"/>
+  <node id="5981280833" lat="42.6789185" lon="-73.8203517"/>
+  <node id="5981280834" lat="42.6788781" lon="-73.8204712"/>
+  <node id="5981280835" lat="42.6788762" lon="-73.8205148"/>
+  <node id="5981280836" lat="42.6788386" lon="-73.8206397"/>
+  <node id="5981280840" lat="42.6781867" lon="-73.8213645"/>
+  <node id="5981280841" lat="42.6781521" lon="-73.8213668"/>
+  <node id="5981280842" lat="42.6781472" lon="-73.8212287"/>
+  <node id="5981280843" lat="42.6781354" lon="-73.8211942"/>
+  <node id="5981280844" lat="42.6781354" lon="-73.8210591"/>
+  <node id="5981280845" lat="42.6781233" lon="-73.8210205"/>
+  <node id="5981280846" lat="42.6781176" lon="-73.8208867"/>
+  <node id="5981280847" lat="42.6780971" lon="-73.8208120"/>
+  <node id="5981280848" lat="42.6780912" lon="-73.8208146"/>
+  <node id="5981280849" lat="42.6780853" lon="-73.8207721"/>
+  <node id="5981280850" lat="42.6780974" lon="-73.8207684"/>
+  <node id="5981280851" lat="42.6780910" lon="-73.8207228"/>
+  <node id="5981280852" lat="42.6781245" lon="-73.8207315"/>
+  <node id="5981280853" lat="42.6781230" lon="-73.8207415"/>
+  <node id="5981280854" lat="42.6782207" lon="-73.8207079"/>
+  <node id="5981280855" lat="42.6782512" lon="-73.8207161"/>
+  <node id="5981280856" lat="42.6783335" lon="-73.8207011"/>
+  <node id="5981280857" lat="42.6783261" lon="-73.8206819"/>
+  <node id="5981280858" lat="42.6784494" lon="-73.8206644"/>
+  <node id="5981280859" lat="42.6784772" lon="-73.8206738"/>
+  <node id="5981280860" lat="42.6785780" lon="-73.8206470"/>
+  <node id="5981280861" lat="42.6785844" lon="-73.8206966"/>
+  <node id="5981280862" lat="42.6786296" lon="-73.8206859"/>
+  <node id="5981280863" lat="42.6786335" lon="-73.8207194"/>
+  <node id="5981280864" lat="42.6786959" lon="-73.8207831"/>
+  <node id="5981280865" lat="42.6786663" lon="-73.8208203"/>
+  <node id="5981280866" lat="42.6785689" lon="-73.8208438"/>
+  <node id="5981280867" lat="42.6785450" lon="-73.8208364"/>
+  <node id="5981280868" lat="42.6783919" lon="-73.8208512"/>
+  <node id="5981280869" lat="42.6783624" lon="-73.8208438"/>
+  <node id="5981280870" lat="42.6782635" lon="-73.8208653"/>
+  <node id="5981280871" lat="42.6782581" lon="-73.8208726"/>
+  <node id="5981280872" lat="42.6782492" lon="-73.8209380"/>
+  <node id="5981280873" lat="42.6782561" lon="-73.8209374"/>
+  <node id="5981280874" lat="42.6782601" lon="-73.8210899"/>
+  <node id="5981280875" lat="42.6782734" lon="-73.8211248"/>
+  <node id="1196185525" lat="42.6852748" lon="-73.8282670"/>
+  <node id="1196185554" lat="42.6858601" lon="-73.8285871"/>
+  <node id="1196185568" lat="42.6854713" lon="-73.8270882"/>
+  <node id="1196185584" lat="42.6858169" lon="-73.8276067"/>
+  <node id="1196185661" lat="42.6861501" lon="-73.8282753"/>
+  <node id="1196185669" lat="42.6854895" lon="-73.8286397"/>
+  <node id="1196185681" lat="42.6859156" lon="-73.8285134"/>
+  <node id="1196185690" lat="42.6856393" lon="-73.8277233"/>
+  <node id="1196185718" lat="42.6855122" lon="-73.8278607"/>
+  <node id="1196185721" lat="42.6858608" lon="-73.8276881"/>
+  <node id="1196185743" lat="42.6857037" lon="-73.8271309"/>
+  <node id="1196185749" lat="42.6850194" lon="-73.8278416"/>
+  <node id="1196185780" lat="42.6852338" lon="-73.8282138"/>
+  <node id="1196185829" lat="42.6858445" lon="-73.8283838"/>
+  <node id="1196185865" lat="42.6851730" lon="-73.8283756"/>
+  <node id="1196185903" lat="42.6860740" lon="-73.8280583"/>
+  <node id="1196185959" lat="42.6849178" lon="-73.8279498"/>
+  <node id="1196185961" lat="42.6861741" lon="-73.8279517"/>
+  <node id="1196186008" lat="42.6853080" lon="-73.8274539"/>
+  <node id="1196186016" lat="42.6860790" lon="-73.8281457"/>
+  <node id="1196186046" lat="42.6856041" lon="-73.8272371"/>
+  <node id="1196186058" lat="42.6851960" lon="-73.8273797"/>
+  <node id="1196186077" lat="42.6852376" lon="-73.8273254"/>
+  <node id="1196186103" lat="42.6849634" lon="-73.8276158"/>
+  <node id="1196186105" lat="42.6854072" lon="-73.8276808"/>
+  <node id="1196186166" lat="42.6853876" lon="-73.8287483"/>
+  <node id="1196186228" lat="42.6850330" lon="-73.8277427"/>
+  <node id="1196186229" lat="42.6851322" lon="-73.8283221"/>
+  <node id="1196186237" lat="42.6855529" lon="-73.8286953"/>
+  <node id="1196186245" lat="42.6852656" lon="-73.8275066"/>
+  <node id="1196186248" lat="42.6857883" lon="-73.8284563"/>
+  <node id="1196186250" lat="42.6859166" lon="-73.8275005"/>
+  <node id="1196186261" lat="42.6855417" lon="-73.8272166"/>
+  <node id="1196186318" lat="42.6859609" lon="-73.8275815"/>
+  <node id="1196186319" lat="42.6855342" lon="-73.8275435"/>
+  <node id="1196186322" lat="42.6856246" lon="-73.8288261"/>
+  <node id="1196185489" lat="42.6866624" lon="-73.8202185"/>
+  <node id="1196185505" lat="42.6833073" lon="-73.8240589"/>
+  <node id="1196185507" lat="42.6828619" lon="-73.8241950"/>
+  <node id="1196185526" lat="42.6868520" lon="-73.8208561"/>
+  <node id="1196185530" lat="42.6836830" lon="-73.8239253"/>
+  <node id="1196185544" lat="42.6835638" lon="-73.8234346"/>
+  <node id="1196185574" lat="42.6863533" lon="-73.8203497"/>
+  <node id="1196185596" lat="42.6825985" lon="-73.8237345"/>
+  <node id="1196185613" lat="42.6830711" lon="-73.8229602"/>
+  <node id="1196185623" lat="42.6833384" lon="-73.8237283"/>
+  <node id="1196185633" lat="42.6831908" lon="-73.8230986"/>
+  <node id="1196185657" lat="42.6824937" lon="-73.8238484"/>
+  <node id="1196185663" lat="42.6834448" lon="-73.8239100"/>
+  <node id="1196185667" lat="42.6829807" lon="-73.8246903"/>
+  <node id="1196185668" lat="42.6866244" lon="-73.8208080"/>
+  <node id="1196185708" lat="42.6837330" lon="-73.8241593"/>
+  <node id="1196185733" lat="42.6867297" lon="-73.8206944"/>
+  <node id="1196185737" lat="42.6830857" lon="-73.8245761"/>
+  <node id="1196185746" lat="42.6861274" lon="-73.8199621"/>
+  <node id="1196185755" lat="42.6829161" lon="-73.8233222"/>
+  <node id="1196185787" lat="42.6862326" lon="-73.8198487"/>
+  <node id="1196185806" lat="42.6828446" lon="-73.8231940"/>
+  <node id="1196185818" lat="42.6834122" lon="-73.8234756"/>
+  <node id="1196185853" lat="42.6863984" lon="-73.8204202"/>
+  <node id="1196185856" lat="42.6831409" lon="-73.8245811"/>
+  <node id="1196185868" lat="42.6834364" lon="-73.8242653"/>
+  <node id="1196185907" lat="42.6865037" lon="-73.8203066"/>
+  <node id="1196185927" lat="42.6867632" lon="-73.8207038"/>
+  <node id="1196185937" lat="42.6834394" lon="-73.8244755"/>
+  <node id="1196185950" lat="42.6828221" lon="-73.8241153"/>
+  <node id="1196185966" lat="42.6833677" lon="-73.8243470"/>
+  <node id="1196185972" lat="42.6831426" lon="-73.8230883"/>
+  <node id="1196185976" lat="42.6862434" lon="-73.8197882"/>
+  <node id="1196186020" lat="42.6827174" lon="-73.8242292"/>
+  <node id="1196186045" lat="42.6825339" lon="-73.8235274"/>
+  <node id="1196186083" lat="42.6832010" lon="-73.8238772"/>
+  <node id="1196186084" lat="42.6864585" lon="-73.8202363"/>
+  <node id="1196186119" lat="42.6832126" lon="-73.8247096"/>
+  <node id="1196186179" lat="42.6828281" lon="-73.8234210"/>
+  <node id="1196186180" lat="42.6836621" lon="-73.8240323"/>
+  <node id="1196186209" lat="42.6835142" lon="-73.8233647"/>
+  <node id="1196186211" lat="42.6837862" lon="-73.8238132"/>
+  <node id="1196186218" lat="42.6827582" lon="-73.8232958"/>
+  <node id="1196186221" lat="42.6827568" lon="-73.8243092"/>
+  <node id="1196186230" lat="42.6834606" lon="-73.8235468"/>
+  <node id="1196186253" lat="42.6826038" lon="-73.8236525"/>
+  <node id="1196186270" lat="42.6832928" lon="-73.8229877"/>
+  <node id="1196186296" lat="42.6835073" lon="-73.8243923"/>
+  <node id="1196186312" lat="42.6868016" lon="-73.8200681"/>
+  <node id="1196186316" lat="42.6867716" lon="-73.8204058"/>
+  <node id="1319558983" lat="42.6912385" lon="-73.8279975"/>
+  <node id="1319558985" lat="42.6906837" lon="-73.8281227"/>
+  <node id="1319558987" lat="42.6894998" lon="-73.8299308"/>
+  <node id="1319558989" lat="42.6906540" lon="-73.8288938"/>
+  <node id="1319558991" lat="42.6908254" lon="-73.8279710"/>
+  <node id="1319558993" lat="42.6892222" lon="-73.8283524"/>
+  <node id="1319558995" lat="42.6910072" lon="-73.8282855"/>
+  <node id="1319558997" lat="42.6893253" lon="-73.8296290"/>
+  <node id="1319558999" lat="42.6905947" lon="-73.8275659"/>
+  <node id="1319559000" lat="42.6906357" lon="-73.8280215"/>
+  <node id="1319559006" lat="42.6903098" lon="-73.8290251"/>
+  <node id="1319559010" lat="42.6903296" lon="-73.8290040"/>
+  <node id="1319559011" lat="42.6899672" lon="-73.8296440"/>
+  <node id="1319559012" lat="42.6901329" lon="-73.8287193"/>
+  <node id="1319559014" lat="42.6912478" lon="-73.8287275"/>
+  <node id="1319559015" lat="42.6896285" lon="-73.8297548"/>
+  <node id="1319559017" lat="42.6896956" lon="-73.8299107"/>
+  <node id="1319559019" lat="42.6900891" lon="-73.8295182"/>
+  <node id="1319559021" lat="42.6909308" lon="-73.8285658"/>
+  <node id="1319559028" lat="42.6897784" lon="-73.8289705"/>
+  <node id="1319559029" lat="42.6898292" lon="-73.8290660"/>
+  <node id="1319559031" lat="42.6907431" lon="-73.8271682"/>
+  <node id="1319559032" lat="42.6902088" lon="-73.8272866"/>
+  <node id="1319559033" lat="42.6893533" lon="-73.8282121"/>
+  <node id="1319559034" lat="42.6905969" lon="-73.8299020"/>
+  <node id="1319559042" lat="42.6905358" lon="-73.8287641"/>
+  <node id="1319559044" lat="42.6904295" lon="-73.8291629"/>
+  <node id="1319559045" lat="42.6909093" lon="-73.8298215"/>
+  <node id="1319559047" lat="42.6908285" lon="-73.8291955"/>
+  <node id="1319559049" lat="42.6891339" lon="-73.8289095"/>
+  <node id="1319559050" lat="42.6896068" lon="-73.8286738"/>
+  <node id="1319559051" lat="42.6905742" lon="-73.8287590"/>
+  <node id="1319559052" lat="42.6909105" lon="-73.8298840"/>
+  <node id="1319559056" lat="42.6910931" lon="-73.8293077"/>
+  <node id="1319559058" lat="42.6901744" lon="-73.8291700"/>
+  <node id="1319559060" lat="42.6908758" lon="-73.8295606"/>
+  <node id="1319559062" lat="42.6897380" lon="-73.8303501"/>
+  <node id="1319559064" lat="42.6908065" lon="-73.8296581"/>
+  <node id="1319559066" lat="42.6909852" lon="-73.8297345"/>
+  <node id="1319559067" lat="42.6895269" lon="-73.8285122"/>
+  <node id="1319559070" lat="42.6896497" lon="-73.8291082"/>
+  <node id="1319559071" lat="42.6904332" lon="-73.8296049"/>
+  <node id="1319559073" lat="42.6910400" lon="-73.8297453"/>
+  <node id="1319559075" lat="42.6903914" lon="-73.8291588"/>
+  <node id="1319559077" lat="42.6912025" lon="-73.8294816"/>
+  <node id="1319559079" lat="42.6906356" lon="-73.8289229"/>
+  <node id="1319559080" lat="42.6906997" lon="-73.8300654"/>
+  <node id="1319559082" lat="42.6912122" lon="-73.8300433"/>
+  <node id="1319559088" lat="42.6897302" lon="-73.8299165"/>
+  <node id="1319559091" lat="42.6902579" lon="-73.8293016"/>
+  <node id="1319559092" lat="42.6909608" lon="-73.8290539"/>
+  <node id="1319559094" lat="42.6893468" lon="-73.8286617"/>
+  <node id="1319559095" lat="42.6902552" lon="-73.8298161"/>
+  <node id="1319559097" lat="42.6907864" lon="-73.8287522"/>
+  <node id="1319559107" lat="42.6905332" lon="-73.8283036"/>
+  <node id="1319559108" lat="42.6895648" lon="-73.8300506"/>
+  <node id="1319559110" lat="42.6894578" lon="-73.8294873"/>
+  <node id="1319559111" lat="42.6894525" lon="-73.8288297"/>
+  <node id="1319559112" lat="42.6903861" lon="-73.8275933"/>
+  <node id="1319559118" lat="42.6901333" lon="-73.8299419"/>
+  <node id="1319559120" lat="42.6905667" lon="-73.8294621"/>
+  <node id="1319559122" lat="42.6893957" lon="-73.8286526"/>
+  <node id="1319559123" lat="42.6904573" lon="-73.8277129"/>
+  <node id="1319559125" lat="42.6907115" lon="-73.8286121"/>
+  <node id="1319559127" lat="42.6911301" lon="-73.8284322"/>
+  <node id="1319559129" lat="42.6892395" lon="-73.8290775"/>
+  <node id="1319559133" lat="42.6903447" lon="-73.8271412"/>
+  <node id="1319559135" lat="42.6910689" lon="-73.8284180"/>
+  <node id="1319559137" lat="42.6911098" lon="-73.8288753"/>
+  <node id="1319559139" lat="42.6894781" lon="-73.8288115"/>
+  <node id="1319559141" lat="42.6899975" lon="-73.8288641"/>
+  <node id="1319559154" lat="42.6900021" lon="-73.8293650"/>
+  <node id="1319559156" lat="42.6896988" lon="-73.8292055"/>
+  <node id="1319559157" lat="42.6913505" lon="-73.8281757"/>
+  <node id="1319559159" lat="42.6906365" lon="-73.8275717"/>
+  <node id="1319559161" lat="42.6899385" lon="-73.8296741"/>
+  <node id="1319559165" lat="42.6907731" lon="-73.8278745"/>
+  <node id="1319559167" lat="42.6908655" lon="-73.8284371"/>
+  <node id="1319559173" lat="42.6898368" lon="-73.8295125"/>
+  <node id="1319559175" lat="42.6896323" lon="-73.8297891"/>
+  <node id="1319559180" lat="42.6908446" lon="-73.8273296"/>
+  <node id="1319559181" lat="42.6905220" lon="-73.8274478"/>
+  <node id="1319559185" lat="42.6898717" lon="-73.8295045"/>
+  <node id="1319559187" lat="42.6910827" lon="-73.8301819"/>
+  <node id="1319559189" lat="42.6910180" lon="-73.8282540"/>
+  <node id="1319559191" lat="42.6903959" lon="-73.8284505"/>
+  <node id="1319559194" lat="42.6898687" lon="-73.8302103"/>
+  <node id="1319559196" lat="42.6905350" lon="-73.8274103"/>
+  <node id="3397331552" lat="42.6904901" lon="-73.8295441"/>
+  <node id="3397331560" lat="42.6901955" lon="-73.8298777"/>
+  <node id="3397331571" lat="42.6908842" lon="-73.8291359"/>
+  <node id="1196185551" lat="42.6891828" lon="-73.8248380"/>
+  <node id="1196185552" lat="42.6874140" lon="-73.8199451"/>
+  <node id="1196185575" lat="42.6870026" lon="-73.8204454"/>
+  <node id="1196185621" lat="42.6870914" lon="-73.8205976"/>
+  <node id="1196185648" lat="42.6891111" lon="-73.8240510"/>
+  <node id="1196185684" lat="42.6888667" lon="-73.8240140"/>
+  <node id="1196185689" lat="42.6896186" lon="-73.8237736"/>
+  <node id="1196185711" lat="42.6896948" lon="-73.8242832"/>
+  <node id="1196185719" lat="42.6890902" lon="-73.8248025"/>
+  <node id="1196185723" lat="42.6888654" lon="-73.8234893"/>
+  <node id="1196185727" lat="42.6889941" lon="-73.8249056"/>
+  <node id="1196185740" lat="42.6888135" lon="-73.8245940"/>
+  <node id="1196185761" lat="42.6891619" lon="-73.8233837"/>
+  <node id="1196185774" lat="42.6887941" lon="-73.8235715"/>
+  <node id="1196185782" lat="42.6895220" lon="-73.8238772"/>
+  <node id="1196185815" lat="42.6888466" lon="-73.8243739"/>
+  <node id="1196185841" lat="42.6885698" lon="-73.8241654"/>
+  <node id="1196185842" lat="42.6889460" lon="-73.8236235"/>
+  <node id="1196185851" lat="42.6889750" lon="-73.8241987"/>
+  <node id="1196185896" lat="42.6870650" lon="-73.8203693"/>
+  <node id="1196185897" lat="42.6885802" lon="-73.8238091"/>
+  <node id="1196185921" lat="42.6893689" lon="-73.8233505"/>
+  <node id="1196185948" lat="42.6873904" lon="-73.8202626"/>
+  <node id="1196185991" lat="42.6895498" lon="-73.8236627"/>
+  <node id="1196186034" lat="42.6893979" lon="-73.8245991"/>
+  <node id="1196186071" lat="42.6873028" lon="-73.8201125"/>
+  <node id="1196186073" lat="42.6897740" lon="-73.8244151"/>
+  <node id="1196186074" lat="42.6890028" lon="-73.8238663"/>
+  <node id="1196186079" lat="42.6869109" lon="-73.8202554"/>
+  <node id="1196186080" lat="42.6890813" lon="-73.8232495"/>
+  <node id="1196186094" lat="42.6886591" lon="-73.8239407"/>
+  <node id="1196186110" lat="42.6895598" lon="-73.8246530"/>
+  <node id="1196186131" lat="42.6871526" lon="-73.8205195"/>
+  <node id="1196186153" lat="42.6892627" lon="-73.8249712"/>
+  <node id="1196186177" lat="42.6886659" lon="-73.8240623"/>
+  <node id="1196186182" lat="42.6888730" lon="-73.8237031"/>
+  <node id="1196186189" lat="42.6897031" lon="-73.8241896"/>
+  <node id="1196186198" lat="42.6873085" lon="-73.8200589"/>
+  <node id="1196186200" lat="42.6889096" lon="-73.8244909"/>
+  <node id="1196186204" lat="42.6894534" lon="-73.8237661"/>
+  <node id="1196186219" lat="42.6887505" lon="-73.8244770"/>
+  <node id="1196186239" lat="42.6892725" lon="-73.8234540"/>
+  <node id="1196186255" lat="42.6894778" lon="-73.8247322"/>
+  <node id="1196186280" lat="42.6897997" lon="-73.8240859"/>
+  <node id="1196186283" lat="42.6894806" lon="-73.8245211"/>
+  <node id="1196185546" lat="42.6861560" lon="-73.8196384"/>
+  <node id="1196185603" lat="42.6864810" lon="-73.8195317"/>
+  <node id="1196185640" lat="42.6867839" lon="-73.8192172"/>
+  <node id="1196185736" lat="42.6864622" lon="-73.8193245"/>
+  <node id="1196185750" lat="42.6865482" lon="-73.8194718"/>
+  <node id="1196186132" lat="42.6863936" lon="-73.8193819"/>
+  <node id="1196186138" lat="42.6868274" lon="-73.8192307"/>
+  <node id="1196186311" lat="42.6866980" lon="-73.8190699"/>
+  <node id="1196185503" lat="42.6870824" lon="-73.8196709"/>
+  <node id="1196185803" lat="42.6871587" lon="-73.8195048"/>
+  <node id="1196185825" lat="42.6869327" lon="-73.8191171"/>
+  <node id="1196185828" lat="42.6870534" lon="-73.8196185"/>
+  <node id="1196186098" lat="42.6871878" lon="-73.8195572"/>
+
+</osm>
