@@ -29,6 +29,31 @@
 			.setView([42.6850, -73.8248], 15)
 			.on('click', onMapClick);
 
+		// Let's add a button to go to OpenStreetMap using the visual extent
+		L.Control.Button = L.Control.extend({
+		    options: {
+		        position: 'topleft'
+		    },
+		    onAdd: function (map) {
+		        var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+		        var button = L.DomUtil.create('a', 'leaflet-control-button', container);
+		        L.DomEvent.disableClickPropagation(button);
+		        L.DomEvent.on(button, 'click', function(){
+		            var osmURL = `https://www.openstreetmap.org/#map=${map.getZoom()}/${map.getCenter().lat}/${map.getCenter().lng}`;
+		            window.open(osmURL, '_blank');
+		        });
+
+		        button.innerHTML = '<img style="max-width:100%; max-height:100%" src="img/osm.png">';
+
+		        container.title = "View on OpenStreetMap";
+
+		        return container;
+		    },
+		    onRemove: function(map) {},
+		});
+		var control = new L.Control.Button()
+		control.addTo(map);
+
 		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
           	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       		}).addTo(map);
