@@ -92,7 +92,9 @@
 		/* Functions */
 
 		function onEachFeature(feature, layer) {
-			var popupTxt = "";
+			var popupTxt = "You clicked a feature!";
+			
+			/* Only use this if using GeoJSON from Overpass */
 			var osmURL = ""
 			// Try to get the name of the feature
 			if (feature.properties && feature.properties.name) {
@@ -115,11 +117,16 @@
 		    if (osmURL != "") {
 		    	popupTxt += `</br></br>View this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
 		    }
+		
+		    /* End Comments */
+			
 		    layer.bindPopup(popupTxt);
 		    
 		}
 
 		function onMapClick(e) {
+			alert("You clicked the map at " + e.latlng);
+			
 			console.log(e.latlng.toString());
 		}
 
