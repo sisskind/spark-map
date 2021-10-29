@@ -1,143 +1,184 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Spark Map</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-  crossorigin=""/>
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-	<style>
-		  body { margin:0; padding:0; }
-		  #map { position:absolute; top:0; bottom:0; width:100%; }
-	</style>
-	
-</head>
-<body>
-	<div id="map"></div>
-		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-		<script src="https://unpkg.com/@turf/turf@3.5.2/turf.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="osmtogeojson.js" type="text/javascript"></script>
-		<script src="spark-map.js" type="text/javascript"></script>
-	<script type="text/javascript">
-
-		/* Map Variables */
-
-		var map = L.map('map')
-			.setView([42.6850, -73.8248], 15)
-			.on('click', onMapClick);
-
-		// Let's add a button to go to OpenStreetMap using the visual extent
-		L.Control.Button = L.Control.extend({
-		    options: {
-		        position: 'topleft'
-		    },
-		    onAdd: function (map) {
-		        var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
-		        var button1 = L.DomUtil.create('a', 'leaflet-control-button', container);
-		        L.DomEvent.disableClickPropagation(button1);
-		        L.DomEvent.on(button1, 'click', function(){
-		            var osmURL = `https://www.openstreetmap.org/#map=${map.getZoom()}/${map.getCenter().lat}/${map.getCenter().lng}`;
-		            window.open(osmURL, '_blank');
-		        });
-
-		        button1.innerHTML = '<img style="max-width:100%; max-height:100%" src="img/osm.png">';
-
-		        var button2 = L.DomUtil.create('a', 'leaflet-control-button', container);
-		        L.DomEvent.disableClickPropagation(button2);
-		        L.DomEvent.on(button2, 'click', function(){
-		        	var outdata = getXML(map.getBounds(),'data/interpreter.xml');
-		        	
-		            // var overpassURL = `http://overpass-turbo.eu/?Q=[timeout:25];(way["building"="yes"](${map.getBounds()._southWest.lat},${map.getBounds()._southWest.lng},${map.getBounds()._northEast.lat},${map.getBounds()._northEast.lng}););out body;>;out skel qt;`
-		            //window.open(overpassURL, '_blank');
-		        });
-
-		        button2.innerHTML = '<img style="max-width:100%; max-height:100%" src="img/overpass.png">';		  
-
-		        container.title = "View on OpenStreetMap";
-
-		        return container;
-		    },
-		    onRemove: function(map) {},
-		});
-		var control = new L.Control.Button()
-		control.addTo(map);
-
-		// Can you try adding another control button?
-
-		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-          	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-      		}).addTo(map);
-
-		// var myStyle = {
-		//     color: "#ff7800",
-		//     weight: 5,
-		//     opacity: 0.65
-		// };
-
-		// $.getJSON("data/ualbany-dorms.geojson", function(data){
-		// 	/* Add the data with popup */
-		// 	L.geoJSON(data, {
-		// 		onEachFeature: onEachFeature
-		// 	})
-
-		// 	/* Add the data with custom styling for all features */
-		// 	// L.geoJSON(data, {
-		// 	// 	onEachFeature: onEachFeature,
-		// 	// 	style: {color: "#ff7800", weight: 5, opacity: 0.65}
-		// 	// })
-
-		// 	 Add the data with custom styling based on feature property 
-		// 	// L.geoJSON(data, {
-		// 	// 	onEachFeature: onEachFeature
-		// 	// 	style: function(feature) {
-		// 	// 	switch (true) {
-		// 	// 		case /Tower/.test(feature.properties.name): return{color: "#ff0000"};
-		// 	// 		default: return{color: "#ff7800"};
-		// 	// 	}
-		// 	// }
-		// 	// })
-		// 	.addTo(map);
-		// });
-
-		/* Functions */
-
-		function onEachFeature(feature, layer) {
-			var popupTxt = "";
-			var osmURL = ""
-			// Try to get the name of the feature
-			if (feature.properties && feature.properties.name) {
-				popupTxt += `<b>${feature.properties.name}</b>`;
-			}
-
-		    // does this feature have a property named id?
-		    if (feature.properties && feature.properties['@id']) {
-		    	// Excellent! We can now link directly to the feature
-		    	osmURL = `https://www.openstreetmap.org/${feature.properties['@id']}`
-		    } else if (feature.properties && feature.geometry.coordinates) {
-		    	// Since we don't have the ID, let's try for the centroid of the feature
-		    	var centroid;
-		    	if (feature.geometry.type === 'Polygon') {
-		    		centroid = turf.centroid(feature).geometry.coordinates;
-		    	}
-		    	osmURL = `https://www.openstreetmap.org/edit/#map=${map.getZoom()}/${centroid[0]}/${centroid[0]}`;
-		    }
-
-		    if (osmURL != "") {
-		    	popupTxt += `</br></br>View this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
-		    }
-		    layer.bindPopup(popupTxt);
-		    
-		}
-
-		function onMapClick(e) {
-			console.log(e.latlng.toString());
-		}
-
-	</script>
-
-</body>
-</html>
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.47018587589264,
+              38.689198767011725
+            ],
+            [
+              -90.47124803066254,
+              38.688671179482796
+            ],
+            [
+              -90.4708456993103,
+              38.68820639676969
+            ],
+            [
+              -90.46980500221252,
+              38.688796795913994
+            ],
+            [
+              -90.47018587589264,
+              38.689198767011725
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.46934902667998,
+              38.689022904934355
+            ],
+            [
+              -90.47021806240082,
+              38.688336201254685
+            ],
+            [
+              -90.47001957893372,
+              38.6880891538066
+            ],
+            [
+              -90.4698747396469,
+              38.68801797048528
+            ],
+            [
+              -90.46935439109802,
+              38.68792166352608
+            ],
+            [
+              -90.46891987323761,
+              38.687955161613544
+            ],
+            [
+              -90.46869993209839,
+              38.68806403028953
+            ],
+            [
+              -90.4684317111969,
+              38.68832363954061
+            ],
+            [
+              -90.46934902667998,
+              38.689022904934355
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.47220826148987,
+              38.688666992264615
+            ],
+            [
+              -90.47213852405548,
+              38.688583247849714
+            ],
+            [
+              -90.47061502933502,
+              38.68934113123391
+            ],
+            [
+              -90.4704487323761,
+              38.68959654868723
+            ],
+            [
+              -90.47046482563019,
+              38.689759847892624
+            ],
+            [
+              -90.47052919864655,
+              38.68985196522866
+            ],
+            [
+              -90.47062575817108,
+              38.6899357081585
+            ],
+            [
+              -90.47077059745789,
+              38.68999014101035
+            ],
+            [
+              -90.47090470790863,
+              38.69000688957179
+            ],
+            [
+              -90.47099590301514,
+              38.69001107671155
+            ],
+            [
+              -90.47112464904785,
+              38.689973392444955
+            ],
+            [
+              -90.47218680381775,
+              38.68945837214539
+            ],
+            [
+              -90.47227799892426,
+              38.689316008156474
+            ],
+            [
+              -90.47233164310454,
+              38.6891862054491
+            ],
+            [
+              -90.47228872776031,
+              38.6890522153106
+            ],
+            [
+              -90.47222971916197,
+              38.68895590974357
+            ],
+            [
+              -90.47213852405548,
+              38.68886797846043
+            ],
+            [
+              -90.47207415103912,
+              38.688838668008714
+            ],
+            [
+              -90.47194540500641,
+              38.68881354475482
+            ],
+            [
+              -90.47190248966217,
+              38.688800983124565
+            ],
+            [
+              -90.47220826148987,
+              38.688666992264615
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
