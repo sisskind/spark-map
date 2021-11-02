@@ -66,15 +66,15 @@
 
 		$.getJSON("data/stl-buildings.geojson", function(data){
 			/* Add the data with popup */
-			L.geoJSON(data, {
-				onEachFeature: onEachFeature
-			})
+			// L.geoJSON(data, {
+			//  	onEachFeature: onEachFeature
+			// })
 
 			/* Add the data with custom styling for all features */
-			// L.geoJSON(data, {
-			// 	onEachFeature: onEachFeature,
-			// 	style: {color: "#ff7800", weight: 5, opacity: 0.65}
-			// })
+			L.geoJSON(data, {
+				onEachFeature: onEachFeature,
+				style: {color: "#ff7800", weight: 5, opacity: 0.65}
+			})
 
 			/* Add the data with custom styling based on feature property */
 			// L.geoJSON(data, {
