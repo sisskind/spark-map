@@ -98,6 +98,28 @@
 		$.getJSON(buildingsURL, function(data){
 			buildingsLayer.addData(data).addTo(map);
 		})
+		
+		
+		// Set style for ways
+		var EwaysStyle = {
+			color: "#E22B2B", 
+			weight: 5, 
+			opacity: 0.70
+		};
+
+		// Add ways layer
+		var EwaysLayer = L.geoJSON(null, {
+			style: EwaysStyle,
+			onEachFeature: function(feature, layer) {
+				var popupTxt = "You clicked a great feature!";
+				layer.bindPopup(popupTxt);
+			}
+		});
+
+		$.getJSON(EwaysURL, function(data){
+			EwaysLayer.addData(data).addTo(map);
+		})
+		
 
 		// Add the layers to their layer group
 		var baseMaps = {
@@ -106,7 +128,8 @@
 		};
 		
 		var overlayMaps = {
-			"Buildings": buildingsLayer
+			"Buildings": buildingsLayer,
+			"Pathways": EwaysLayer
 			// Add your layer here with a name!
 		};
 
