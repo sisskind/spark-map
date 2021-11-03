@@ -21,13 +21,116 @@
 		<script src="https://unpkg.com/@turf/turf@3.5.2/turf.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="data/stl-buildings.geojson" type="text/javascript"></script>
+		<script src="data/ualbany-dorms.geojson" type="text/javascript"></script>
 	<script type="text/javascript">
 
 		/* Map Variables */
 
+
+		// Set URLs for the GeoJSONs we will be using
+		var buildingsURL = "data/stl-buildings.geojson";
+		var roadsURL = "data/ualbany-dorms.geojson";
+
+		// Create the map variable
 		var map = L.map('map')
 			.setView([38.6533, -90.2424], 11)
 			.on('click', onMapClick);
+
+		// Add OSM Tile Layer
+		var osmTiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+          	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      		}).addTo(map);
+
+		var esriImagery = L.tileLayer('https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/16749/{z}/{y}/{x}').addTo(map);
+
+		// What if we want to style based on property?
+		// 	style: function(feature) {
+		// 	switch (true) {
+		// 		case /Tower/.test(feature.properties.name): return{color: "#ff0000"};
+		// 		default: return{color: "#ff7800"};
+		// 	}
+		// }
+
+		// What if we want to have custom messages for each layer?
+		/* Only use this if using GeoJSON from Overpass */
+		/*
+		var osmURL = ""
+		// Try to get the name of the feature
+		if (feature.properties && feature.properties.name) {
+			popupTxt += `<b>${feature.properties.name}</b>`;
+		}
+
+	    // does this feature have a property named id?
+	    if (feature.properties && feature.properties['@id']) {
+	    	// Excellent! We can now link directly to the feature
+	    	osmURL = `https://www.openstreetmap.org/${feature.properties['@id']}`
+	    } else if (feature.properties && feature.geometry.coordinates) {
+	    	// Since we don't have the ID, let's try for the centroid of the feature
+	    	var centroid;
+	    	if (feature.geometry.type === 'Polygon') {
+	    		centroid = turf.centroid(feature).geometry.coordinates;
+	    	}
+	    	osmURL = `https://www.openstreetmap.org/edit/#map=${map.getZoom()}/${centroid[0]}/${centroid[0]}`;
+	    }
+
+	    if (osmURL != "") {
+	    	popupTxt += `</br></br>View this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
+	    }
+	    */
+	    /* End Comments */
+
+		// Set style for buildings
+		var buildingsStyle = {
+			color: "#ff7800", 
+			weight: 5, 
+			opacity: 0.65
+		};
+
+		// Add buildings layer
+		var buildingsLayer = L.geoJSON(null, {
+			style: buildingsStyle,
+			onEachFeature: function(feature, layer) {
+				var popupTxt = "You clicked a great feature!";
+				layer.bindPopup(popupTxt);
+			}
+		});
+
+		$.getJSON(buildingsURL, function(data){
+			buildingsLayer.addData(data).addTo(map);
+		})
+
+		// Set style for roads
+		var roadsStyle = {
+			color: "#ff7800", 
+			weight: 5, 
+			opacity: 0.65
+		};
+
+		// Add Roads Layer
+		var roadsLayer = L.geoJSON(null, {
+			style: roadsStyle,
+			onEachFeature: function(feature, layer) {
+				var popupTxt = "You clicked a great feature!";
+				layer.bindPopup(popupTxt);
+			}
+		});
+
+		$.getJSON(roadsURL, function(data){
+			roadsLayer.addData(data).addTo(map);
+		})
+
+		// Add the layers to their layer group
+		var baseMaps = {
+			"OpenStreetMap": osmTiles,
+			"ESRI Imagery": esriImagery
+		};
+		var overlayMaps = {
+			"Buildings": buildingsLayer,
+			"Roads": roadsLayer
+		};
+
+		// Add a control to turn layers on and off
+		L.control.layers(baseMaps, overlayMaps).addTo(map);
 
 		// Let's add a button to go to OpenStreetMap using the visual extent
 		L.Control.Button = L.Control.extend({
@@ -54,75 +157,9 @@
 		var control = new L.Control.Button()
 		control.addTo(map);
 
-		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-          	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-      		}).addTo(map);
-
-		// var myStyle = {
-		//     color: "#ff7800",
-		//     weight: 5,
-		//     opacity: 0.65
-		// };
-
-		$.getJSON("data/stl-buildings.geojson", function(data){
-			/* Add the data with popup */
-			// L.geoJSON(data, {
-			//  	onEachFeature: onEachFeature
-			// })
-
-			/* Add the data with custom styling for all features */
-			L.geoJSON(data, {
-				onEachFeature: onEachFeature,
-				style: {color: "#ff7800", weight: 5, opacity: 0.65}
-			})
-
-			/* Add the data with custom styling based on feature property */
-			// L.geoJSON(data, {
-			// 	onEachFeature: onEachFeature
-			// 	style: function(feature) {
-			// 	switch (true) {
-			// 		case /Tower/.test(feature.properties.name): return{color: "#ff0000"};
-			// 		default: return{color: "#ff7800"};
-			// 	}
-			// }
-			// })
-			.addTo(map);
-		});
-
 		/* Functions */
-
-		function onEachFeature(feature, layer) {
-			var popupTxt = "You clicked a great feature!";
-			
-			/* Only use this if using GeoJSON from Overpass */
-			/*
-			var osmURL = ""
-			// Try to get the name of the feature
-			if (feature.properties && feature.properties.name) {
-				popupTxt += `<b>${feature.properties.name}</b>`;
-			}
-
-		    // does this feature have a property named id?
-		    if (feature.properties && feature.properties['@id']) {
-		    	// Excellent! We can now link directly to the feature
-		    	osmURL = `https://www.openstreetmap.org/${feature.properties['@id']}`
-		    } else if (feature.properties && feature.geometry.coordinates) {
-		    	// Since we don't have the ID, let's try for the centroid of the feature
-		    	var centroid;
-		    	if (feature.geometry.type === 'Polygon') {
-		    		centroid = turf.centroid(feature).geometry.coordinates;
-		    	}
-		    	osmURL = `https://www.openstreetmap.org/edit/#map=${map.getZoom()}/${centroid[0]}/${centroid[0]}`;
-		    }
-
-		    if (osmURL != "") {
-		    	popupTxt += `</br></br>View this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
-		    }
-		    */
-		    /* End Comments */
-			
-		    layer.bindPopup(popupTxt);
-		    
+		function onEachFeature(feature, layer){
+			// Do something to each feature/layer when loaded
 		}
 
 		function onMapClick(e) {			
