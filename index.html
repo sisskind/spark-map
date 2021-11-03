@@ -21,7 +21,6 @@
 		<script src="https://unpkg.com/@turf/turf@3.5.2/turf.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="data/stl-buildings.geojson" type="text/javascript"></script>
-		<script src="data/ualbany-dorms.geojson" type="text/javascript"></script>
 	<script type="text/javascript">
 
 		/* Map Variables */
@@ -29,7 +28,6 @@
 
 		// Set URLs for the GeoJSONs we will be using
 		var buildingsURL = "data/stl-buildings.geojson";
-		var roadsURL = "data/ualbany-dorms.geojson";
 
 		// Create the map variable
 		var map = L.map('map')
@@ -99,34 +97,15 @@
 			buildingsLayer.addData(data).addTo(map);
 		})
 
-		// Set style for roads
-		var roadsStyle = {
-			color: "#ff7800", 
-			weight: 5, 
-			opacity: 0.65
-		};
-
-		// Add Roads Layer
-		var roadsLayer = L.geoJSON(null, {
-			style: roadsStyle,
-			onEachFeature: function(feature, layer) {
-				var popupTxt = "You clicked a great feature!";
-				layer.bindPopup(popupTxt);
-			}
-		});
-
-		$.getJSON(roadsURL, function(data){
-			roadsLayer.addData(data).addTo(map);
-		})
-
 		// Add the layers to their layer group
 		var baseMaps = {
 			"OpenStreetMap": osmTiles,
 			"ESRI Imagery": esriImagery
 		};
+		
 		var overlayMaps = {
-			"Buildings": buildingsLayer,
-			"Roads": roadsLayer
+			"Buildings": buildingsLayer
+			// Add your layer here with a name!
 		};
 
 		// Add a control to turn layers on and off
