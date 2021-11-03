@@ -22,6 +22,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="data/stl-buildings.geojson" type="text/javascript"></script>
 		<script src="data/teamE-ways.geojson" type="text/javascript"></script>
+		<script src="data/teamE-buildings.geojson" type="text/javascript"></script>
 	<script type="text/javascript">
 
 		/* Map Variables */
@@ -30,6 +31,7 @@
 		// Set URLs for the GeoJSONs we will be using
 		var buildingsURL = "data/stl-buildings.geojson";
 		var EwaysURL = "data/teamE-ways.geojson";
+		var EbuildingsURL = "data/teamE-buildings.geojson";
 		
 		// Create the map variable
 		var map = L.map('map')
@@ -118,6 +120,27 @@
 
 		$.getJSON(EwaysURL, function(data){
 			EwaysLayer.addData(data).addTo(map);
+			
+		});
+		
+		// Set style for ways
+		var EbuildingsStyle = {
+			color: "#E22B2B", 
+			weight: 5, 
+			opacity: 0.70
+		};
+
+		// Add ways layer
+		var EbuildingsLayer = L.geoJSON(null, {
+			style: EbuildingsStyle,
+			onEachFeature: function(feature, layer) {
+				var popupTxt = "You clicked a great feature!";
+				layer.bindPopup(popupTxt);
+			}
+		});
+
+		$.getJSON(EbuildingsURL, function(data){
+			EbuildingsLayer.addData(data).addTo(map);
 		})
 		
 
@@ -129,7 +152,8 @@
 		
 		var overlayMaps = {
 			"Buildings": buildingsLayer,
-			"Pathways": EwaysLayer
+			"Pathways": EwaysLayer,
+			"teamEbuildings": EbuildingsLayer
 			// Add your layer here with a name!
 		};
 
