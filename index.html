@@ -21,6 +21,7 @@
 		<script src="https://unpkg.com/@turf/turf@3.5.2/turf.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="data/stl-buildings.geojson" type="text/javascript"></script>
+		<script src="data/teamE-ways.geojson" type="text/javascript"></script>
 	<script type="text/javascript">
 
 		/* Map Variables */
@@ -28,7 +29,8 @@
 
 		// Set URLs for the GeoJSONs we will be using
 		var buildingsURL = "data/stl-buildings.geojson";
-
+		var EwaysURL = "data/teamE-ways.geojson";
+		
 		// Create the map variable
 		var map = L.map('map')
 			.setView([38.6533, -90.2424], 11)
