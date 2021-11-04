@@ -48,10 +48,13 @@
 		var esriImagery = L.tileLayer('https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/16749/{z}/{y}/{x}').addTo(map);
 
 		// What if we want to style based on property?
-		// 	style: function(feature) {
-		// 	switch (true) {
-		// 		case /Tower/.test(feature.properties.name): return{color: "#ff0000"};
-		// 		default: return{color: "#ff7800"};
+		// style: function(feature) {
+		// 	if (feature.properties.building == 'house') {
+		// 		return buildingsStyle
+		// 	} else if (feature.properties.builing == 'school') {
+		// 		return buildingsStyle
+		// 	} else {
+		// 		return otherStyle
 		// 	}
 		// }
 
@@ -90,9 +93,24 @@
 			opacity: 0.70
 		};
 
+		var otherStyle = {
+			color: "#FFFF00", 
+			weight: 5, 
+			opacity: 0.5
+		};
+
 		// Add buildings layer
 		var buildingsLayer = L.geoJSON(null, {
-			style: buildingsStyle,
+			// Change the style based on property
+			style: function(feature) {
+				if (feature.properties.building == 'house') {
+					return buildingsStyle
+				} else if (feature.properties.builing == 'school') {
+					return buildingsStyle
+				} else {
+					return otherStyle
+				}
+			},
 			onEachFeature: function(feature, layer) {
 				var popupTxt = "You clicked a great feature!";
 				layer.bindPopup(popupTxt);
