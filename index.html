@@ -40,7 +40,7 @@
 			.setView([38.6533, -90.2424], 11)
 			.on('click', onMapClick);
 
-		// Add OSM Tile Layer
+		// Add OSM Title Layer
 		var osmTiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
           	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       		}).addTo(map);
@@ -50,7 +50,7 @@
 		// What if we want to style based on property?
 		// style: function(feature) {
 		// 	if (feature.properties.building == 'house') {
-		// 		return buildingsStyle
+		// 		return houseStyle
 		// 	} else if (feature.properties.builing == 'school') {
 		// 		return buildingsStyle
 		// 	} else {
@@ -92,6 +92,12 @@
 			weight: 5, 
 			opacity: 0.70
 		};
+		
+		var houseStyle = {
+			color: rgb(141,28,176); 
+			weight: 3, 
+			opacity: 0.55
+		};
 
 		var otherStyle = {
 			color: "#FFFF00", 
@@ -104,7 +110,7 @@
 			// Change the style based on property
 			style: function(feature) {
 				if (feature.properties.building == 'house') {
-					return buildingsStyle
+					return houseStyle
 				} else if (feature.properties.builing == 'school') {
 					return buildingsStyle
 				} else {
