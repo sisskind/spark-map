@@ -144,10 +144,19 @@
 
 		// Set style for ways
 		var EwaysStyle = {
-			color: "#E22B2B", 
+			color: "#46e370", 
 			weight: 5, 
 			opacity: 0.70
 		};
+		style: function(feature) {
+		 	if (feature.highway == 'footway') {
+		 		return EwaysStyle
+		 	} else if (feature.highway == 'residental') {
+		 		return EwaysStyle
+		 	} else {
+		 		return otherStyle
+		 	}
+		 }
 
 		// Add ways layer
 		var EwaysLayer = L.geoJSON(null, {
