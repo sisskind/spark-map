@@ -48,14 +48,17 @@
 		var esriImagery = L.tileLayer('https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/16749/{z}/{y}/{x}').addTo(map);
 
 		// What if we want to style based on property?
-		// style: function(feature) {
-		// 	if (feature.properties.building == 'house') {
-		// 		return houseStyle
-		// 	} else if (feature.properties.builing == 'school') {
-		// 		return buildingsStyle
-		// 	} else {
-		// 		return otherStyle
-		// 	}
+		//style: function(feature) {
+		//	 switch(feature.properties.building) {
+		//		 case 'house': return houseStyle;
+		//			 break;
+		//		 case 'apartment': return apartmentStyle;
+		//			 break;
+		//		 case 'shed': return shedStyle;
+		//			 break;
+		//		 default: return buildingsStyle;
+		//			 break;
+		//	 }
 		// }
 
 		// What if we want to have custom messages for each layer?
@@ -95,8 +98,20 @@
 		
 		var houseStyle = {
 			color: rgb(141,28,176); 
-			weight: 3, 
+			weight: 5, 
 			opacity: 0.55
+		};
+		
+		var apartmentStyle = {
+			color: rgb(57,168,13); 
+			weight: 4, 
+			opacity: 0.50
+		};
+		
+		var shedStyle = {
+			color: rgb(94,108,125); 
+			weight: 2, 
+			opacity: 0.30
 		};
 
 		var otherStyle = {
@@ -109,17 +124,25 @@
 		var buildingsLayer = L.geoJSON(null, {
 			// Change the style based on property
 			style: function(feature) {
-				if (feature.properties.building == 'house') {
-					return houseStyle
-				} else if (feature.properties.builing == 'school') {
-					return buildingsStyle
-				} else {
-					return otherStyle
+			    switch(feature.properties.building) {
+				 case 'house': return houseStyle;
+					 break;
+				 case 'apartment': return apartmentStyle;
+					 break;
+				 case 'shed': return shedStyle;
+					 break;
+				 default: return buildingsStyle;
+					 break;
 				}
-			},
+		        }
 			onEachFeature: function(feature, layer) {
-				var popupTxt = "You clicked a great feature!";
+				var popupTxt = "You clicked a magnificent, spectacular feature!";
 				layer.bindPopup(popupTxt);
+			
+				//if(layer === buildingsLayer){
+			var popupTxt = "You clicked a magnificent, wonderful building feature!";
+			layer.bindPopul(popupTxt);
+			}
 			}
 		});
 
