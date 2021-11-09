@@ -126,6 +126,7 @@
 			color: "#E22B2B", 
 			weight: 5, 
 			opacity: 0.70
+		
 		};
 
 		// Add ways layer
@@ -134,6 +135,8 @@
 			onEachFeature: function(feature, layer) {
 				var popupTxt = "You clicked a great feature!";
 				layer.bindPopup(popupTxt);
+			(feature.properties.highway=residential); return {color: "#24ff5e"};
+			(feature.properties.highway=service); return {color: "#ff7621"};
 			}
 		});
 
