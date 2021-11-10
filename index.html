@@ -170,9 +170,56 @@
 			opacity: 0.70
 		};
 
+		var schoolStyle = {
+			color: "#15cf5c", 
+			weight: 5, 
+			opacity: 0.70
+		};
+
+		var houseStyle = {
+			color: "#6f15cf", 
+			weight: 5, 
+			opacity: 0.70
+			
+		var apartmentsStyle = {
+			color: "#8a427f", 
+			weight: 5, 
+			opacity: 0.70
+			
+		var garageStyle = {
+			color: "#42898a", 
+			weight: 5, 
+			opacity: 0.70
+		
+                var garagesStyle = {
+			color: "#c9400e", 
+			weight: 5, 
+			opacity: 0.70
+		var yesStyle = {
+			color: "#edf505", 
+			weight: 5, 
+			opacity: 0.70
+		};
 		// Add ways layer
 		var EbuildingsLayer = L.geoJSON(null, {
-			style: EbuildingsStyle,
+		
+		 style: function(feature) {
+			if (feature.properties.building == 'school') {
+		 		return schoolStyle
+		 	} else if (feature.properties.builing == 'house') {
+		 		return houseStyle
+			} else if (feature.properties.builing == 'apartments') {
+		 		return apartmentsStyle
+			} else if (feature.properties.builing == 'garage') {
+		 		return garageStyle
+			} else if (feature.properties.builing == 'garages') {
+		 		return garagesStyle
+			} else if (feature.properties.builing == 'yes') {
+		 		return yesStyle
+		 	} else {
+				return otherStyle
+			}
+		 },
 			onEachFeature: function(feature, layer) {
 				var popupTxt = "You clicked a great feature!";
 				layer.bindPopup(popupTxt);
