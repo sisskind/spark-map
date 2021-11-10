@@ -148,12 +148,41 @@
 			weight: 5, 
 			opacity: 0.70
 		};
+		
+		var footwayStyle = {
+			color: "MediumOrchid", 
+			weight: 5, 
+			opacity: 0.70
+		};
+		
+		var residentialStyle = {
+			color: "MediumSlateBlue", 
+			weight: 5, 
+			opacity: 0.70
+		};
+		
+		var serviceStyle = {
+			color: "Wheat", 
+			weight: 5, 
+			opacity: 0.70
+		};
+		
+		var primaryStyle = {
+			color: "#Lavender", 
+			weight: 5, 
+			opacity: 0.70
+		};
+		
 		style: function(feature) {
 		 	if (feature.highway == 'footway') {
-		 		return EwaysStyle
+		 		return footwayStyle
 		 	} else if (feature.highway == 'residental') {
-		 		return EwaysStyle
-		 	} else {
+		 		return residentialStyle
+			} else if (feature.highway == 'service'){
+				return serviceStyle
+			} else if (feature.highway == 'primary') {
+				return primaryStyle
+		 	} else  {
 		 		return otherStyle
 		 	}
 		 }
