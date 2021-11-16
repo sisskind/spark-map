@@ -142,10 +142,7 @@
 
 		// Add ways layer
 		var OwaysLayer = L.geoJSON(null, {
-			style: OwaysStyle,
-			onEachFeature: function(feature, layer) {
-				var popupTxt = "You clicked a great feature!";
-				layer.bindPopup(popupTxt);
+			style: function(feature) {
 			if (feature.properties.highway == 'residential') {
 					return residentialStyle
 				} else if (feature.properties.highway == 'service') {
@@ -153,6 +150,12 @@
 				} else {
 					return otherStyle
 				}
+			
+			},
+			style: OwaysStyle,
+			onEachFeature: function(feature, layer) {
+				var popupTxt = "You clicked a great feature!";
+				layer.bindPopup(popupTxt);
 			}
 		});
 
