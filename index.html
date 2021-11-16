@@ -97,19 +97,19 @@
 		};
 		
 		var houseStyle = {
-			color: rgb(141,28,176); 
+			color: "rgb(141,28,176)", 
 			weight: 5, 
 			opacity: 0.55
 		};
 		
 		var apartmentStyle = {
-			color: rgb(57,168,13); 
+			color: "rgb(57,168,13)", 
 			weight: 4, 
 			opacity: 0.50
 		};
 		
 		var shedStyle = {
-			color: rgb(94,108,125); 
+			color: "rgb(94,108,125)", 
 			weight: 2, 
 			opacity: 0.30
 		};
@@ -134,7 +134,7 @@
 				 default: return buildingsStyle;
 					 break;
 				}
-		        }
+		        },
 			onEachFeature: function(feature, layer) {
 				var popupTxt = "You clicked a magnificent, spectacular feature!";
 				layer.bindPopup(popupTxt);
