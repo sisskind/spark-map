@@ -40,7 +40,7 @@
 			.setView([38.6533, -90.2424], 11)
 			.on('click', onMapClick);
 
-		// Add OSM Tile Layer
+		// Add OSM Title Layer
 		var osmTiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
           	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       		}).addTo(map);
@@ -60,7 +60,7 @@
 
 		// What if we want to have custom messages for each layer?
 		/* Only use this if using GeoJSON from Overpass */
-		/*
+		
 		var osmURL = ""
 		// Try to get the name of the feature
 		if (feature.properties && feature.properties.name) {
@@ -68,7 +68,7 @@
 		}
 
 	    // does this feature have a property named id?
-	    if (feature.properties && feature.properties['@id']) {
+	    if (feature.properties && feature.properties['@id'].includes('way')) {
 	    	// Excellent! We can now link directly to the feature
 	    	osmURL = `https://www.openstreetmap.org/${feature.properties['@id']}`
 	    } else if (feature.properties && feature.geometry.coordinates) {
@@ -83,7 +83,7 @@
 	    if (osmURL != "") {
 	    	popupTxt += `</br></br>View this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
 	    }
-	    */
+	    
 	    /* End Comments */
 
 		// Set style for buildings
