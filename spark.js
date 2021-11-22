@@ -1,7 +1,40 @@
 function addPopUp(feature, layer){
-				var popupTxt = "You clicked an amazing feature!";
-				layer.bindPopup(popupTxt);
-		}
+		var popupTxt = "You clicked an amazing feature!";
+		layer.bindPopup(popupTxt);
+}
+
+function getXML(query){
+	var output = "";
+    $.ajax({
+        type: "GET",
+        url: query,
+        dataType: "xml",
+
+        error: function (e) {
+            alert("An error occurred while processing XML file");
+            console.log("XML reading Failed: ", e);
+        },
+
+        success: function (response) {
+        	output = response;
+        	var overpassGJ = osmtogeojson(response);
+        	console.log('done');
+
+			var newLayer = L.geoJSON(null, {
+				style: EwaysStyle,
+				onEachFeature: function(feature, layer) {
+					addPopUp(feature,layer);
+				}
+			});
+
+			$.getJSON(overpassGJ, function(data){
+				newLayer.addData(data.features);//.addTo(map);
+				L.control.layers.addOverlay(newLayer,"Overpass Query");
+			});
+    	}
+	});
+}
+
 
 // List of styles
 var buildingsStyle = {
