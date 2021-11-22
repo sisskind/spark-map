@@ -44,15 +44,19 @@ function getXML(query, lyrControl){
         	output = response;
         	var overpassGJ = osmtogeojson(response);
 
-			var newLayer = L.geoJSON(overpassGJ, {
-				style: EwaysStyle,
-				onEachFeature: function(feature, layer) {
-					addPopUp(feature,layer);
-				}
-			});
+		var newLayer = L.geoJSON(overpassGJ, {
+			style: function(feature){
+				if (feature.properties.building = 'house') {return houseStyle}
+				else if (feature.properties.building = 'apartments') {return apartmentsStyle}
+				else {return otherStyle}
+			},
+			onEachFeature: function(feature, layer) {
+				addPopUp(feature,layer);
+			}
+		});
 
-			lyrControl.clearLayers();
-			lyrControl.addLayer(newLayer);
+		lyrControl.clearLayers();
+		lyrControl.addLayer(newLayer);
     	}
 	});
 }
