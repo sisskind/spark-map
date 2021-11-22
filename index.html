@@ -143,20 +143,36 @@
 		L.control.layers(baseMaps, overlayMaps).addTo(map);
 
 		// Let's add a button to go to OpenStreetMap using the visual extent
+		// Let's add a button to go to OpenStreetMap using the visual extent
 		L.Control.Button = L.Control.extend({
 		    options: {
 		        position: 'topleft'
 		    },
 		    onAdd: function (map) {
 		        var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
-		        var button = L.DomUtil.create('a', 'leaflet-control-button', container);
-		        L.DomEvent.disableClickPropagation(button);
-		        L.DomEvent.on(button, 'click', function(){
+		        var button1 = L.DomUtil.create('a', 'leaflet-control-button', container);
+		        L.DomEvent.disableClickPropagation(button1);
+		        L.DomEvent.on(button1, 'click', function(){
 		            var osmURL = `https://www.openstreetmap.org/#map=${map.getZoom()}/${map.getCenter().lat}/${map.getCenter().lng}`;
 		            window.open(osmURL, '_blank');
 		        });
 
-		        button.innerHTML = '<img style="max-width:100%; max-height:100%" src="img/osm.png">';
+		        button1.innerHTML = '<img style="max-width:100%; max-height:100%" src="img/osm.png">';
+
+		        var button2 = L.DomUtil.create('a', 'leaflet-control-button', container);
+		        L.DomEvent.disableClickPropagation(button2);
+		        L.DomEvent.on(button2, 'click', function(){
+		        	if(map.getZoom() > 15) {
+		        		var overpassURL = `http://overpass-turbo.eu/?Q=[timeout:25];(way["building"="yes"](${map.getBounds()._southWest.lat},${map.getBounds()._southWest.lng},${map.getBounds()._northEast.lat},${map.getBounds()._northEast.lng}););out body;>;out skel qt;`
+		        		window.open(overpassURL, '_blank');
+		        		//var outdata = $.getXML(map.getBounds(),'data/interpreter.xml');	
+		        	}
+		        	else {
+		        		alert("Please zoom in to at least zoom level 18!")
+		        	}
+		        });
+
+		        button2.innerHTML = '<img style="max-width:100%; max-height:100%" src="img/overpass.png">';		  
 
 		        container.title = "View on OpenStreetMap";
 
