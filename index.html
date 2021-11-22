@@ -7,7 +7,6 @@
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
   crossorigin=""/>
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 	<style>
 		  body { margin:0; padding:0; }
@@ -24,6 +23,7 @@
 		<script src="data/teamO-ways.geojson" type="text/javascript"></script>
 		<script src="data/teamE-ways.geojson" type="text/javascript"></script>
 		<script src="data/teamE-buildings.geojson" type="text/javascript"></script>
+		<script src="style/spark.js" type="text/javascript"></script>
 	<script type="text/javascript">
 
 		/* Map Variables */
@@ -47,58 +47,6 @@
 
 		var esriImagery = L.tileLayer('https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/16749/{z}/{y}/{x}').addTo(map);
 
-		// What if we want to style based on property?
-		// style: function(feature) {
-		// 	if (feature.properties.building == 'house') {
-		// 		return buildingsStyle
-		// 	} else if (feature.properties.builing == 'school') {
-		// 		return buildingsStyle
-		// 	} else {
-		// 		return otherStyle
-		// 	}
-		// }
-
-		// What if we want to have custom messages for each layer?
-		/* Only use this if using GeoJSON from Overpass */
-		/*
-		var osmURL = ""
-		// Try to get the name of the feature
-		if (feature.properties && feature.properties.name) {
-			popupTxt += `<b>${feature.properties.name}</b>`;
-		}
-
-	    // does this feature have a property named id?
-	    if (feature.properties && feature.properties['@id']) {
-	    	// Excellent! We can now link directly to the feature
-	    	osmURL = `https://www.openstreetmap.org/${feature.properties['@id']}`
-	    } else if (feature.properties && feature.geometry.coordinates) {
-	    	// Since we don't have the ID, let's try for the centroid of the feature
-	    	var centroid;
-	    	if (feature.geometry.type === 'Polygon') {
-	    		centroid = turf.centroid(feature).geometry.coordinates;
-	    	}
-	    	osmURL = `https://www.openstreetmap.org/edit/#map=${map.getZoom()}/${centroid[0]}/${centroid[0]}`;
-	    }
-
-	    if (osmURL != "") {
-	    	popupTxt += `</br></br>View this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
-	    }
-	    */
-	    /* End Comments */
-
-		// Set style for buildings
-		var buildingsStyle = {
-			color: "#E22B2B", 
-			weight: 5, 
-			opacity: 0.70
-		};
-
-		var otherStyle = {
-			color: "#FFFF00", 
-			weight: 5, 
-			opacity: 0.5
-		};
-
 		// Add buildings layer
 		var buildingsLayer = L.geoJSON(null, {
 			// Change the style based on property
@@ -112,28 +60,19 @@
 				}
 			},
 			onEachFeature: function(feature, layer) {
-				var popupTxt = "You clicked a great feature!";
-				layer.bindPopup(popupTxt);
+				addPopUp(feature,layer);
 			}
 		});
 
 		$.getJSON(buildingsURL, function(data){
 			buildingsLayer.addData(data).addTo(map);
 		})
-		
-		// Set style for ways
-		var OwaysStyle = {
-			color: "#E22B2B", 
-			weight: 5, 
-			opacity: 0.70
-		};
 
 		// Add ways layer
 		var OwaysLayer = L.geoJSON(null, {
 			style: OwaysStyle,
 			onEachFeature: function(feature, layer) {
-				var popupTxt = "You clicked a great feature!";
-				layer.bindPopup(popupTxt);
+				addPopUp(feature,layer);
 			}
 		});
 
@@ -142,19 +81,11 @@
 			
 		});
 
-		// Set style for ways
-		var EwaysStyle = {
-			color: "#38f5a3", 
-			weight: 5, 
-			opacity: 0.70
-		};
-
 		// Add ways layer
 		var EwaysLayer = L.geoJSON(null, {
 			style: EwaysStyle,
 			onEachFeature: function(feature, layer) {
-				var popupTxt = "You clicked a great feature!";
-				layer.bindPopup(popupTxt);
+				addPopUp(feature,layer);
 			}
 		});
 
@@ -163,43 +94,7 @@
 			
 		});
 		
-		// Set style for ways
-		var EbuildingsStyle = {
-			color: "#E22B2B", 
-			weight: 5, 
-			opacity: 0.70
-		};
-
-		var schoolStyle = {
-			color: "#15cf5c", 
-			weight: 5, 
-			opacity: 0.70
-		};
-
-		var houseStyle = {
-			color: "#6f15cf", 
-			weight: 5, 
-			opacity: 0.70
-			
-		var apartmentsStyle = {
-			color: "#8a427f", 
-			weight: 5, 
-			opacity: 0.70
-			
-		var garageStyle = {
-			color: "#42898a", 
-			weight: 5, 
-			opacity: 0.70
 		
-                var garagesStyle = {
-			color: "#c9400e", 
-			weight: 5, 
-			opacity: 0.70
-		var yesStyle = {
-			color: "#edf505", 
-			weight: 5, 
-			opacity: 0.70
-		};
 		// Add ways layer
 		var EbuildingsLayer = L.geoJSON(null, {
 		
@@ -221,8 +116,7 @@
 			}
 		 },
 			onEachFeature: function(feature, layer) {
-				var popupTxt = "You clicked a great feature!";
-				layer.bindPopup(popupTxt);
+				addPopUp(feature,layer);
 			}
 		});
 
@@ -272,11 +166,6 @@
 		});
 		var control = new L.Control.Button()
 		control.addTo(map);
-
-		/* Functions */
-		function onEachFeature(feature, layer){
-			// Do something to each feature/layer when loaded
-		}
 
 		function onMapClick(e) {			
 			console.log(e.latlng.toString());
