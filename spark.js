@@ -3,7 +3,7 @@ function addPopUp(feature, layer){
 		layer.bindPopup(popupTxt);
 }
 
-function getXML(query){
+function getXML(query, lyrControl){
 	var output = "";
     $.ajax({
         type: "GET",
@@ -18,19 +18,16 @@ function getXML(query){
         success: function (response) {
         	output = response;
         	var overpassGJ = osmtogeojson(response);
-        	console.log('done');
 
-			var newLayer = L.geoJSON(null, {
+			var newLayer = L.geoJSON(overpassGJ, {
 				style: EwaysStyle,
 				onEachFeature: function(feature, layer) {
 					addPopUp(feature,layer);
 				}
 			});
 
-			$.getJSON(overpassGJ, function(data){
-				newLayer.addData(data.features);//.addTo(map);
-				L.control.layers.addOverlay(newLayer,"Overpass Query");
-			});
+			lyrControl.clearLayers();
+			lyrControl.addLayer(newLayer);
     	}
 	});
 }
