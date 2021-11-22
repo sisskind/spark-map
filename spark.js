@@ -46,8 +46,9 @@ function getXML(query, lyrControl){
 
 		var newLayer = L.geoJSON(overpassGJ, {
 			style: function(feature){
-				if (feature.properties.building = 'house') {return houseStyle}
-				else if (feature.properties.building = 'apartments') {return apartmentsStyle}
+				if (feature.properties.building == 'house') {return houseStyle}
+				else if (feature.properties.building == 'apartments') {return apartmentsStyle}
+				else if (feature.properties.building == 'school') {return schoolStyle}
 				else {return otherStyle}
 			},
 			onEachFeature: function(feature, layer) {
