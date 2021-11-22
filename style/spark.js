@@ -68,3 +68,15 @@ var yesStyle = {
 	weight: 5, 
 	opacity: 0.70
 };
+
+var residentialStyle = {
+	color: "#24ff5e",
+	weight: 5,
+	opactiy: 0.70
+};	
+
+var serviceStyle = {
+	color: "#ff7621",
+	weight: 5,
+	opacity: 0.70
+};
