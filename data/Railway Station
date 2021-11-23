@@ -1,0 +1,806 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-11-23T18:26:39Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/355001376",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "260",
+        "addr:postcode": "63130",
+        "addr:state": "MO",
+        "addr:street": "North Skinker Boulevard",
+        "light_rail": "yes",
+        "name": "Skinker",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q7535457",
+        "wikipedia": "en:Skinker station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3003768,
+          38.6493104
+        ]
+      },
+      "id": "node/355001376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/471419290",
+        "addr:city": "University City",
+        "addr:housenumber": "7411",
+        "addr:postcode": "63105",
+        "addr:state": "MO",
+        "addr:street": "Forsyth Boulevard",
+        "light_rail": "yes",
+        "name": "Forsyth",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q5470646",
+        "wikipedia": "en:Forsyth station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3280567,
+          38.6490224
+        ]
+      },
+      "id": "node/471419290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/471420087",
+        "addr:city": "Clayton",
+        "addr:housenumber": "275",
+        "addr:postcode": "63105",
+        "addr:state": "MO",
+        "addr:street": "South Central Avenue",
+        "light_rail": "yes",
+        "name": "Clayton",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q5130172",
+        "wikipedia": "en:Clayton station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.339936,
+          38.6456168
+        ]
+      },
+      "id": "node/471420087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/471420113",
+        "addr:city": "Richmond Heights",
+        "addr:housenumber": "1000",
+        "addr:postcode": "63117",
+        "addr:state": "MO",
+        "addr:street": "McMorrow Avenue",
+        "light_rail": "yes",
+        "name": "Richmond Heights",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q7330847",
+        "wikipedia": "en:Richmond Heights station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.342056,
+          38.6348796
+        ]
+      },
+      "id": "node/471420113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/471420184",
+        "addr:city": "Brentwood",
+        "addr:housenumber": "8398",
+        "addr:postcode": "63144",
+        "addr:state": "MO",
+        "addr:street": "Eager Road",
+        "light_rail": "yes",
+        "name": "Brentwood I-64",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q4961783",
+        "wikipedia": "en:Brentwood I-64 station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3380777,
+          38.6284911
+        ]
+      },
+      "id": "node/471420184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/528595352",
+        "addr:city": "University City",
+        "addr:housenumber": "7000",
+        "addr:postcode": "63130",
+        "addr:state": "MO",
+        "addr:street": "Forest Park Parkway",
+        "light_rail": "yes",
+        "name": "University City-Big Bend",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q7894592",
+        "wikipedia": "en:University City–Big Bend station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3149177,
+          38.6515668
+        ]
+      },
+      "id": "node/528595352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/565861185",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "7201",
+        "addr:postcode": "63119",
+        "addr:state": "MO",
+        "addr:street": "Lansdowne Avenue",
+        "light_rail": "yes",
+        "name": "Shrewsbury-Lansdowne I-44",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q7503725",
+        "wikipedia": "en:Shrewsbury–Lansdowne I-44 station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.319419,
+          38.5932563
+        ]
+      },
+      "id": "node/565861185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/692717004",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "660",
+        "addr:postcode": "63112",
+        "addr:state": "MO",
+        "addr:street": "Rosedale Avenue",
+        "light_rail": "yes",
+        "name": "Delmar Loop",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q5254259",
+        "wikipedia": "en:Delmar Loop station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2945571,
+          38.6556558
+        ]
+      },
+      "id": "node/692717004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1420486227",
+        "addr:city": "Normandy",
+        "addr:country": "US",
+        "addr:housenumber": "8298",
+        "addr:postcode": "63121",
+        "addr:state": "MO",
+        "addr:street": "Bellerive Drive",
+        "covered": "yes",
+        "light_rail": "yes",
+        "name": "UMSL North",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "website": "https://www.metrostlouis.org/metrolink-station/umsl-north-station/",
+        "wheelchair": "yes",
+        "wikipedia": "en:UMSL North station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3063891,
+          38.7130189
+        ]
+      },
+      "id": "node/1420486227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422137626",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "420",
+        "addr:postcode": "63110",
+        "addr:state": "MO",
+        "addr:street": "South Euclid Avenue",
+        "light_rail": "yes",
+        "name": "Central West End",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q5062023",
+        "wikipedia": "en:Central West End station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2621906,
+          38.6359219
+        ]
+      },
+      "id": "node/1422137626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422137629",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "250",
+        "addr:postcode": "63112",
+        "addr:state": "MO",
+        "addr:street": "De Baliviere Avenue",
+        "light_rail": "yes",
+        "name": "Forest Park-DeBaliviere",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes",
+        "wikidata": "Q5469071",
+        "wikipedia": "en:Forest Park–DeBaliviere station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.284956,
+          38.6478189
+        ]
+      },
+      "id": "node/1422137629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422137631",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3560",
+        "addr:postcode": "63103",
+        "addr:state": "MO",
+        "addr:street": "Scott Avenue",
+        "light_rail": "yes",
+        "name": "Grand",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q5594214",
+        "wikipedia": "en:Grand station (MetroLink)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2353523,
+          38.6294983
+        ]
+      },
+      "id": "node/1422137631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422137640",
+        "addr:city": "Carsonville",
+        "addr:country": "US",
+        "addr:housenumber": "4398",
+        "addr:postcode": "63134",
+        "addr:state": "MO",
+        "addr:street": "Hanley Road",
+        "covered": "yes",
+        "light_rail": "yes",
+        "name": "North Hanley",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "website": "https://www.metrostlouis.org/metrolink-station/north-hanley-station/",
+        "wheelchair": "yes",
+        "wikipedia": "en:North Hanley station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3156124,
+          38.7199632
+        ]
+      },
+      "id": "node/1422137640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422137643",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "7001",
+        "addr:postcode": "63133",
+        "addr:state": "MO",
+        "addr:street": "Saint Charles Rock Road",
+        "light_rail": "yes",
+        "name": "Rock Road",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q7354660",
+        "wikipedia": "en:Rock Road station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3014147,
+          38.6852936
+        ]
+      },
+      "id": "node/1422137643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422137652",
+        "addr:city": "Normandy",
+        "addr:country": "US",
+        "addr:housenumber": "7798",
+        "addr:postcode": "63121",
+        "addr:state": "MO",
+        "addr:street": "Natural Bridge Road",
+        "covered": "yes",
+        "light_rail": "yes",
+        "name": "UMSL South",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "website": "https://www.metrostlouis.org/metrolink-station/umsl-south-station/",
+        "wheelchair": "yes",
+        "wikipedia": "en:UMSL South station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3051411,
+          38.7053297
+        ]
+      },
+      "id": "node/1422137652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422137653",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "6420",
+        "addr:postcode": "63133",
+        "addr:state": "MO",
+        "addr:street": "Plymouth Avenue",
+        "light_rail": "yes",
+        "name": "Wellston",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2983654,
+          38.6688106
+        ]
+      },
+      "id": "node/1422137653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422456513",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "200",
+        "addr:postcode": "63102",
+        "addr:state": "MO",
+        "addr:street": "Washington Avenue",
+        "light_rail": "yes",
+        "name": "Laclede's Landing",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q4785343",
+        "wikipedia": "en:Laclede's Landing station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1838887,
+          38.6294376
+        ]
+      },
+      "id": "node/1422456513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422456527",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "401",
+        "addr:postcode": "63103",
+        "addr:state": "MO",
+        "addr:street": "South 14th Street",
+        "light_rail": "yes",
+        "name": "Civic Center",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q5124278",
+        "wikipedia": "en:Civic Center station (MetroLink)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2030601,
+          38.62491
+        ]
+      },
+      "id": "node/1422456527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422456528",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "600",
+        "addr:postcode": "63102",
+        "addr:state": "MO",
+        "addr:street": "North 6th Street",
+        "light_rail": "yes",
+        "name": "Convention Center",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q5166219",
+        "wikipedia": "en:Convention Center station (MetroLink)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1893704,
+          38.6302177
+        ]
+      },
+      "id": "node/1422456528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422456533",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "401",
+        "addr:postcode": "63102",
+        "addr:state": "MO",
+        "addr:street": "South 8th Street",
+        "light_rail": "yes",
+        "name": "Stadium",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q7596465",
+        "wikipedia": "en:Stadium station (MetroLink)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1945093,
+          38.6235105
+        ]
+      },
+      "id": "node/1422456533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422456546",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "301",
+        "addr:postcode": "63103",
+        "addr:state": "MO",
+        "addr:street": "South 18th Street",
+        "light_rail": "yes",
+        "name": "Union Station",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2069192,
+          38.6266583
+        ]
+      },
+      "id": "node/1422456546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1422456548",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "199",
+        "addr:postcode": "63102",
+        "addr:state": "MO",
+        "addr:street": "North 8th Street",
+        "light_rail": "yes",
+        "name": "8th & Pine",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q4645285",
+        "wikipedia": "en:8th & Pine station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1928172,
+          38.6276035
+        ]
+      },
+      "id": "node/1422456548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1457088571",
+        "addr:city": "Maplewood",
+        "addr:housenumber": "7911",
+        "addr:postcode": "63143",
+        "addr:state": "MO",
+        "addr:street": "Manchester Road",
+        "light_rail": "yes",
+        "name": "Maplewood-Manchester",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q6754121",
+        "wikipedia": "en:Maplewood–Manchester station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3314156,
+          38.6141404
+        ]
+      },
+      "id": "node/1457088571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2334702001",
+        "addr:city": "Maplewood",
+        "addr:housenumber": "21",
+        "addr:postcode": "63143",
+        "addr:state": "MO",
+        "addr:street": "Sunnen Drive",
+        "light_rail": "yes",
+        "name": "Sunnen",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3302837,
+          38.6075651
+        ]
+      },
+      "id": "node/2334702001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2591952921",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.291141,
+          38.636209
+        ]
+      },
+      "id": "node/2591952921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5800092280",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "402",
+        "addr:postcode": "63110",
+        "addr:state": "MO",
+        "addr:street": "South Boyle Avenue",
+        "light_rail": "yes",
+        "name": "Cortex",
+        "network": "MetroLink",
+        "operator": "Bi-State Development Agency",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q55106678",
+        "wikipedia": "en:Cortex station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2514682,
+          38.6337782
+        ]
+      },
+      "id": "node/5800092280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6033338992",
+        "addr:state": "MO",
+        "alt_name": "Saint Louis Gateway Transportation Center",
+        "iata": "ZSV",
+        "name": "Saint Louis",
+        "network": "Amtrak",
+        "operator": "Amtrak",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "STL",
+        "train": "yes",
+        "wikidata": "Q5527263"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.203686,
+          38.624223
+        ]
+      },
+      "id": "node/6033338992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6413202871",
+        "name": "4D Theater Stop",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2883118,
+          38.6358942
+        ]
+      },
+      "id": "node/6413202871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7745146446",
+        "name": "Red Rocks Station",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2878913,
+          38.633867
+        ]
+      },
+      "id": "node/7745146446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7745146447",
+        "name": "River's Edge Station",
+        "public_transport": "station",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2919927,
+          38.6339462
+        ]
+      },
+      "id": "node/7745146447"
+    }
+  ]
+}
