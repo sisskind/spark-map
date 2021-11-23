@@ -30,6 +30,14 @@ function addPopUp(feature, layer){
 
 function addStyle(feature, layer){
 	//Add style to features here!	
+	
+	
+	if (feature.properties && feature.properties.railway) {
+	var railway = {
+	color: "SaddleBrown", 
+	weight: 5, 
+	opacity: 0.5
+	}
 }
 
 function getXML(query, lyrControl){
