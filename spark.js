@@ -28,6 +28,10 @@ function addPopUp(feature, layer){
 		    layer.bindPopup(popupTxt);
 }
 
+function addStyle(feature, layer){
+	//Add style to features here!	
+}
+
 function getXML(query, lyrControl){
 	var output = "";
     $.ajax({
