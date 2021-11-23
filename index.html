@@ -130,20 +130,21 @@
 			"OpenStreetMap": osmTiles,
 			"ESRI Imagery": esriImagery
 		};
-		
+
 		var overlayMaps = {
 			"Team O Buildings": buildingsLayer,
 			"Team O Ways": OwaysLayer,
 			"Team E Ways": EwaysLayer,
 			"Team E Builings": EbuildingsLayer
-			// Add your layer here with a name!
 		};
 
 		var gjLayers = new L.LayerGroup();
 		gjLayers.addTo(map);
 
 		// Add a control to turn layers on and off
-		L.control.layers(baseMaps, overlayMaps).addTo(map);
+		var layerControl = L.control.layers(baseMaps, overlayMaps);
+		map.addControl(layerControl);
+		//L.control.layers(baseMaps, overlayMaps).addTo(map);
 
 		// Let's add a button to go to OpenStreetMap using the visual extent
 		// Let's add a button to go to OpenStreetMap using the visual extent
@@ -174,7 +175,7 @@
 			        	} else {
 								var bounds = map.getBounds();
 								var overpassURL = `https://overpass-api.de/api/interpreter?data=[timeout:25];(way${query}(${bounds._southWest.lat},${bounds._southWest.lng},${bounds._northEast.lat},${bounds._northEast.lng});); out body;>;out skel qt;`
-				        		var outdata = getXML(overpassURL, gjLayers);
+				        		var outdata = getXML(overpassURL, layerControl);
 				        	}
 		        	}
 		        });

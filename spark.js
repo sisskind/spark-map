@@ -56,8 +56,15 @@ function getXML(query, lyrControl){
 			}
 		});
 
-		lyrControl.clearLayers();
-		lyrControl.addLayer(newLayer);
+		/* If using gjLayerGroup, clear layers before adding the new one */
+		//lyrControl.clearLayers();
+		//lyrControl.addLayer(newLayer);
+
+		/* If adding the layer to the map, be sure to give it a name! */
+		
+		lyrControl.addOverlay(newLayer, "Overpass Query");
+       
+
     	}
 	});
 }
