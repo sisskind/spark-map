@@ -58,41 +58,18 @@
           	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       		}).addTo(map);
 
-		// var myStyle = {
-		//     color: "#ff7800",
-		//     weight: 5,
-		//     opacity: 0.65
-		// };
-
-		$.getJSON("data/ualbany-dorms.geojson", function(data){
+		$.getJSON("data/stl-buildings", function(data){
 			/* Add the data with popup */
 			L.geoJSON(data, {
 				onEachFeature: onEachFeature
 			})
-
-			/* Add the data with custom styling for all features */
-			// L.geoJSON(data, {
-			// 	onEachFeature: onEachFeature,
-			// 	style: {color: "#ff7800", weight: 5, opacity: 0.65}
-			// })
-
-			/* Add the data with custom styling based on feature property */
-			// L.geoJSON(data, {
-			// 	onEachFeature: onEachFeature
-			// 	style: function(feature) {
-			// 	switch (true) {
-			// 		case /Tower/.test(feature.properties.name): return{color: "#ff0000"};
-			// 		default: return{color: "#ff7800"};
-			// 	}
-			// }
-			// })
 			.addTo(map);
 		});
 
 		/* Functions */
 
 		function onEachFeature(feature, layer) {
-			var popupTxt = "You clicked a feature!";
+			var popupTxt = "You clicked on a feature!";
 			
 			/* Only use this if using GeoJSON from Overpass */
 			/*
