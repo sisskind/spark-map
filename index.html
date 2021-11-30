@@ -183,6 +183,18 @@
 		        button2.innerHTML = '<img style="max-width:100%; max-height:100%" src="img/overpass.png">';		  
 
 		        container.title = "View on OpenStreetMap";
+			    
+			var button3 = L.DomUtil.create('a', 'leaflet-control-button', container);
+		        L.DomEvent.disableClickPropagation(button2);
+		        L.DomEvent.on(button3, 'click', function(){
+				let n = window.prompt("What is the name of this new style?",'["tagStyle"]');
+				let c = window.prompt("What is the color of this new style?",'["tagStyle"]');
+				let w = window.prompt(<input type="range" min="1" max="10" value="5" />);
+				let o = window.prompt(<input type="range" min="0" max="1" value="0.9" />);
+				
+				let style = addStyle(n,c,w,o)
+							 
+			}
 
 		        return container;
 		    },
