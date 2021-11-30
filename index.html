@@ -192,7 +192,15 @@
 		control.addTo(map);
 
 		function onMapClick(e) {			
-			console.log(e.latlng.toString());
+			let x = e.latlng.toString());
+			let lat = lastIndexOf(',')
+			if( x[0:1-lat] > 90 || x[0:1-lat] < -90) {
+				console.log("Error in coordinates") }
+			elif( x[1-lat:x.length] > 180 || x[1-lat:x.length] < -180 ) {
+				console.log("Error in coordinates") }
+			else {
+				console.log(x) }
+				
 		}
 
 	</script>
