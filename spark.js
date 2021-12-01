@@ -29,7 +29,20 @@ function addPopUp(feature, layer){
 }
 
 function addStyle(feature, layer){
-	//Add style to features here!	
+	if (feature.properties.building == 'house') {return houseStyle}
+	else if (feature.properties.building == 'apartments') {return apartmentsStyle}
+	else if (feature.properties.building == 'school') {return schoolStyle}
+	else if (feature.properties.building == 'Oways') {return OwaysStyle}
+	else if (feature.properties.building == 'Eways') {return EwaysStyle}
+	else if (feature.properties.building == 'Ebuildings') {return EbuildingsStyle}
+	else if (feature.properties.building == 'garage') {return garageStyle}
+	else if (feature.properties.building == 'garages') {return garagesStyle}
+	else if (feature.properties.building == 'residential') {return residentialStyle}
+	else if (feature.properties.building == 'services') {return servicesStyle}
+	else if (feature.properties.building == 'yes') {return yesStyle}
+	else if (feature.properties.building == 'other') {return otherStyle}
+	else if (feature.properties.building == 'roads') {return roadsStyle}
+	else {return otherStyle}
 }
 
 function getXML(query, lyrControl){
@@ -49,12 +62,10 @@ function getXML(query, lyrControl){
         	var overpassGJ = osmtogeojson(response);
 
 		var newLayer = L.geoJSON(overpassGJ, {
-			style: function(feature){
-				if (feature.properties.building == 'house') {return houseStyle}
-				else if (feature.properties.building == 'apartments') {return apartmentsStyle}
-				else if (feature.properties.building == 'school') {return schoolStyle}
-				else {return otherStyle}
-			},
+			style: addStyle,
+			onEachFeature: function(feature, layer) {
+				addPopUp(feature,layer);
+			}
 			onEachFeature: function(feature, layer) {
 				addPopUp(feature,layer);
 			}
