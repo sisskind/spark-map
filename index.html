@@ -195,9 +195,11 @@
 			let x = e.latlng.toString();
 			let lat = x.lastIndexOf(',');
 			if( x[0:1-lat] > 90 || x[0:1-lat] < -90) {
-				alert("Error in latitude"); }
+				alert("Error in latitude"); 
+				console.log("Error: Not a valid coordinate"); }
 			elif( x[2+lat:x.length] > 180 || x[2+lat:x.length] < -180 ) {
-				alert("Error in longitude"); }
+				alert("Error in longitude");
+				console.log("Error: Not a valid coordinate"); }
 			else {
 				console.log(x); }
 				
