@@ -191,18 +191,15 @@
 		var control = new L.Control.Button()
 		control.addTo(map);
 
-		function onMapClick(e) {			
-			let x = e.latlng.toString();
-			let lat = x.lastIndexOf(',');
-			if( x[0:1-lat] > 90 || x[0:1-lat] < -90) {
-				alert("Error in latitude"); 
-				console.log("Error: Not a valid coordinate"); }
-			elif( x[2+lat:x.length] > 180 || x[2+lat:x.length] < -180 ) {
-				alert("Error in longitude");
-				console.log("Error: Not a valid coordinate"); }
+		function onMapClick(e) {
+			if( e.latlng.lat > 90 || e.latlng.lat < -90) {
+				alert("Error in latitude");
+				console.log("Error: not a valid coordinate"); }
+			elif( e.latlng.lng > 180 || e.latlng.lng < -180) {
+				alert("Error in longitude"); 
+				console.log("Error: not a valid coordinate"); }
 			else {
-				console.log(x); }
-				
+				console.log(e.latlng.toString()) }
 		}
 
 	</script>
