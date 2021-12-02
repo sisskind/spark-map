@@ -48,23 +48,6 @@
 
 		var esriImagery = L.tileLayer('https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/16749/{z}/{y}/{x}').addTo(map);
 
-		// Add buildings layer
-		var buildingsLayer = L.geoJSON(null, {
-			// Change the style based on property
-			style: function(feature) {
-				if (feature.properties.building == 'house') {
-					return buildingsStyle
-				} else if (feature.properties.builing == 'school') {
-					return buildingsStyle
-				} else {
-					return otherStyle
-				}
-			},
-			onEachFeature: function(feature, layer) {
-				addPopUp(feature,layer);
-			}
-		});
-
 		$.getJSON(buildingsURL, function(data){
 			buildingsLayer.addData(data).addTo(map);
 		})
@@ -147,7 +130,6 @@
 		//L.control.layers(baseMaps, overlayMaps).addTo(map);
 
 		// Let's add a button to go to OpenStreetMap using the visual extent
-		// Let's add a button to go to OpenStreetMap using the visual extent
 		L.Control.Button = L.Control.extend({
 		    options: {
 		        position: 'topleft'
@@ -171,11 +153,11 @@
 		        	} else {
 			        	var query = window.prompt("What do you want to query?",'["building"="yes"]');
 			        	if (query == null || query == "") {
-			        		//user cancelled
+			        		alert("there is nothing here to query");
 			        	} else {
-								var bounds = map.getBounds();
-								var overpassURL = `https://overpass-api.de/api/interpreter?data=[timeout:25];(way${query}(${bounds._southWest.lat},${bounds._southWest.lng},${bounds._northEast.lat},${bounds._northEast.lng});); out body;>;out skel qt;`
-				        		var outdata = getXML(overpassURL, layerControl);
+						var bounds = map.getBounds();
+						var overpassURL = `https://overpass-api.de/api/interpreter?data=[timeout:25];(way${query}(${bounds._southWest.lat},${bounds._southWest.lng},${bounds._northEast.lat},${bounds._northEast.lng});); out body;>;out skel qt;`
+				        	var outdata = getXML(overpassURL, layerControl);
 				        	}
 		        	}
 		        });
