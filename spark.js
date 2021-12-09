@@ -58,7 +58,7 @@ function getXML(query, lyrControl){
         	var overpassGJ = osmtogeojson(response);
 
 		var newLayer = L.geoJSON(overpassGJ, {
-			style: addStyle
+			style: addStyle,
 			onEachFeature: function(feature, layer) {
 				addPopUp(feature,layer);
 			}
