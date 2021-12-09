@@ -25,6 +25,7 @@
 		<script src="data/teamE-buildings.geojson" type="text/javascript"></script>
 		<script src="osmtogeojson.js" type="text/javascript"></script>
 		<script src="spark.js" type="text/javascript"></script>
+		<script src="style/styles.js" type="text/javascript"></script>
 	<script type="text/javascript">
 
 		/* Map Variables */
@@ -181,30 +182,59 @@
 		        });
 
 		        button2.innerHTML = '<img style="max-width:100%; max-height:100%" src="img/overpass.png">';		  
-
-		        container.title = "View on OpenStreetMap";
 			    
-			var button3 = L.DomUtil.create('a', 'leaflet-control-button', container);
-		        L.DomEvent.disableClickPropagation(button2);
+				var button3 = L.DomUtil.create('a', 'leaflet-control-button', container);
+		        L.DomEvent.disableClickPropagation(button3);
 		        L.DomEvent.on(button3, 'click', function(){
-				let n = window.prompt("What is the name of this new style?",'["tagStyle"]');
-				let c = window.prompt("What is the color of this new style?",'["tagStyle"]');
-				let w = window.prompt(<input type="range" min="1" max="10" value="5" />);
-				let o = window.prompt(<input type="range" min="0" max="1" value="0.9" />);
-				
-				let style = addStyle(n,c,w,o)
-							 
-			}
+					let c = window.prompt("What is the color of this new style? Enter either HTML Color or Hex Code.",'["tagStyle"]');
+					let w = window.prompt("What is the weight of the line for the style? Enter a value between 1-10.","5");
+					let o = window.prompt("What is the opacity of the line for the style? Enter a value between 0-1.","0.5");
+					
+					// Check values
+					let validW, validO = false;
 
-		        return container;
-		    },
+					if(isNaN(w)){
+						alert("You did not enter a valid input for style weight. Please try again.")
+					} else {
+						if (between(parseInt(w),0,10)) {
+							validW = true;
+						} else {
+							alert("Please enter a value between 0 and 10 for style weight.");
+						}
+					}
+
+					if(isNaN(o)){
+						alert("You did not enter a valid input for style opacity. Please try again.");
+					} else {
+						if (between(parseInt(o),0,1)) {
+							validO = true;
+						} else {
+							alert("Please enter a value between 0 and 10 for style opacity.");
+						}
+					}
+
+					if (validO && validW) {
+						createStyle(c,parseInt(w),parseInt(o));
+					}
+				});
+		
+			button3.innerHTML = '<img style="max-width:100%; max-height:100%" src="img/overpass.png">';
+
+			return container;
+ 		    },
 		    onRemove: function(map) {},
 		});
+		
 		var control = new L.Control.Button()
-		control.addTo(map);
+		control.addTo(map);		  
 
+		
 		function onMapClick(e) {			
 			console.log(e.latlng.toString());
+		}
+
+		function between(x, min, max) {
+  			return x >= min && x <= max;
 		}
 
 	</script>

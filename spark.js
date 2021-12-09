@@ -28,12 +28,19 @@ function addPopUp(feature, layer){
 		    layer.bindPopup(popupTxt);
 }
 
-function addStyle(n,c,w,o){
-	let name = {
+function createStyle(c,w,o){
+	let overpassStyle = {
 		color: c,
 		weight: w,
-		opacity = c
+		opacity: o
+	}
+
+	styleList.overpassStyle = overpassStyle;
 }	
+
+function addStyle(feature,layer) {
+	return styleList.overpassStyle;
+}
 
 function getXML(query, lyrControl){
 	var output = "";
@@ -52,12 +59,7 @@ function getXML(query, lyrControl){
         	var overpassGJ = osmtogeojson(response);
 
 		var newLayer = L.geoJSON(overpassGJ, {
-			style: function(feature){
-				if (feature.properties.building == 'house') {return houseStyle}
-				else if (feature.properties.building == 'apartments') {return apartmentsStyle}
-				else if (feature.properties.building == 'school') {return schoolStyle}
-				else {return otherStyle}
-			},
+			style: addStyle,
 			onEachFeature: function(feature, layer) {
 				addPopUp(feature,layer);
 			}
@@ -75,82 +77,3 @@ function getXML(query, lyrControl){
     	}
 	});
 }
-
-
-// List of styles
-var buildingsStyle = {
-	color: "#E22B2B", 
-	weight: 5, 
-	opacity: 0.70
-};
-
-var otherStyle = {
-	color: "#FFFF00", 
-	weight: 5, 
-	opacity: 0.5
-};
-
-var OwaysStyle = {
-	color: "#E22B2B", 
-	weight: 5, 
-	opacity: 0.70
-};
-
-var EwaysStyle = {
-	color: "#38f5a3", 
-	weight: 5, 
-	opacity: 0.70
-};
-
-var EbuildingsStyle = {
-	color: "#E22B2B", 
-	weight: 5, 
-	opacity: 0.70
-};
-
-var schoolStyle = {
-	color: "#15cf5c", 
-	weight: 5, 
-	opacity: 0.70
-};
-
-var houseStyle = {
-	color: "#6f15cf", 
-	weight: 5, 
-	opacity: 0.70
-};
-	
-var apartmentsStyle = {
-	color: "#8a427f", 
-	weight: 5, 
-	opacity: 0.70}
-	
-var garageStyle = {
-	color: "#42898a", 
-	weight: 5, 
-	opacity: 0.70
-};
-
-var garagesStyle = {
-	color: "#c9400e", 
-	weight: 5, 
-	opacity: 0.70
-};
-
-var yesStyle = {
-	color: "#edf505", 
-	weight: 5, 
-	opacity: 0.70
-};
-
-var residentialStyle = {
-	color: "#24ff5e",
-	weight: 5,
-	opactiy: 0.70
-};	
-
-var serviceStyle = {
-	color: "#ff7621",
-	weight: 5,
-	opacity: 0.70
-};
