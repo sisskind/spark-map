@@ -49,7 +49,7 @@ function getXML(query, lyrControl){
         dataType: "xml",
 
         error: function (e) {
-            alert("An error occurred while processing XML file");
+            alert("A " + e.status + " error occurred while processing your request! The error is: " + e.statusText + ".")
             console.log("XML reading Failed: ", e);
         },
 
