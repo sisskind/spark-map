@@ -56,23 +56,25 @@ function getXML(query, lyrControl){
         success: function (response) {
         	output = response;
         	var overpassGJ = osmtogeojson(response);
+        	if(overpassGJ.features.length == 0) {
+        		alert("Your query did not return any results!")
+        	} else {
+        		var newLayer = L.geoJSON(overpassGJ, {
+        			style: addStyle,
+        			onEachFeature: function(feature, layer) {
+        				addPopUp(feature, layer);
+        			}
+        		});
 
-		var newLayer = L.geoJSON(overpassGJ, {
-			style: addStyle,
-			onEachFeature: function(feature, layer) {
-				addPopUp(feature,layer);
-			}
-		});
+		        /* If using gjLayerGroup, clear layers before adding the new one */
+				//lyrControl.clearLayers();
+				//lyrControl.addLayer(newLayer);
 
-		/* If using gjLayerGroup, clear layers before adding the new one */
-		//lyrControl.clearLayers();
-		//lyrControl.addLayer(newLayer);
-
-		/* If adding the layer to the map, be sure to give it a name! */
-		
-		lyrControl.addOverlay(newLayer, "Overpass Query");
-       
-
+				/* If adding the layer to the map, be sure to give it a name! */
+				
+				lyrControl.addOverlay(newLayer, "Overpass Query");
+				alert("Your layer has been added to the map!");
+        	}
     	}
 	});
 }
