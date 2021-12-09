@@ -51,82 +51,10 @@
 
 		var mapboxImagery = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA').addTo(map);
 		
-		// Add buildings layer
-		var buildingsLayer = L.geoJSON(null, {
-			// Change the style based on property
-			style: function(feature) {
-				if (feature.properties.building == 'house') {
-					return buildingsStyle
-				} else if (feature.properties.builing == 'school') {
-					return buildingsStyle
-				} else {
-					return otherStyle
-				}
-			},
-			onEachFeature: function(feature, layer) {
-				addPopUp(feature,layer);
-			}
-		});
-
-		$.getJSON(buildingsURL, function(data){
-			buildingsLayer.addData(data).addTo(map);
-		})
-
-		// Add ways layer
-		var OwaysLayer = L.geoJSON(null, {
-			style: OwaysStyle,
-			onEachFeature: function(feature, layer) {
-				addPopUp(feature,layer);
-			}
-		});
-
-		$.getJSON(OwaysURL, function(data){
-			OwaysLayer.addData(data).addTo(map);
-			
-		});
-
-		// Add ways layer
-		var EwaysLayer = L.geoJSON(null, {
-			style: EwaysStyle,
-			onEachFeature: function(feature, layer) {
-				addPopUp(feature,layer);
-			}
-		});
-
-		$.getJSON(EwaysURL, function(data){
-			EwaysLayer.addData(data).addTo(map);
-		});
-		
-		
-		// Add ways layer
-		var EbuildingsLayer = L.geoJSON(null, {
-		
-		 style: function(feature) {
-			if (feature.properties.building == 'school') {
-		 		return schoolStyle
-		 	} else if (feature.properties.builing == 'house') {
-		 		return houseStyle
-			} else if (feature.properties.builing == 'apartments') {
-		 		return apartmentsStyle
-			} else if (feature.properties.builing == 'garage') {
-		 		return garageStyle
-			} else if (feature.properties.builing == 'garages') {
-		 		return garagesStyle
-			} else if (feature.properties.builing == 'yes') {
-		 		return yesStyle
-		 	} else {
-				return otherStyle
-			}
-		 },
-			onEachFeature: function(feature, layer) {
-				addPopUp(feature,layer);
-			}
-		});
-
-		$.getJSON(EbuildingsURL, function(data){
-			EbuildingsLayer.addData(data).addTo(map);
-		})
-		
+		var buildingsLayer = addGJLayer(buildingsURL);
+		var OwaysLayer = addGJLayer(OwaysURL);
+		var EwaysLayer = addGJLayer(EwaysURL);
+		var EbuildingsLayer = addGJLayer(EbuildingsURL);
 
 		// Add the layers to their layer group
 		var baseMaps = {

@@ -33,12 +33,39 @@ function addStyle(feature, layer){
 		if (feature.properties.building == 'house') {return houseStyle}
 		else if (feature.properties.building == 'apartments') {return apartmentsStyle}
 		else if (feature.properties.building == 'school') {return schoolStyle}
-		else {return otherStyle}
+		else if (feature.properties.building == 'garage') {return garageStyle}
+		else if (feature.properties.building == 'garages') {return garagesStyle}
+		else if (feature.properties.building == 'residential') {return residentialStyle}	
+		else if (feature.properties.building == 'service') {return serviceStyle}
+		else {return buildingsStyle}
+	} else {
+		return otherStyle
 	}
 
 	if (feature.properties.highway){
 		if (feature.properties.highway == 'railway') {return railwayStyle}
+		else {return OwaysStyle}
 	}
+	else {
+		return otherStyle
+	}
+
+}
+
+function addGJLayer(GJson) {
+	// Add buildings layer
+		var newLayer = L.geoJSON(null, {
+			style: addStyle,
+			onEachFeature: function(feature, layer) {
+				addPopUp(feature,layer);
+			}
+		});
+
+		$.getJSON(GJson, function(data){
+			newLayer.addData(data).addTo(map);
+		});
+
+		return newLayer;
 }
 
 function getXML(query, lyrControl){
@@ -64,7 +91,7 @@ function getXML(query, lyrControl){
         			onEachFeature: function(feature, layer) {
         				addPopUp(feature, layer);
         			}
-        		});
+        		}).addTo(map);
 
 		        /* If using gjLayerGroup, clear layers before adding the new one */
 				//lyrControl.clearLayers();
@@ -79,8 +106,6 @@ function getXML(query, lyrControl){
 	});
 }
 
-
-// List of styles
 var buildingsStyle = {
 	color: "#E22B2B", 
 	weight: 5, 
@@ -156,10 +181,4 @@ var serviceStyle = {
 	color: "#ff7621",
 	weight: 5,
 	opacity: 0.70
-};
-
-var railwayStyle = {
- 	color: "SaddleBrown", 
- 	weight: 5, 
- 	opacity: 0.5
 };
