@@ -39,7 +39,7 @@
 		// Create the map variable
 		var map = L.map('map')
 			.setView([38.6836, -90.1923], 12)
-			.on('click', onMapClick);
+			.on('contextmenu', onRightClick);
 
 		// Add OSM Tile Layer
 		var osmTiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -191,13 +191,15 @@
 		var control = new L.Control.Button()
 		control.addTo(map);
 
-		function onMapClick(e) {
+		function onRightClick(e) {
 			if( e.latlng.lat > 90 || e.latlng.lat < -90) {
 				alert("Error in latitude");
-				console.log("Error: not a valid coordinate"); }
-			elif( e.latlng.lng > 180 || e.latlng.lng < -180) {
+				console.log("Error: not a valid coordinate");
+			}
+			else if( e.latlng.lng > 180 || e.latlng.lng < -180) {
 				alert("Error in longitude"); 
-				console.log("Error: not a valid coordinate"); }
+				console.log("Error: not a valid coordinate"); 
+			}
 			else {
 				console.log(e.latlng.toString()) }
 		}
