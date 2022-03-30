@@ -1,190 +1,190 @@
 function addPopUp(feature, layer){
-			var popupTxt = "";
-			var osmURL = ""
+	var popupTxt = "";
+	var osmURL = ""
 
-		    // does this feature have a property named id?
-		    if (feature.properties && feature.properties['@id']) {
-		    	// Excellent! We can now link directly to the feature
-		    	featureID = feature.properties['@id'];
-		    	osmURL = `https://www.openstreetmap.org/${featureID}`
-		    	popupTxt = `<b>OSM ${featureID.split('/')[0]} ID: ${featureID.split('/')[1]}</b>`;
-		    } else if (feature.properties && feature.properties['id']) {
-		    	// Excellent! We can now link directly to the feature
-		    	featureID = feature.properties['id'];
-		    	osmURL = `https://www.openstreetmap.org/${featureID}`
-		    	popupTxt = `<b>OSM ${featureID.split('/')[0]} ID: ${featureID.split('/')[1]}</b>`;
-		    } else if (feature.properties && feature.geometry.coordinates) {
-		    	// Since we don't have the ID, let's try for the centroid of the feature
-		    	var centroid;
-		    	if (feature.geometry.type === 'Polygon') {
-		    		centroid = turf.centroid(feature).geometry.coordinates;
-		    	}
-		    	osmURL = `https://www.openstreetmap.org/edit/#map=${map.getZoom()}/${centroid[0]}/${centroid[0]}`;
-		    }
+	// does this feature have a property named id?
+	if (feature.properties && feature.properties['@id']) {
+		// Excellent! We can now link directly to the feature
+		featureID = feature.properties['@id'];
+		osmURL = `https://www.openstreetmap.org/${featureID}`
+		popupTxt = `<b>OSM ${featureID.split('/')[0]} ID: ${featureID.split('/')[1]}</b>`;
+	} else if (feature.properties && feature.properties['id']) {
+		// Excellent! We can now link directly to the feature
+		featureID = feature.properties['id'];
+		osmURL = `https://www.openstreetmap.org/${featureID}`
+		popupTxt = `<b>OSM ${featureID.split('/')[0]} ID: ${featureID.split('/')[1]}</b>`;
+	} else if (feature.properties && feature.geometry.coordinates) {
+		// Since we don't have the ID, let's try for the centroid of the feature
+		var centroid;
+		if (feature.geometry.type === 'Polygon') {
+			centroid = turf.centroid(feature).geometry.coordinates;
+		}
+		osmURL = `https://www.openstreetmap.org/edit/#map=${map.getZoom()}/${centroid[0]}/${centroid[0]}`;
+	}
 
-		    // Try to get the name of the feature
-			if (feature.properties && feature.properties.name) {
-				popupTxt = `<b>${feature.properties.name}</b>`;
-			}
+	// Try to get the name of the feature
+	if (feature.properties && feature.properties.name) {
+		popupTxt = `<b>${feature.properties.name}</b>`;
+	}
 
 
-		    if (osmURL != "") {
-		    	popupTxt += `</br></br>View this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
-		    }
-		    layer.bindPopup(popupTxt);
+	if (osmURL != "") {
+		popupTxt += `</br></br>View this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
+	}
+	layer.bindPopup(popupTxt);
 }
 
 function addStyle(feature, layer){
-	if (feature.properties.building) {
-		if (feature.properties.building == 'house') {return houseStyle}
-		else if (feature.properties.building == 'apartments') {return apartmentsStyle}
-		else if (feature.properties.building == 'school') {return schoolStyle}
-		else if (feature.properties.building == 'garage') {return garageStyle}
-		else if (feature.properties.building == 'garages') {return garagesStyle}
-		else if (feature.properties.building == 'residential') {return residentialStyle}	
-		else if (feature.properties.building == 'service') {return serviceStyle}
-		else {return buildingsStyle}
-	} else {
-		return otherStyle
-	}
+if (feature.properties.building) {
+if (feature.properties.building == 'house') {return houseStyle}
+else if (feature.properties.building == 'apartments') {return apartmentsStyle}
+else if (feature.properties.building == 'school') {return schoolStyle}
+else if (feature.properties.building == 'garage') {return garageStyle}
+else if (feature.properties.building == 'garages') {return garagesStyle}
+else if (feature.properties.building == 'residential') {return residentialStyle}	
+else if (feature.properties.building == 'service') {return serviceStyle}
+else {return buildingsStyle}
+} else {
+return otherStyle
+}
 
-	if (feature.properties.highway){
-		if (feature.properties.highway == 'railway') {return railwayStyle}
-		else {return OwaysStyle}
-	}
-	else {
-		return otherStyle
-	}
+if (feature.properties.highway){
+if (feature.properties.highway == 'railway') {return railwayStyle}
+else {return OwaysStyle}
+}
+else {
+return otherStyle
+}
 
 }
 
 function addGJLayer(GJson) {
-	// Add buildings layer
-		var newLayer = L.geoJSON(null, {
-			style: addStyle,
-			onEachFeature: function(feature, layer) {
-				addPopUp(feature,layer);
-			}
-		});
+// Add buildings layer
+var newLayer = L.geoJSON(null, {
+	style: addStyle,
+	onEachFeature: function(feature, layer) {
+		addPopUp(feature,layer);
+	}
+});
 
-		$.getJSON(GJson, function(data){
-			newLayer.addData(data).addTo(map);
-		});
+$.getJSON(GJson, function(data){
+	newLayer.addData(data).addTo(map);
+});
 
-		return newLayer;
+return newLayer;
 }
 
 function getXML(query, lyrControl){
-	var output = "";
-    $.ajax({
-        type: "GET",
-        url: query,
-        dataType: "xml",
+var output = "";
+$.ajax({
+type: "GET",
+url: query,
+dataType: "xml",
 
-        error: function (e) {
-            alert("A " + e.status + " error occurred while processing your request! The error is: " + e.statusText + ".")
-            console.log("XML reading Failed: ", e);
-        },
+error: function (e) {
+	alert("A " + e.status + " error occurred while processing your request! The error is: " + e.statusText + ".")
+	console.log("XML reading Failed: ", e);
+},
 
-        success: function (response) {
-        	output = response;
-        	var overpassGJ = osmtogeojson(response);
-        	if(overpassGJ.features.length == 0) {
-        		alert("Your query did not return any results!")
-        	} else {
-        		var newLayer = L.geoJSON(overpassGJ, {
-        			style: addStyle,
-        			onEachFeature: function(feature, layer) {
-        				addPopUp(feature, layer);
-        			}
-        		}).addTo(map);
+success: function (response) {
+	output = response;
+	var overpassGJ = osmtogeojson(response);
+	if(overpassGJ.features.length == 0) {
+		alert("Your query did not return any results!")
+	} else {
+		var newLayer = L.geoJSON(overpassGJ, {
+			style: addStyle,
+			onEachFeature: function(feature, layer) {
+				addPopUp(feature, layer);
+			}
+		}).addTo(map);
 
-		        /* If using gjLayerGroup, clear layers before adding the new one */
-				//lyrControl.clearLayers();
-				//lyrControl.addLayer(newLayer);
+		/* If using gjLayerGroup, clear layers before adding the new one */
+		//lyrControl.clearLayers();
+		//lyrControl.addLayer(newLayer);
 
-				/* If adding the layer to the map, be sure to give it a name! */
-				
-				lyrControl.addOverlay(newLayer, "Overpass Query");
-				alert("Your layer has been added to the map!");
-        	}
-    	}
-	});
+		/* If adding the layer to the map, be sure to give it a name! */
+		
+		lyrControl.addOverlay(newLayer, "Overpass Query");
+		alert("Your layer has been added to the map!");
+	}
+}
+});
 }
 
 var buildingsStyle = {
-	color: "#E22B2B", 
-	weight: 5, 
-	opacity: 0.70
+color: "#E22B2B", 
+weight: 5, 
+opacity: 0.70
 };
 
 var otherStyle = {
-	color: "#FFFF00", 
-	weight: 5, 
-	opacity: 0.5
+color: "#FFFF00", 
+weight: 5, 
+opacity: 0.5
 };
 
 var OwaysStyle = {
-	color: "#E22B2B", 
-	weight: 5, 
-	opacity: 0.70
+color: "#E22B2B", 
+weight: 5, 
+opacity: 0.70
 };
 
 var EwaysStyle = {
-	color: "#38f5a3", 
-	weight: 5, 
-	opacity: 0.70
+color: "#38f5a3", 
+weight: 5, 
+opacity: 0.70
 };
 
 var EbuildingsStyle = {
-	color: "#E22B2B", 
-	weight: 5, 
-	opacity: 0.70
+color: "#E22B2B", 
+weight: 5, 
+opacity: 0.70
 };
 
 var schoolStyle = {
-	color: "#15cf5c", 
-	weight: 5, 
-	opacity: 0.70
+color: "#15cf5c", 
+weight: 5, 
+opacity: 0.70
 };
 
 var houseStyle = {
-	color: "#6f15cf", 
-	weight: 5, 
-	opacity: 0.70
+color: "#6f15cf", 
+weight: 5, 
+opacity: 0.70
 };
-	
+
 var apartmentsStyle = {
-	color: "#8a427f", 
-	weight: 5, 
-	opacity: 0.70}
-	
+color: "#8a427f", 
+weight: 5, 
+opacity: 0.70}
+
 var garageStyle = {
-	color: "#42898a", 
-	weight: 5, 
-	opacity: 0.70
+color: "#42898a", 
+weight: 5, 
+opacity: 0.70
 };
 
 var garagesStyle = {
-	color: "#c9400e", 
-	weight: 5, 
-	opacity: 0.70
+color: "#c9400e", 
+weight: 5, 
+opacity: 0.70
 };
 
 var yesStyle = {
-	color: "#edf505", 
-	weight: 5, 
-	opacity: 0.70
+color: "#edf505", 
+weight: 5, 
+opacity: 0.70
 };
 
 var residentialStyle = {
-	color: "#24ff5e",
-	weight: 5,
-	opactiy: 0.70
+color: "#24ff5e",
+weight: 5,
+opactiy: 0.70
 };	
 
 var serviceStyle = {
-	color: "#ff7621",
-	weight: 5,
-	opacity: 0.70
+color: "#ff7621",
+weight: 5,
+opacity: 0.70
 };
