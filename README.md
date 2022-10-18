@@ -1,13 +1,14 @@
 # spark-map
-Web map template using Leaflet
+[Web map](https://spark-stl-geo.github.io/spark-map) template using Leaflet
 
-https://sisskind.github.io/spark-map
+All data is (c)[OpenStreetMap](https://openstreetmap.org) Contributors
 
 ## Helpful Resources:
-* (https://www.leafletjs.com "Leaflet")
-* (https://www.w3schools.com/html/ "HTML")
-* (https://www.geojson.io "GeoJSON.io")
-* (https://www.w3schools.com/js/default.asp "JavaScript")
+* [Leaflet](https://www.leafletjs.com)
+* [HTML](https://www.w3schools.com/html/)
+* [GeoJSON.io](https://www.geojson.io)
+* [JavaScript](https://www.w3schools.com/js/default.asp)
+* [Overpass API](http://www.overpass-api.de/)
 
 ### Overpass Query for User-Created Features
 ```
