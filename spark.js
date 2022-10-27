@@ -1,4 +1,4 @@
-function addPopUp`<b>You clicked a <i>feature</i></b>`{
+function addPopUp(feature, layer){
 	var popupTxt = "";
 	var osmURL = ""
 
@@ -24,12 +24,12 @@ function addPopUp`<b>You clicked a <i>feature</i></b>`{
 
 	// Try to get the name of the feature
 	if (feature.properties && feature.properties.name) {
-		popupTxt = `<b>Hi<i>Smile</i></b>`;
+		popupTxt = `<b>${feature.properties.name}</b>`;
 	}
 
 
 	if (osmURL != "") {
-		popupTxt += `<b>You clicked a <i>feature</i></b>`
+		popupTxt += `</br></br>it is jaedyn look on this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
 	}
 	layer.bindPopup(popupTxt);
 }
