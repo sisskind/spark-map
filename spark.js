@@ -28,8 +28,8 @@ function addPopUp(feature, layer){
 	}
 
 
-	if (osmURL != "") {
-		popupTxt += `</br></br>View this feature on <a target="_blank" href=${osmURL}>OSM</a>!`
+	if (osmURL != "https://www.openstreetmap.org/way/477732026") {
+		popupTxt += `</br></br><b>View this <i>movie theater<i> on <a target="_blank" href=${osmURL}>OSM</a>!<b>`
 	}
 	layer.bindPopup(popupTxt);
 }
@@ -115,7 +115,7 @@ success: function (response) {
 var buildingsStyle = {
 color: "#E22B2B", 
 weight: 5, 
-opacity: 0.70
+opacity: 0.85
 };
 
 var otherStyle = {
