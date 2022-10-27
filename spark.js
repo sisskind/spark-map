@@ -28,7 +28,7 @@ function addPopUp(feature, layer){
 	}
 
 
-	if (osmURL != "https://www.openstreetmap.org/way/477732026") {
+	if (osmURL != "") {
 		popupTxt += `</br></br><b>View this <i>movie theater<i> on <a target="_blank" href=${osmURL}>OSM</a>!<b>`
 	}
 	layer.bindPopup(popupTxt);
