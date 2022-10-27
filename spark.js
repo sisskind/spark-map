@@ -1,4 +1,4 @@
-function addPopUp(feature, layer){
+function addPopUp`<b>You clicked a <i>feature</i></b>`{
 	var popupTxt = "";
 	var osmURL = ""
 
