@@ -43,6 +43,7 @@ else if (feature.properties.building == 'garage') {return garageStyle}
 else if (feature.properties.building == 'garages') {return garagesStyle}
 else if (feature.properties.building == 'residential') {return residentialStyle}	
 else if (feature.properties.building == 'service') {return serviceStyle}
+else if (feature.properties.amenities == 'cinema') {return buildingsStyle}
 else {return buildingsStyle}
 } else {
 return otherStyle
@@ -113,7 +114,7 @@ success: function (response) {
 }
 
 var buildingsStyle = {
-color: "#E22B2B", 
+color: "#82f1f8", 
 weight: 5, 
 opacity: 0.85
 };
