@@ -113,37 +113,37 @@ success: function (response) {
 }
 
 var buildingsStyle = {
-color: "#E22B2B", 
+color: "#FA8072", 
 weight: 5, 
 opacity: 0.70
 };
 
 var otherStyle = {
-color: "#FFFF00", 
+color: "#FA8072", 
 weight: 5, 
 opacity: 0.5
 };
 
 var OwaysStyle = {
-color: "#E22B2B", 
+color: "#FA8072", 
 weight: 5, 
 opacity: 0.70
 };
 
 var EwaysStyle = {
-color: "#38f5a3", 
+color: "#FA8072", 
 weight: 5, 
 opacity: 0.70
 };
 
 var EbuildingsStyle = {
-color: "#E22B2B", 
+color: "#FA8072", 
 weight: 5, 
 opacity: 0.70
 };
 
 var schoolStyle = {
-color: "#15cf5c", 
+color: "#FA8072", 
 weight: 5, 
 opacity: 0.70
 };
