@@ -43,9 +43,11 @@ else if (feature.properties.building == 'garage') {return garageStyle}
 else if (feature.properties.building == 'garages') {return garagesStyle}
 else if (feature.properties.building == 'residential') {return residentialStyle}	
 else if(feature.properties.building == 'service') {return serviceStyle}
-else{return buildingStyle}
-}else{return otherStyle}
+else {return buildingStyle}
+} else {
+return otherStyle
 }
+
 
 if (feature.properties.highway){
 if (feature.properties.highway == 'railway') {return railwayStyle}
