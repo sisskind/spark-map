@@ -42,9 +42,7 @@ else if (feature.properties.building == 'school') {return schoolStyle}
 else if (feature.properties.building == 'garage') {return garageStyle}
 else if (feature.properties.building == 'garages') {return garagesStyle}
 else if (feature.properties.building == 'residential') {return residentialStyle}	
-else if (feature.properties.building == 'service') {return serviceStyle}	 
-} else {
-return otherStyle
+else(feature.properties.building == 'service') {return serviceStyle}
 }
 
 if (feature.properties.highway){
