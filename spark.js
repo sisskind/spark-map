@@ -118,9 +118,9 @@ opacity: 0.85
 };
 
 var otherStyle = {
-color: "#FFFF00", 
+color: "#82f1f8", 
 weight: 5, 
-opacity: 0.5
+opacity: 0.85
 };
 
 var OwaysStyle = {
