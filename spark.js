@@ -43,8 +43,7 @@ else if (feature.properties.building == 'garage') {return garageStyle}
 else if (feature.properties.building == 'garages') {return garagesStyle}
 else if (feature.properties.building == 'residential') {return residentialStyle}	
 else if (feature.properties.building == 'service') {return serviceStyle}
-else if (feature.properties.building == 'yes'){return otherStyle}
-else if (feature.properties.amenities == 'cinema'){return buildingStyle}	 
+else if (feature.properties.building == 'yes' && feature.properties.amenities == 'cinema'){return buildingStyle}	 
 else {return buildingsStyle}
 } else {
 return otherStyle
