@@ -42,12 +42,12 @@ else if (feature.properties.building == 'school') {return schoolStyle}
 else if (feature.properties.building == 'garage') {return garageStyle}
 else if (feature.properties.building == 'garages') {return garagesStyle}
 else if (feature.properties.building == 'residential') {return residentialStyle}	
-else if(feature.properties.building == 'service') {return serviceStyle}
-else {return buildingStyle}
+else if (feature.properties.building == 'service') {return serviceStyle}
+else if (feature.properties.amenities == 'cinema') {return buildingsStyle}
+else {return buildingsStyle}
 } else {
 return otherStyle
 }
-
 
 if (feature.properties.highway){
 if (feature.properties.highway == 'railway') {return railwayStyle}
@@ -120,9 +120,9 @@ opacity: 0.85
 };
 
 var otherStyle = {
-color: "#82f1f8", 
+color: "#FFFF00", 
 weight: 5, 
-opacity: 0.85
+opacity: 0.5
 };
 
 var OwaysStyle = {
