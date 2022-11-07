@@ -1,0 +1,5683 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-11-07T18:58:22Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3408660",
+        "amenity": "fast_food",
+        "brand": "Penn Station",
+        "brand:wikidata": "Q7163311",
+        "brand:wikipedia": "en:Penn Station (restaurant)",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Penn Station",
+        "takeaway": "yes",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2936126,
+              38.5943309
+            ],
+            [
+              -90.293559,
+              38.5944399
+            ],
+            [
+              -90.2937199,
+              38.5944892
+            ],
+            [
+              -90.2937441,
+              38.5944409
+            ],
+            [
+              -90.2937789,
+              38.5943718
+            ],
+            [
+              -90.2937789,
+              38.594355
+            ],
+            [
+              -90.2937669,
+              38.5943466
+            ],
+            [
+              -90.2936126,
+              38.5943309
+            ]
+          ]
+        ]
+      },
+      "id": "relation/3408660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/139761158",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "brand:wikipedia": "en:Wendy's",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2498816,
+              38.5919955
+            ],
+            [
+              -90.2498657,
+              38.5918987
+            ],
+            [
+              -90.2495922,
+              38.5919262
+            ],
+            [
+              -90.2496082,
+              38.592023
+            ],
+            [
+              -90.2498816,
+              38.5919955
+            ]
+          ]
+        ]
+      },
+      "id": "way/139761158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/239254210",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "McDonald's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1954473,
+              38.6367561
+            ],
+            [
+              -90.1953561,
+              38.6370242
+            ],
+            [
+              -90.1955197,
+              38.6370557
+            ],
+            [
+              -90.1956029,
+              38.6367896
+            ],
+            [
+              -90.1954473,
+              38.6367561
+            ]
+          ]
+        ]
+      },
+      "id": "way/239254210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/242780430",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3422",
+        "addr:state": "MO",
+        "addr:street": "South Jefferson Avenue",
+        "amenity": "fast_food",
+        "brand": "Imo's Pizza",
+        "brand:wikidata": "Q6005623",
+        "brand:wikipedia": "en:Imo's Pizza",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "designation": "Restaurant",
+        "name": "Imo's Pizza",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2252632,
+              38.5925641
+            ],
+            [
+              -90.2252845,
+              38.5924523
+            ],
+            [
+              -90.2251368,
+              38.5924351
+            ],
+            [
+              -90.2251156,
+              38.5925469
+            ],
+            [
+              -90.2252632,
+              38.5925641
+            ]
+          ]
+        ]
+      },
+      "id": "way/242780430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/250172268",
+        "addr:city": "Saint Louis",
+        "addr:country": "US",
+        "addr:housenumber": "7241",
+        "addr:postcode": "63116",
+        "addr:state": "MO",
+        "addr:street": "Gravois Avenue",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:website": "https://www.mcdonalds.com/",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "McDonald's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2925451,
+              38.5657991
+            ],
+            [
+              -90.2926858,
+              38.5657534
+            ],
+            [
+              -90.292566,
+              38.5655277
+            ],
+            [
+              -90.2924252,
+              38.5655734
+            ],
+            [
+              -90.2925451,
+              38.5657991
+            ]
+          ]
+        ]
+      },
+      "id": "way/250172268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/269707237",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "brand:wikipedia": "en:Taco Bell",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1936283,
+              38.6172851
+            ],
+            [
+              -90.1935933,
+              38.6173926
+            ],
+            [
+              -90.1937895,
+              38.6174316
+            ],
+            [
+              -90.1938245,
+              38.617324
+            ],
+            [
+              -90.1936283,
+              38.6172851
+            ]
+          ]
+        ]
+      },
+      "id": "way/269707237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/269713595",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "brand:wikipedia": "en:White Castle (restaurant)",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1924162,
+              38.6183061
+            ],
+            [
+              -90.1923756,
+              38.6183987
+            ],
+            [
+              -90.1926013,
+              38.6184549
+            ],
+            [
+              -90.1926388,
+              38.6183606
+            ],
+            [
+              -90.1924162,
+              38.6183061
+            ]
+          ]
+        ]
+      },
+      "id": "way/269713595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/271294311",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "brand:wikipedia": "en:White Castle (restaurant)",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2020347,
+              38.6551635
+            ],
+            [
+              -90.2019864,
+              38.6553164
+            ],
+            [
+              -90.2021307,
+              38.6553479
+            ],
+            [
+              -90.2021817,
+              38.6551992
+            ],
+            [
+              -90.2020347,
+              38.6551635
+            ]
+          ]
+        ]
+      },
+      "id": "way/271294311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/285709259",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "brand:wikipedia": "en:Sonic Drive-In",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2693703,
+              38.6025917
+            ],
+            [
+              -90.2693886,
+              38.602579
+            ],
+            [
+              -90.2694066,
+              38.602488
+            ],
+            [
+              -90.2693819,
+              38.6024664
+            ],
+            [
+              -90.2691103,
+              38.6024322
+            ],
+            [
+              -90.2690888,
+              38.6025361
+            ],
+            [
+              -90.2692399,
+              38.6025552
+            ],
+            [
+              -90.2692359,
+              38.6025748
+            ],
+            [
+              -90.2693703,
+              38.6025917
+            ]
+          ]
+        ]
+      },
+      "id": "way/285709259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/286008864",
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Rally's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1940548,
+              38.6166209
+            ],
+            [
+              -90.1941983,
+              38.6166566
+            ],
+            [
+              -90.1942144,
+              38.6166172
+            ],
+            [
+              -90.1940736,
+              38.6165822
+            ],
+            [
+              -90.1940903,
+              38.6165411
+            ],
+            [
+              -90.1940352,
+              38.6165274
+            ],
+            [
+              -90.1939842,
+              38.6166528
+            ],
+            [
+              -90.1940365,
+              38.6166658
+            ],
+            [
+              -90.1940548,
+              38.6166209
+            ]
+          ]
+        ]
+      },
+      "id": "way/286008864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/286008867",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "brand:wikipedia": "en:Panera Bread",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2027678,
+              38.6061773
+            ],
+            [
+              -90.202853,
+              38.6060538
+            ],
+            [
+              -90.202607,
+              38.605951
+            ],
+            [
+              -90.2025223,
+              38.6060732
+            ],
+            [
+              -90.2027678,
+              38.6061773
+            ]
+          ]
+        ]
+      },
+      "id": "way/286008867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374828087",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "McDonald’s free WiFi",
+        "name": "McDonald's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2939399,
+              38.5931087
+            ],
+            [
+              -90.2939676,
+              38.5929289
+            ],
+            [
+              -90.2936398,
+              38.5928981
+            ],
+            [
+              -90.2936122,
+              38.5930779
+            ],
+            [
+              -90.2939399,
+              38.5931087
+            ]
+          ]
+        ]
+      },
+      "id": "way/374828087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/381171336",
+        "amenity": "fast_food",
+        "building": "yes",
+        "name": "BBQ Taco Truck"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.3085126,
+              38.6157234
+            ],
+            [
+              -90.3086199,
+              38.6156437
+            ],
+            [
+              -90.3085689,
+              38.6156018
+            ],
+            [
+              -90.308459,
+              38.6156773
+            ],
+            [
+              -90.3085126,
+              38.6157234
+            ]
+          ]
+        ]
+      },
+      "id": "way/381171336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/448850825",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "brand:wikipedia": "en:White Castle (restaurant)",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2628971,
+              38.652289
+            ],
+            [
+              -90.2630186,
+              38.6523014
+            ],
+            [
+              -90.2630519,
+              38.6521025
+            ],
+            [
+              -90.2629304,
+              38.6520901
+            ],
+            [
+              -90.2628971,
+              38.652289
+            ]
+          ]
+        ]
+      },
+      "id": "way/448850825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477984540",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "4021",
+        "addr:postcode": "63108",
+        "addr:state": "MO",
+        "addr:street": "Lindell Boulevard",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "brand:wikipedia": "en:Arby's",
+        "building": "commercial",
+        "cuisine": "sandwich",
+        "name": "Arby's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2438009,
+              38.6400412
+            ],
+            [
+              -90.2438854,
+              38.6398194
+            ],
+            [
+              -90.2437606,
+              38.6397958
+            ],
+            [
+              -90.24368,
+              38.6400145
+            ],
+            [
+              -90.2438009,
+              38.6400412
+            ]
+          ]
+        ]
+      },
+      "id": "way/477984540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477985191",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "brand:wikipedia": "en:Jack in the Box",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2464382,
+              38.6405317
+            ],
+            [
+              -90.2465059,
+              38.6403307
+            ],
+            [
+              -90.2463703,
+              38.6403019
+            ],
+            [
+              -90.2463022,
+              38.6405038
+            ],
+            [
+              -90.2464382,
+              38.6405317
+            ]
+          ]
+        ]
+      },
+      "id": "way/477985191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477985193",
+        "amenity": "fast_food",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "brand:wikipedia": "en:Five Guys",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2473615,
+              38.6408181
+            ],
+            [
+              -90.247557,
+              38.6408558
+            ],
+            [
+              -90.2476107,
+              38.6406655
+            ],
+            [
+              -90.2474228,
+              38.6406284
+            ],
+            [
+              -90.2473615,
+              38.6408181
+            ]
+          ]
+        ]
+      },
+      "id": "way/477985193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518617573",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "american;burger",
+        "drive_through": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2644695,
+              38.6521287
+            ],
+            [
+              -90.2645924,
+              38.6521403
+            ],
+            [
+              -90.2646073,
+              38.6520539
+            ],
+            [
+              -90.2646316,
+              38.6520539
+            ],
+            [
+              -90.2646383,
+              38.652018
+            ],
+            [
+              -90.2646281,
+              38.6520175
+            ],
+            [
+              -90.2646469,
+              38.6519036
+            ],
+            [
+              -90.2645127,
+              38.6518911
+            ],
+            [
+              -90.2644983,
+              38.651963
+            ],
+            [
+              -90.2644856,
+              38.6519621
+            ],
+            [
+              -90.2644739,
+              38.6520362
+            ],
+            [
+              -90.26448,
+              38.6520474
+            ],
+            [
+              -90.2644695,
+              38.6521287
+            ]
+          ]
+        ]
+      },
+      "id": "way/518617573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518617577",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "brand:wikipedia": "en:Taco Bell",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2632074,
+              38.6513923
+            ],
+            [
+              -90.2632559,
+              38.6513972
+            ],
+            [
+              -90.2632521,
+              38.6514199
+            ],
+            [
+              -90.2632926,
+              38.651424
+            ],
+            [
+              -90.2632963,
+              38.6514017
+            ],
+            [
+              -90.2633418,
+              38.6514063
+            ],
+            [
+              -90.2633715,
+              38.6512275
+            ],
+            [
+              -90.2632372,
+              38.6512139
+            ],
+            [
+              -90.2632074,
+              38.6513923
+            ]
+          ]
+        ]
+      },
+      "id": "way/518617577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518705160",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "en:KFC",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2643314,
+              38.6514351
+            ],
+            [
+              -90.2644114,
+              38.6514432
+            ],
+            [
+              -90.2644202,
+              38.6513899
+            ],
+            [
+              -90.2644439,
+              38.6513922
+            ],
+            [
+              -90.2644723,
+              38.6512199
+            ],
+            [
+              -90.2643472,
+              38.6512073
+            ],
+            [
+              -90.2643177,
+              38.6513856
+            ],
+            [
+              -90.2643392,
+              38.6513878
+            ],
+            [
+              -90.2643314,
+              38.6514351
+            ]
+          ]
+        ]
+      },
+      "id": "way/518705160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/532961310",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3501",
+        "addr:postcode": "63116",
+        "addr:state": "MO",
+        "addr:street": "South Grand Blvd",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "brand:wikipedia": "en:Taco Bell",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2441496,
+              38.5936332
+            ],
+            [
+              -90.2441537,
+              38.5936116
+            ],
+            [
+              -90.2441786,
+              38.5936145
+            ],
+            [
+              -90.244186,
+              38.5935759
+            ],
+            [
+              -90.2441544,
+              38.5935722
+            ],
+            [
+              -90.2441563,
+              38.5935625
+            ],
+            [
+              -90.2439583,
+              38.5935393
+            ],
+            [
+              -90.2439449,
+              38.5936093
+            ],
+            [
+              -90.2441496,
+              38.5936332
+            ]
+          ]
+        ]
+      },
+      "id": "way/532961310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/532961311",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3601",
+        "addr:postcode": "63116",
+        "addr:state": "MO",
+        "addr:street": "Gravois Avenue",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "brand:wikipedia": "en:White Castle (restaurant)",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2443196,
+              38.5927298
+            ],
+            [
+              -90.244341,
+              38.5925957
+            ],
+            [
+              -90.2442099,
+              38.5925829
+            ],
+            [
+              -90.2441885,
+              38.592717
+            ],
+            [
+              -90.2443196,
+              38.5927298
+            ]
+          ]
+        ]
+      },
+      "id": "way/532961311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/533901510",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "Chicken, korean",
+        "name": "Chicken 7"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2586828,
+              38.563082
+            ],
+            [
+              -90.2588549,
+              38.5631726
+            ],
+            [
+              -90.2589019,
+              38.5631181
+            ],
+            [
+              -90.2587498,
+              38.563038
+            ],
+            [
+              -90.258737,
+              38.5630529
+            ],
+            [
+              -90.258717,
+              38.5630423
+            ],
+            [
+              -90.2586828,
+              38.563082
+            ]
+          ]
+        ]
+      },
+      "id": "way/533901510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/554708586",
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Rally's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.217558,
+              38.6604351
+            ],
+            [
+              -90.2176762,
+              38.6604846
+            ],
+            [
+              -90.2176836,
+              38.6604737
+            ],
+            [
+              -90.2177222,
+              38.6604899
+            ],
+            [
+              -90.2177454,
+              38.660456
+            ],
+            [
+              -90.2177076,
+              38.6604402
+            ],
+            [
+              -90.2177162,
+              38.6604277
+            ],
+            [
+              -90.2175973,
+              38.6603779
+            ],
+            [
+              -90.217558,
+              38.6604351
+            ]
+          ]
+        ]
+      },
+      "id": "way/554708586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556888409",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "4006",
+        "addr:postcode": "63108",
+        "addr:state": "MO",
+        "addr:street": "Lindell Boulevard",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "McDonald's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2436375,
+              38.6389624
+            ],
+            [
+              -90.2435433,
+              38.639225
+            ],
+            [
+              -90.2437139,
+              38.6392624
+            ],
+            [
+              -90.2438082,
+              38.6389997
+            ],
+            [
+              -90.2436375,
+              38.6389624
+            ]
+          ]
+        ]
+      },
+      "id": "way/556888409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/559181967",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "brand:wikipedia": "en:Burger King",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Burger King",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2613163,
+              38.556894
+            ],
+            [
+              -90.2612366,
+              38.5568373
+            ],
+            [
+              -90.2610207,
+              38.5570296
+            ],
+            [
+              -90.2610915,
+              38.5570905
+            ],
+            [
+              -90.2613163,
+              38.556894
+            ]
+          ]
+        ]
+      },
+      "id": "way/559181967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/559181968",
+        "amenity": "fast_food",
+        "building": "yes",
+        "name": "St. Louis Bread Company"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2624803,
+              38.5569674
+            ],
+            [
+              -90.2622973,
+              38.5568354
+            ],
+            [
+              -90.2621103,
+              38.5569992
+            ],
+            [
+              -90.2622953,
+              38.5571311
+            ],
+            [
+              -90.2624803,
+              38.5569674
+            ]
+          ]
+        ]
+      },
+      "id": "way/559181968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/561046358",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2220593,
+              38.6123988
+            ],
+            [
+              -90.2218866,
+              38.6123718
+            ],
+            [
+              -90.2218479,
+              38.6126013
+            ],
+            [
+              -90.2218611,
+              38.6126029
+            ],
+            [
+              -90.2218571,
+              38.6126251
+            ],
+            [
+              -90.2220065,
+              38.6126489
+            ],
+            [
+              -90.2220593,
+              38.6123988
+            ]
+          ]
+        ]
+      },
+      "id": "way/561046358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/563082376",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "1611",
+        "addr:postcode": "63104",
+        "addr:state": "MO",
+        "addr:street": "South 9th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "brand:wikipedia": "en:Domino's Pizza",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2025834,
+              38.6113427
+            ],
+            [
+              -90.2023741,
+              38.6112275
+            ],
+            [
+              -90.202293,
+              38.6113175
+            ],
+            [
+              -90.2024446,
+              38.6114009
+            ],
+            [
+              -90.2025023,
+              38.6114327
+            ],
+            [
+              -90.2025834,
+              38.6113427
+            ]
+          ]
+        ]
+      },
+      "id": "way/563082376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/563100161",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "brand:wikipedia": "en:Jimmy John's",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1996947,
+              38.6095185
+            ],
+            [
+              -90.1998064,
+              38.609397
+            ],
+            [
+              -90.1996664,
+              38.6093184
+            ],
+            [
+              -90.1995547,
+              38.6094399
+            ],
+            [
+              -90.1996947,
+              38.6095185
+            ]
+          ]
+        ]
+      },
+      "id": "way/563100161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/563131039",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "brand:wikipedia": "en:Jack in the Box",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2135323,
+              38.6084375
+            ],
+            [
+              -90.213449,
+              38.6082659
+            ],
+            [
+              -90.2132694,
+              38.6083192
+            ],
+            [
+              -90.2133528,
+              38.6084908
+            ],
+            [
+              -90.2135323,
+              38.6084375
+            ]
+          ]
+        ]
+      },
+      "id": "way/563131039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/563132893",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "804-806",
+        "addr:interpolation": "even",
+        "addr:postcode": "63104",
+        "addr:state": "MO",
+        "addr:street": "Russell Boulevard",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "pizza;pasta",
+        "name": "Joanie's To Go"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2045178,
+              38.6061749
+            ],
+            [
+              -90.2045238,
+              38.6061618
+            ],
+            [
+              -90.2046081,
+              38.6059772
+            ],
+            [
+              -90.2045325,
+              38.6059561
+            ],
+            [
+              -90.2044422,
+              38.6061538
+            ],
+            [
+              -90.2045178,
+              38.6061749
+            ]
+          ]
+        ]
+      },
+      "id": "way/563132893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/564435497",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "1253",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "brand:wikipedia": "en:Steak 'n Shake",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "24/7",
+        "phone": "+13146442547",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/24385-steak-n-shake-hampton-avenue-st-louis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2879046,
+              38.627336
+            ],
+            [
+              -90.2879354,
+              38.6271258
+            ],
+            [
+              -90.2877231,
+              38.6271068
+            ],
+            [
+              -90.2876947,
+              38.6273172
+            ],
+            [
+              -90.2879046,
+              38.627336
+            ]
+          ]
+        ]
+      },
+      "id": "way/564435497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/564435508",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "1242",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "brand:wikipedia": "en:Jack in the Box",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "layer": "-1",
+        "name": "Jack in the Box",
+        "opening_hours": "24/7",
+        "phone": "+13146442547",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/mo/saint-louis/1242-hampton-ave"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2873568,
+              38.6269844
+            ],
+            [
+              -90.2873749,
+              38.6268608
+            ],
+            [
+              -90.2872176,
+              38.6268468
+            ],
+            [
+              -90.2871995,
+              38.6269703
+            ],
+            [
+              -90.2873568,
+              38.6269844
+            ]
+          ]
+        ]
+      },
+      "id": "way/564435508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/564435509",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "1324",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "brand:wikipedia": "en:Taco Bell",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 09:00-03:00, Fr-Sa 09:00-04:00",
+        "phone": "(314) 647-2139",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/mo/saint-louis/1324-hampton-avenue.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2875456,
+              38.6259881
+            ],
+            [
+              -90.2875584,
+              38.6259075
+            ],
+            [
+              -90.2872954,
+              38.6258819
+            ],
+            [
+              -90.2872929,
+              38.6258978
+            ],
+            [
+              -90.2872608,
+              38.6258947
+            ],
+            [
+              -90.2872527,
+              38.6259456
+            ],
+            [
+              -90.287282,
+              38.6259484
+            ],
+            [
+              -90.2872798,
+              38.6259623
+            ],
+            [
+              -90.2875456,
+              38.6259881
+            ]
+          ]
+        ]
+      },
+      "id": "way/564435509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/564435525",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "1205",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Sa 09:00-21:00, Su 10:00-20:00",
+        "phone": "+13146455440",
+        "takeaway": "yes",
+        "website": "https://order.subway.com/en-us/restaurant/4385/menu/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2877534,
+              38.6282815
+            ],
+            [
+              -90.2877768,
+              38.6281247
+            ],
+            [
+              -90.2876577,
+              38.6281146
+            ],
+            [
+              -90.2876343,
+              38.6282678
+            ],
+            [
+              -90.2877534,
+              38.6282815
+            ]
+          ]
+        ]
+      },
+      "id": "way/564435525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/564435528",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "1420",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "McDonald's",
+        "opening_hours": "Mo-Th 06:00-11:00, Fr 06:00-03:30, Sa-Su 04:00-03:30",
+        "phone": "(314) 781-8032",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/MO/ST-LOUIS/1420-HAMPTON-AVENUE/3430.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2875757,
+              38.624655
+            ],
+            [
+              -90.2875482,
+              38.624528
+            ],
+            [
+              -90.2875646,
+              38.6245258
+            ],
+            [
+              -90.287511,
+              38.6242783
+            ],
+            [
+              -90.287367,
+              38.6242973
+            ],
+            [
+              -90.2873766,
+              38.6243416
+            ],
+            [
+              -90.2874228,
+              38.6245551
+            ],
+            [
+              -90.2874462,
+              38.624552
+            ],
+            [
+              -90.2874715,
+              38.6246688
+            ],
+            [
+              -90.2875757,
+              38.624655
+            ]
+          ]
+        ]
+      },
+      "id": "way/564435528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/564436490",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "brand:wikipedia": "en:Hardee's",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Hardee's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2855121,
+              38.6306361
+            ],
+            [
+              -90.2855439,
+              38.63042
+            ],
+            [
+              -90.2853609,
+              38.6304036
+            ],
+            [
+              -90.2853533,
+              38.6304551
+            ],
+            [
+              -90.2853287,
+              38.6304529
+            ],
+            [
+              -90.285295,
+              38.6304498
+            ],
+            [
+              -90.2852873,
+              38.6305022
+            ],
+            [
+              -90.2853205,
+              38.6305052
+            ],
+            [
+              -90.2853446,
+              38.6305073
+            ],
+            [
+              -90.285328,
+              38.6306195
+            ],
+            [
+              -90.2855121,
+              38.6306361
+            ]
+          ]
+        ]
+      },
+      "id": "way/564436490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/567181850",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "brand:wikipedia": "en:Church's Chicken",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2290291,
+              38.6419973
+            ],
+            [
+              -90.2291603,
+              38.6420465
+            ],
+            [
+              -90.2292274,
+              38.641949
+            ],
+            [
+              -90.2290931,
+              38.6418981
+            ],
+            [
+              -90.2290291,
+              38.6419973
+            ]
+          ]
+        ]
+      },
+      "id": "way/567181850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/569825854",
+        "amenity": "fast_food",
+        "building": "yes",
+        "name": "London's Wig House"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2296064,
+              38.7142976
+            ],
+            [
+              -90.22964,
+              38.7142997
+            ],
+            [
+              -90.229652,
+              38.7142212
+            ],
+            [
+              -90.2296775,
+              38.7142233
+            ],
+            [
+              -90.2296842,
+              38.7141815
+            ],
+            [
+              -90.2296614,
+              38.7141794
+            ],
+            [
+              -90.2296748,
+              38.7140705
+            ],
+            [
+              -90.2295447,
+              38.714059
+            ],
+            [
+              -90.2295112,
+              38.7142547
+            ],
+            [
+              -90.2296104,
+              38.7142631
+            ],
+            [
+              -90.2296064,
+              38.7142976
+            ]
+          ]
+        ]
+      },
+      "id": "way/569825854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/583399296",
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "brand:wikipedia": "en:Captain D's",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Captain D's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2362353,
+              38.6261213
+            ],
+            [
+              -90.2361844,
+              38.6262617
+            ],
+            [
+              -90.2364043,
+              38.6263078
+            ],
+            [
+              -90.2364499,
+              38.6261674
+            ],
+            [
+              -90.2362353,
+              38.6261213
+            ]
+          ]
+        ]
+      },
+      "id": "way/583399296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/583399299",
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Rally's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2360565,
+              38.6260404
+            ],
+            [
+              -90.2358791,
+              38.626002
+            ],
+            [
+              -90.2358689,
+              38.6260308
+            ],
+            [
+              -90.2359221,
+              38.6260423
+            ],
+            [
+              -90.2358826,
+              38.6261537
+            ],
+            [
+              -90.2359445,
+              38.626167
+            ],
+            [
+              -90.2359831,
+              38.6260582
+            ],
+            [
+              -90.2360454,
+              38.6260717
+            ],
+            [
+              -90.2360565,
+              38.6260404
+            ]
+          ]
+        ]
+      },
+      "id": "way/583399299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/618084797",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "2629",
+        "addr:postcode": "63118",
+        "addr:state": "MO",
+        "addr:street": "South Jefferson Avenue",
+        "amenity": "fast_food",
+        "brand": "Lee's Famous Recipe Chicken",
+        "brand:wikidata": "Q6512810",
+        "brand:wikipedia": "en:Lee's Famous Recipe Chicken",
+        "building": "retail",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Lee's Famous Recipe Chicken",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2236652,
+              38.6042711
+            ],
+            [
+              -90.2234193,
+              38.6042428
+            ],
+            [
+              -90.2234125,
+              38.604279
+            ],
+            [
+              -90.2234,
+              38.6042776
+            ],
+            [
+              -90.2233877,
+              38.6043429
+            ],
+            [
+              -90.2235448,
+              38.6043609
+            ],
+            [
+              -90.2235477,
+              38.6043457
+            ],
+            [
+              -90.223649,
+              38.6043574
+            ],
+            [
+              -90.2236652,
+              38.6042711
+            ]
+          ]
+        ]
+      },
+      "id": "way/618084797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/618371617",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "2163",
+        "addr:postcode": "63104",
+        "addr:state": "MO",
+        "addr:street": "South Grand Boulevard",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "brand:wikipedia": "en:Jack in the Box",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2409417,
+              38.6115573
+            ],
+            [
+              -90.2408393,
+              38.6115446
+            ],
+            [
+              -90.240842,
+              38.6115312
+            ],
+            [
+              -90.2407541,
+              38.6115202
+            ],
+            [
+              -90.2407507,
+              38.6115371
+            ],
+            [
+              -90.2407012,
+              38.6115309
+            ],
+            [
+              -90.2406765,
+              38.6116519
+            ],
+            [
+              -90.2408134,
+              38.611669
+            ],
+            [
+              -90.2408154,
+              38.6116592
+            ],
+            [
+              -90.2409182,
+              38.6116721
+            ],
+            [
+              -90.2409417,
+              38.6115573
+            ]
+          ]
+        ]
+      },
+      "id": "way/618371617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/618772667",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "1831",
+        "addr:postcode": "63104",
+        "addr:state": "MO",
+        "addr:street": "South 7th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2023696,
+              38.6079206
+            ],
+            [
+              -90.2022623,
+              38.607887
+            ],
+            [
+              -90.2021523,
+              38.6080118
+            ],
+            [
+              -90.2022421,
+              38.608061
+            ],
+            [
+              -90.2023696,
+              38.6079206
+            ]
+          ]
+        ]
+      },
+      "id": "way/618772667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619101008",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "en:KFC",
+        "building": "retail",
+        "check_date": "2022-06-25",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "KFC",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2442516,
+              38.5932331
+            ],
+            [
+              -90.2441177,
+              38.5932188
+            ],
+            [
+              -90.2441206,
+              38.5932021
+            ],
+            [
+              -90.244077,
+              38.5931975
+            ],
+            [
+              -90.2440744,
+              38.5932123
+            ],
+            [
+              -90.2439878,
+              38.5932031
+            ],
+            [
+              -90.2439721,
+              38.5932931
+            ],
+            [
+              -90.2441743,
+              38.5933146
+            ],
+            [
+              -90.2441762,
+              38.5933036
+            ],
+            [
+              -90.244209,
+              38.5933071
+            ],
+            [
+              -90.2442181,
+              38.5932551
+            ],
+            [
+              -90.2442472,
+              38.5932582
+            ],
+            [
+              -90.2442516,
+              38.5932331
+            ]
+          ]
+        ]
+      },
+      "id": "way/619101008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619362329",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "5030",
+        "addr:postcode": "63115",
+        "addr:state": "MO",
+        "addr:street": "Natural Bridge Avenue",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "brand:wikipedia": "en:Burger King",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Burger King",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2533744,
+              38.6765192
+            ],
+            [
+              -90.253245,
+              38.676463
+            ],
+            [
+              -90.2530933,
+              38.676676
+            ],
+            [
+              -90.253208,
+              38.6767258
+            ],
+            [
+              -90.2532567,
+              38.6766573
+            ],
+            [
+              -90.2532715,
+              38.6766638
+            ],
+            [
+              -90.2533744,
+              38.6765192
+            ]
+          ]
+        ]
+      },
+      "id": "way/619362329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619362330",
+        "amenity": "fast_food",
+        "building": "yes",
+        "drive_through": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2526367,
+              38.6769631
+            ],
+            [
+              -90.2526016,
+              38.6769489
+            ],
+            [
+              -90.2526083,
+              38.6769387
+            ],
+            [
+              -90.2525359,
+              38.6769094
+            ],
+            [
+              -90.2524644,
+              38.677017
+            ],
+            [
+              -90.2524809,
+              38.6770236
+            ],
+            [
+              -90.2524193,
+              38.6771163
+            ],
+            [
+              -90.2524952,
+              38.6771471
+            ],
+            [
+              -90.2525091,
+              38.6771262
+            ],
+            [
+              -90.2525242,
+              38.6771323
+            ],
+            [
+              -90.2526367,
+              38.6769631
+            ]
+          ]
+        ]
+      },
+      "id": "way/619362330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619362331",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "brand:wikipedia": "en:Taco Bell",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2530154,
+              38.6770846
+            ],
+            [
+              -90.252897,
+              38.6770331
+            ],
+            [
+              -90.2527989,
+              38.6771704
+            ],
+            [
+              -90.2529173,
+              38.6772219
+            ],
+            [
+              -90.2530154,
+              38.6770846
+            ]
+          ]
+        ]
+      },
+      "id": "way/619362331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619362332",
+        "amenity": "fast_food",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2518146,
+              38.6757953
+            ],
+            [
+              -90.2516478,
+              38.6757235
+            ],
+            [
+              -90.2515749,
+              38.6758267
+            ],
+            [
+              -90.2517417,
+              38.6758985
+            ],
+            [
+              -90.2518146,
+              38.6757953
+            ]
+          ]
+        ]
+      },
+      "id": "way/619362332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619362333",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "McDonald's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.250853,
+              38.6761377
+            ],
+            [
+              -90.2506602,
+              38.6760551
+            ],
+            [
+              -90.25053,
+              38.6762405
+            ],
+            [
+              -90.2505007,
+              38.6762821
+            ],
+            [
+              -90.2505266,
+              38.6762932
+            ],
+            [
+              -90.2505363,
+              38.6762794
+            ],
+            [
+              -90.2506773,
+              38.6763398
+            ],
+            [
+              -90.2506671,
+              38.6763543
+            ],
+            [
+              -90.2506961,
+              38.6763668
+            ],
+            [
+              -90.2507377,
+              38.6763076
+            ],
+            [
+              -90.2507509,
+              38.6763132
+            ],
+            [
+              -90.2508536,
+              38.676167
+            ],
+            [
+              -90.2508373,
+              38.6761601
+            ],
+            [
+              -90.250853,
+              38.6761377
+            ]
+          ]
+        ]
+      },
+      "id": "way/619362333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619917131",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "brand:wikipedia": "en:Wendy's",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2591126,
+              38.6790538
+            ],
+            [
+              -90.2590727,
+              38.6790369
+            ],
+            [
+              -90.2590552,
+              38.6790622
+            ],
+            [
+              -90.2589659,
+              38.6790245
+            ],
+            [
+              -90.2589206,
+              38.6790898
+            ],
+            [
+              -90.2588922,
+              38.6790778
+            ],
+            [
+              -90.2588634,
+              38.6791192
+            ],
+            [
+              -90.2588795,
+              38.6791318
+            ],
+            [
+              -90.2588535,
+              38.6791693
+            ],
+            [
+              -90.2589918,
+              38.6792278
+            ],
+            [
+              -90.2591126,
+              38.6790538
+            ]
+          ]
+        ]
+      },
+      "id": "way/619917131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620261593",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3521",
+        "addr:postcode": "63107",
+        "addr:state": "MO",
+        "addr:street": "North Grand Boulevard",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "brand:wikipedia": "en:Church's Chicken",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2180963,
+              38.6600869
+            ],
+            [
+              -90.2179746,
+              38.6600316
+            ],
+            [
+              -90.2179072,
+              38.660122
+            ],
+            [
+              -90.2180289,
+              38.6601773
+            ],
+            [
+              -90.2180963,
+              38.6600869
+            ]
+          ]
+        ]
+      },
+      "id": "way/620261593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620711667",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "5409",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "DQ Grill & Chill",
+        "brand:wikidata": "Q1141226",
+        "brand:wikipedia": "en:Dairy Queen",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "DQ Grill & Chill",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2937659,
+              38.5816423
+            ],
+            [
+              -90.2936203,
+              38.5816255
+            ],
+            [
+              -90.2936002,
+              38.5817318
+            ],
+            [
+              -90.2937458,
+              38.5817486
+            ],
+            [
+              -90.2937659,
+              38.5816423
+            ]
+          ]
+        ]
+      },
+      "id": "way/620711667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620711696",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "6666",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "Chippewa Street",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "brand:wikipedia": "en:Arby's",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "Su-Sa 10:30-21:00",
+        "phone": "+13143532800",
+        "takeaway": "yes",
+        "website": "https://locations.arbys.com/mo/st-louis/6666-chippewa-rd.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.3064957,
+              38.5900956
+            ],
+            [
+              -90.3064178,
+              38.5899889
+            ],
+            [
+              -90.3063893,
+              38.5900016
+            ],
+            [
+              -90.3063297,
+              38.58992
+            ],
+            [
+              -90.3062442,
+              38.5899581
+            ],
+            [
+              -90.3062886,
+              38.5900191
+            ],
+            [
+              -90.3062641,
+              38.59003
+            ],
+            [
+              -90.3063007,
+              38.5900801
+            ],
+            [
+              -90.3063133,
+              38.5900745
+            ],
+            [
+              -90.3063697,
+              38.5901518
+            ],
+            [
+              -90.3064957,
+              38.5900956
+            ]
+          ]
+        ]
+      },
+      "id": "way/620711696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/621900031",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "4963",
+        "addr:postcode": "63115",
+        "addr:state": "MO",
+        "addr:street": "Natural Bridge Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2503176,
+              38.675887
+            ],
+            [
+              -90.2502142,
+              38.6758436
+            ],
+            [
+              -90.2500692,
+              38.6760544
+            ],
+            [
+              -90.2501727,
+              38.6760978
+            ],
+            [
+              -90.2503176,
+              38.675887
+            ]
+          ]
+        ]
+      },
+      "id": "way/621900031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/621900032",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "4953",
+        "addr:postcode": "63115",
+        "addr:state": "MO",
+        "addr:street": "Natural Bridge Avenue",
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Rally's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2500706,
+              38.6758523
+            ],
+            [
+              -90.2499999,
+              38.6758213
+            ],
+            [
+              -90.2499654,
+              38.6758692
+            ],
+            [
+              -90.2499749,
+              38.6758734
+            ],
+            [
+              -90.2499448,
+              38.6759151
+            ],
+            [
+              -90.2499564,
+              38.6759201
+            ],
+            [
+              -90.2499353,
+              38.6759493
+            ],
+            [
+              -90.2499717,
+              38.6759653
+            ],
+            [
+              -90.2499928,
+              38.6759361
+            ],
+            [
+              -90.2500061,
+              38.6759419
+            ],
+            [
+              -90.2500706,
+              38.6758523
+            ]
+          ]
+        ]
+      },
+      "id": "way/621900032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/623248809",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "4640",
+        "addr:postcode": "63116",
+        "addr:state": "MO",
+        "addr:street": "Chippewa Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "brand:wikipedia": "en:Steak 'n Shake",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Su-Sa 10:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+13144806566",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/24153-steak-n-shake-chippewa-st-louis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2717024,
+              38.5909918
+            ],
+            [
+              -90.2714023,
+              38.5909593
+            ],
+            [
+              -90.271376,
+              38.5911079
+            ],
+            [
+              -90.2716762,
+              38.5911403
+            ],
+            [
+              -90.2717024,
+              38.5909918
+            ]
+          ]
+        ]
+      },
+      "id": "way/623248809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/623248834",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "4201",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "South Kingshighway Boulevard",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "brand:wikipedia": "en:Jack in the Box",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "JackInTheBox_Wireless",
+        "name": "Jack in the Box",
+        "opening_hours": "24/7",
+        "phone": "+13143510952",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/mo/saint-louis/4201-s-kingshighway-blvd"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.273926,
+              38.5912298
+            ],
+            [
+              -90.2737957,
+              38.5911726
+            ],
+            [
+              -90.273723,
+              38.5912739
+            ],
+            [
+              -90.2738562,
+              38.5913323
+            ],
+            [
+              -90.2738731,
+              38.5913088
+            ],
+            [
+              -90.2739,
+              38.5913206
+            ],
+            [
+              -90.2739444,
+              38.5912586
+            ],
+            [
+              -90.2739193,
+              38.5912476
+            ],
+            [
+              -90.273926,
+              38.5912298
+            ]
+          ]
+        ]
+      },
+      "id": "way/623248834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/624361049",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2761659,
+              38.5862179
+            ],
+            [
+              -90.2758414,
+              38.5861808
+            ],
+            [
+              -90.2758279,
+              38.586253
+            ],
+            [
+              -90.2758531,
+              38.5862559
+            ],
+            [
+              -90.275841,
+              38.5863204
+            ],
+            [
+              -90.2760382,
+              38.586343
+            ],
+            [
+              -90.2760405,
+              38.586331
+            ],
+            [
+              -90.2761425,
+              38.5863427
+            ],
+            [
+              -90.2761659,
+              38.5862179
+            ]
+          ]
+        ]
+      },
+      "id": "way/624361049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/624361050",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "brand:wikipedia": "en:White Castle (restaurant)",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2760485,
+              38.5869991
+            ],
+            [
+              -90.2758037,
+              38.5869714
+            ],
+            [
+              -90.2757886,
+              38.5870531
+            ],
+            [
+              -90.2758546,
+              38.5870606
+            ],
+            [
+              -90.2758511,
+              38.5870794
+            ],
+            [
+              -90.27603,
+              38.5870996
+            ],
+            [
+              -90.2760485,
+              38.5869991
+            ]
+          ]
+        ]
+      },
+      "id": "way/624361050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/624581220",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Hardee's"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2297377,
+              38.5787979
+            ],
+            [
+              -90.2295189,
+              38.5786498
+            ],
+            [
+              -90.229397,
+              38.5787599
+            ],
+            [
+              -90.2294497,
+              38.5787956
+            ],
+            [
+              -90.2294145,
+              38.5788273
+            ],
+            [
+              -90.2294703,
+              38.5788651
+            ],
+            [
+              -90.2295102,
+              38.5788291
+            ],
+            [
+              -90.2296205,
+              38.5789038
+            ],
+            [
+              -90.2297377,
+              38.5787979
+            ]
+          ]
+        ]
+      },
+      "id": "way/624581220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627287843",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "5600",
+        "addr:postcode": "63111",
+        "addr:state": "MO",
+        "addr:street": "South Grand Boulevard",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Jack in the Box"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2544161,
+              38.5682694
+            ],
+            [
+              -90.254294,
+              38.5682071
+            ],
+            [
+              -90.2542821,
+              38.5682213
+            ],
+            [
+              -90.2542602,
+              38.5682102
+            ],
+            [
+              -90.2542136,
+              38.568266
+            ],
+            [
+              -90.2542354,
+              38.5682771
+            ],
+            [
+              -90.2542143,
+              38.5683024
+            ],
+            [
+              -90.2543302,
+              38.5683615
+            ],
+            [
+              -90.2543573,
+              38.568329
+            ],
+            [
+              -90.2543781,
+              38.5683396
+            ],
+            [
+              -90.2544008,
+              38.5683123
+            ],
+            [
+              -90.2543864,
+              38.568305
+            ],
+            [
+              -90.2544161,
+              38.5682694
+            ]
+          ]
+        ]
+      },
+      "id": "way/627287843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627473827",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "6703",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Scanlan Avenue",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Pizza-A-Go-Go",
+        "opening_hours": "Su-Tu 16:00-21:00, Th 16:00-21:00, Fr-Sa 16:00-22:00",
+        "phone": "+13147811234",
+        "website": "https://pizzaagogostl.wixsite.com/pizzaagogostl"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.3038327,
+              38.6059316
+            ],
+            [
+              -90.303762,
+              38.6059724
+            ],
+            [
+              -90.3037892,
+              38.6060011
+            ],
+            [
+              -90.3037417,
+              38.6060285
+            ],
+            [
+              -90.3038061,
+              38.6060966
+            ],
+            [
+              -90.3038702,
+              38.6060595
+            ],
+            [
+              -90.3038563,
+              38.6060448
+            ],
+            [
+              -90.3038964,
+              38.6060217
+            ],
+            [
+              -90.3038801,
+              38.6060044
+            ],
+            [
+              -90.303894,
+              38.6059964
+            ],
+            [
+              -90.3038327,
+              38.6059316
+            ]
+          ]
+        ]
+      },
+      "id": "way/627473827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/628103830",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "brand:wikipedia": "en:Taco Bell",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.3021292,
+              38.6182879
+            ],
+            [
+              -90.3020013,
+              38.6183267
+            ],
+            [
+              -90.3020751,
+              38.6184751
+            ],
+            [
+              -90.302203,
+              38.6184363
+            ],
+            [
+              -90.3021292,
+              38.6182879
+            ]
+          ]
+        ]
+      },
+      "id": "way/628103830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/628168514",
+        "amenity": "fast_food",
+        "brand": "Lee's Famous Recipe Chicken",
+        "brand:wikidata": "Q6512810",
+        "brand:wikipedia": "en:Lee's Famous Recipe Chicken",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Lee's Famous Recipe Chicken",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2714708,
+              38.5960936
+            ],
+            [
+              -90.2712249,
+              38.596062
+            ],
+            [
+              -90.271205,
+              38.5961565
+            ],
+            [
+              -90.2713511,
+              38.5961753
+            ],
+            [
+              -90.2713537,
+              38.5961627
+            ],
+            [
+              -90.2714536,
+              38.5961755
+            ],
+            [
+              -90.2714708,
+              38.5960936
+            ]
+          ]
+        ]
+      },
+      "id": "way/628168514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/628168515",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "brand:wikipedia": "en:Taco Bell",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2707387,
+              38.5962896
+            ],
+            [
+              -90.2704815,
+              38.5962607
+            ],
+            [
+              -90.2704676,
+              38.5963364
+            ],
+            [
+              -90.2707247,
+              38.5963653
+            ],
+            [
+              -90.2707387,
+              38.5962896
+            ]
+          ]
+        ]
+      },
+      "id": "way/628168515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/630012066",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "brand:wikipedia": "en:Popeyes",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2635693,
+              38.6541553
+            ],
+            [
+              -90.2635342,
+              38.6541521
+            ],
+            [
+              -90.2635438,
+              38.6540878
+            ],
+            [
+              -90.2633842,
+              38.6540732
+            ],
+            [
+              -90.2633682,
+              38.6541791
+            ],
+            [
+              -90.263563,
+              38.654197
+            ],
+            [
+              -90.2635693,
+              38.6541553
+            ]
+          ]
+        ]
+      },
+      "id": "way/630012066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696569447",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3267",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "brand:wikipedia": "en:Long John Silver's",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Long John Silver's",
+        "opening_hours": "Su-Sa 10:30-22:00",
+        "phone": "+13147818808",
+        "takeaway": "yes",
+        "website": "https://www.ljsilvers.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2922327,
+              38.6026966
+            ],
+            [
+              -90.2920392,
+              38.6026786
+            ],
+            [
+              -90.2920246,
+              38.6027747
+            ],
+            [
+              -90.2922181,
+              38.6027927
+            ],
+            [
+              -90.2922327,
+              38.6026966
+            ]
+          ]
+        ]
+      },
+      "id": "way/696569447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696569448",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3259",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "brand:wikipedia": "en:Burger King",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Burger King",
+        "opening_hours": "Mo-Th 06:00-23:00, Fr-Sa 06:00-01:00, Su 07:00-23:00",
+        "phone": "+13146442415",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/menu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2924711,
+              38.6029328
+            ],
+            [
+              -90.2924299,
+              38.6029289
+            ],
+            [
+              -90.2924348,
+              38.602897
+            ],
+            [
+              -90.2922967,
+              38.6028841
+            ],
+            [
+              -90.2922992,
+              38.6028677
+            ],
+            [
+              -90.2923023,
+              38.6028479
+            ],
+            [
+              -90.2922581,
+              38.6028438
+            ],
+            [
+              -90.2922552,
+              38.6028633
+            ],
+            [
+              -90.2922533,
+              38.6028757
+            ],
+            [
+              -90.2922075,
+              38.6028715
+            ],
+            [
+              -90.2921822,
+              38.6030368
+            ],
+            [
+              -90.2924146,
+              38.6030586
+            ],
+            [
+              -90.2924254,
+              38.602988
+            ],
+            [
+              -90.2924622,
+              38.6029914
+            ],
+            [
+              -90.2924711,
+              38.6029328
+            ]
+          ]
+        ]
+      },
+      "id": "way/696569448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696569452",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "2110",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "brand:wikipedia": "en:Hardee's",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Hardee's",
+        "opening_hours": "24/7",
+        "phone": "+13146452336",
+        "takeaway": "yes",
+        "website": "https://www.hardees.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2869474,
+              38.6172684
+            ],
+            [
+              -90.2866605,
+              38.6172379
+            ],
+            [
+              -90.286643,
+              38.617338
+            ],
+            [
+              -90.2869299,
+              38.6173686
+            ],
+            [
+              -90.2869474,
+              38.6172684
+            ]
+          ]
+        ]
+      },
+      "id": "way/696569452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696569454",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "2130",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "brand:wikipedia": "en:Wendy's",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Su-Sa 06:30-01:00",
+        "phone": "+13147814569",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-louis/2130-hampton-avenue"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2866968,
+              38.6166975
+            ],
+            [
+              -90.2866517,
+              38.6166928
+            ],
+            [
+              -90.2866503,
+              38.6167011
+            ],
+            [
+              -90.2865972,
+              38.6166956
+            ],
+            [
+              -90.2866001,
+              38.6166788
+            ],
+            [
+              -90.2865135,
+              38.6166698
+            ],
+            [
+              -90.2865106,
+              38.6166865
+            ],
+            [
+              -90.2864728,
+              38.6166826
+            ],
+            [
+              -90.2864754,
+              38.6166671
+            ],
+            [
+              -90.2863099,
+              38.61665
+            ],
+            [
+              -90.2863005,
+              38.6167055
+            ],
+            [
+              -90.2863394,
+              38.6167095
+            ],
+            [
+              -90.2863296,
+              38.6167673
+            ],
+            [
+              -90.2865513,
+              38.6167902
+            ],
+            [
+              -90.2865545,
+              38.6167711
+            ],
+            [
+              -90.2866821,
+              38.6167843
+            ],
+            [
+              -90.2866968,
+              38.6166975
+            ]
+          ]
+        ]
+      },
+      "id": "way/696569454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/854407058",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "2605",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "SOHA Bar and Grill",
+        "opening_hours": "Mo-Sa 16:00-01:30, Su 16:00-24:00",
+        "phone": "+13148027877",
+        "website": "https://www.sohabarandgrill.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2882161,
+              38.6119965
+            ],
+            [
+              -90.2882394,
+              38.6118405
+            ],
+            [
+              -90.2880479,
+              38.611823
+            ],
+            [
+              -90.2880247,
+              38.6119791
+            ],
+            [
+              -90.2882161,
+              38.6119965
+            ]
+          ]
+        ]
+      },
+      "id": "way/854407058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/856995687",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "2323",
+        "addr:postcode": "63110",
+        "addr:state": "MO",
+        "addr:street": "Sublette Avenue",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Jo Fassi Sausage and Sandwich Factory",
+        "opening_hours": "Mo-Fr 10:00-18:00, Sa 10:00-17:30, Su 11:30-17:00",
+        "phone": "+13146475158",
+        "website": "https://www.joefassisandwiches.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2808354,
+              38.6133052
+            ],
+            [
+              -90.2808106,
+              38.6131902
+            ],
+            [
+              -90.2806079,
+              38.6132144
+            ],
+            [
+              -90.2806332,
+              38.6133169
+            ],
+            [
+              -90.2808354,
+              38.6133052
+            ]
+          ]
+        ]
+      },
+      "id": "way/856995687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/857003378",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "5224",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Columbia Avenue",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Southwest Market Cuisine",
+        "opening_hours": "Mo-Fr 10:00-15:30, Sa 11:00-16:00",
+        "phone": "+13147765220"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2749589,
+              38.6108799
+            ],
+            [
+              -90.2749918,
+              38.6106457
+            ],
+            [
+              -90.2747333,
+              38.610614
+            ],
+            [
+              -90.2747002,
+              38.6108621
+            ],
+            [
+              -90.2749589,
+              38.6108799
+            ]
+          ]
+        ]
+      },
+      "id": "way/857003378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/857005331",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "5120",
+        "addr:postcode": "63110",
+        "addr:state": "MO",
+        "addr:street": "Southwest Avenue",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "donut",
+        "drive_through": "no",
+        "name": "O'fashion Donuts Inc",
+        "opening_hours": "Mo-Sa 05:00-13:00, Su 05:00-11:00",
+        "phone": "+13147720398"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2725409,
+              38.6112904
+            ],
+            [
+              -90.2724265,
+              38.6112951
+            ],
+            [
+              -90.2724211,
+              38.6113879
+            ],
+            [
+              -90.2725424,
+              38.6113481
+            ],
+            [
+              -90.2725409,
+              38.6112904
+            ]
+          ]
+        ]
+      },
+      "id": "way/857005331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911705987",
+        "addr:city": "St. Louis",
+        "addr:housenumber": "1151",
+        "addr:postcode": "63110",
+        "addr:state": "MO",
+        "addr:street": "South Kingshighway Boulevard",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Subway",
+        "takeaway": "only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2650478,
+              38.6271063
+            ],
+            [
+              -90.265057,
+              38.6270496
+            ],
+            [
+              -90.2653017,
+              38.6270738
+            ],
+            [
+              -90.2653159,
+              38.6269862
+            ],
+            [
+              -90.2650062,
+              38.6269556
+            ],
+            [
+              -90.2649828,
+              38.6270999
+            ],
+            [
+              -90.2650478,
+              38.6271063
+            ]
+          ]
+        ]
+      },
+      "id": "way/911705987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/997801818",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3222",
+        "addr:postcode": "63116",
+        "addr:state": "MO",
+        "addr:street": "Morganford Road",
+        "amenity": "fast_food",
+        "brand": "Imo's Pizza",
+        "brand:wikidata": "Q6005623",
+        "brand:wikipedia": "en:Imo's Pizza",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Imo's Pizza",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2615244,
+              38.600054
+            ],
+            [
+              -90.2613903,
+              38.6000403
+            ],
+            [
+              -90.2613706,
+              38.6001587
+            ],
+            [
+              -90.2613176,
+              38.6001533
+            ],
+            [
+              -90.2613099,
+              38.6001998
+            ],
+            [
+              -90.2614702,
+              38.6002161
+            ],
+            [
+              -90.2614891,
+              38.6001025
+            ],
+            [
+              -90.2615159,
+              38.6001052
+            ],
+            [
+              -90.2615244,
+              38.600054
+            ]
+          ]
+        ]
+      },
+      "id": "way/997801818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1029684423",
+        "amenity": "fast_food",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2546631,
+              38.5892511
+            ],
+            [
+              -90.2546945,
+              38.5890613
+            ],
+            [
+              -90.2545303,
+              38.5890447
+            ],
+            [
+              -90.254499,
+              38.5892346
+            ],
+            [
+              -90.2546631,
+              38.5892511
+            ]
+          ]
+        ]
+      },
+      "id": "way/1029684423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1093698513",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2940565,
+              38.5903445
+            ],
+            [
+              -90.2940712,
+              38.5904529
+            ],
+            [
+              -90.2942916,
+              38.5904347
+            ],
+            [
+              -90.2942769,
+              38.5903263
+            ],
+            [
+              -90.2940565,
+              38.5903445
+            ]
+          ]
+        ]
+      },
+      "id": "way/1093698513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1093698515",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2939656,
+              38.5908989
+            ],
+            [
+              -90.2939547,
+              38.5909765
+            ],
+            [
+              -90.2939125,
+              38.5909729
+            ],
+            [
+              -90.2939069,
+              38.5910126
+            ],
+            [
+              -90.2939583,
+              38.591017
+            ],
+            [
+              -90.2939596,
+              38.5910081
+            ],
+            [
+              -90.2941666,
+              38.5910259
+            ],
+            [
+              -90.2941729,
+              38.5909813
+            ],
+            [
+              -90.2942061,
+              38.5909842
+            ],
+            [
+              -90.2942151,
+              38.5909204
+            ],
+            [
+              -90.2939656,
+              38.5908989
+            ]
+          ]
+        ]
+      },
+      "id": "way/1093698515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1978608479",
+        "amenity": "fast_food",
+        "cuisine": "hot_dog",
+        "name": "Steve’s Hot Dogs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2426914,
+          38.6014659
+        ]
+      },
+      "id": "node/1978608479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2464029489",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2027043,
+          38.673415
+        ]
+      },
+      "id": "node/2464029489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593576310",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "206",
+        "addr:postcode": "63101",
+        "addr:state": "MO",
+        "addr:street": "North 9th Street",
+        "amenity": "fast_food",
+        "brand": "Pita Pit",
+        "brand:wikidata": "Q7757289",
+        "brand:wikipedia": "en:Pita Pit",
+        "cuisine": "pita",
+        "fax": "314-426-1840",
+        "name": "Pita Pit",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa,Su 10:00-17:00",
+        "phone": "314-436-1840",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1936284,
+          38.6281765
+        ]
+      },
+      "id": "node/2593576310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2728906168",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "brand:wikipedia": "en:White Castle (restaurant)",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2475692,
+          38.6278896
+        ]
+      },
+      "id": "node/2728906168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2886365089",
+        "amenity": "fast_food",
+        "name": "Newstead Chop Suey Cat Fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.235493,
+          38.6708401
+        ]
+      },
+      "id": "node/2886365089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3180930555",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "1",
+        "addr:postcode": "63102",
+        "addr:state": "MO",
+        "addr:street": "South Broadway",
+        "amenity": "fast_food",
+        "brand": "Imo's Pizza",
+        "brand:wikidata": "Q6005623",
+        "brand:wikipedia": "en:Imo's Pizza",
+        "cuisine": "pizza",
+        "delivery": "no",
+        "name": "Imo's Pizza",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr,Sa 11:00-23:00",
+        "smoking": "no",
+        "source": "Local",
+        "takeaway": "yes",
+        "website": "http://imospizza.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1911401,
+          38.625467
+        ]
+      },
+      "id": "node/3180930555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3190455226",
+        "addr:city": "St. Louis",
+        "addr:housenumber": "11005",
+        "addr:postcode": "63138",
+        "addr:street": "Riverview Drive",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1827481,
+          38.7690568
+        ]
+      },
+      "id": "node/3190455226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3191027435",
+        "amenity": "fast_food",
+        "brand": "Pita Pit",
+        "brand:wikidata": "Q7757289",
+        "brand:wikipedia": "en:Pita Pit",
+        "cuisine": "pita",
+        "name": "Pita Pit",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2969059,
+          38.6549846
+        ]
+      },
+      "id": "node/3191027435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3260848154",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "116",
+        "addr:postcode": "63101",
+        "addr:state": "MO",
+        "addr:street": "North 6th Street",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "brand:wikipedia": "en:Panera Bread",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "06:00-19:00",
+        "phone": "+1 (314) 588-0423 ·",
+        "short_name": "Panera",
+        "smoking": "no",
+        "source": "Local Knowledge",
+        "takeaway": "yes",
+        "website": "https://www.panerabread.com/en-us/home.html",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1903941,
+          38.6271019
+        ]
+      },
+      "id": "node/3260848154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3428677309",
+        "addr:city": "St. Louis",
+        "addr:housenumber": "4487",
+        "addr:postcode": "63108",
+        "addr:street": "Forest Park Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 08:00-20:00",
+        "phone": "+1 314 652 3200",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2587327,
+          38.6386494
+        ]
+      },
+      "id": "node/3428677309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3429705317",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2619866,
+          38.642475
+        ]
+      },
+      "id": "node/3429705317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3429705329",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "brand:wikipedia": "en:Jimmy John's",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2622329,
+          38.6409125
+        ]
+      },
+      "id": "node/3429705329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3516316784",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "601",
+        "addr:postcode": "63102",
+        "addr:state": "MO",
+        "addr:street": "Clark Avenue",
+        "amenity": "fast_food",
+        "cuisine": "mexican",
+        "name": "Tengo Hambre",
+        "opening_hours": "11:00-23:00",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1922883,
+          38.6239206
+        ]
+      },
+      "id": "node/3516316784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3516326163",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "601",
+        "addr:postcode": "63102",
+        "addr:state": "MO",
+        "addr:street": "Clark Avenue",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "brand:wikipedia": "en:Jamba Juice",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 10:00-19:00",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1920507,
+          38.6242784
+        ]
+      },
+      "id": "node/3516326163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3678263640",
+        "amenity": "fast_food",
+        "name": "Hippo Hideaway Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.294414,
+          38.6338553
+        ]
+      },
+      "id": "node/3678263640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3679071425",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3457",
+        "addr:postcode": "63118",
+        "addr:state": "MO",
+        "addr:street": "Magnolia Avenue",
+        "amenity": "fast_food",
+        "cuisine": "hot_dog",
+        "name": "Steve's Hot Dogs Tower Grove",
+        "opening_hours": "16:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2389882,
+          38.6061228
+        ]
+      },
+      "id": "node/3679071425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3893444477",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "1000",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Imo's Pizza",
+        "brand:wikidata": "Q6005623",
+        "brand:wikipedia": "en:Imo's Pizza",
+        "cuisine": "pizza",
+        "name": "Imo's Pizza",
+        "opening_hours": "Su-Th 10:00-23:00, Fr-Sa 10:00-24:00",
+        "phone": "(314) 644-5480",
+        "takeaway": "yes",
+        "website": "https://www.imospizza.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2865554,
+          38.6306349
+        ]
+      },
+      "id": "node/3893444477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3915176480",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3822",
+        "addr:postcode": "63108",
+        "addr:state": "MO",
+        "addr:street": "Lalede Avenue",
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "brand:wikipedia": "en:Papa John's",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "phone": "+1 314 534 2729",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.240845,
+          38.6357431
+        ]
+      },
+      "id": "node/3915176480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3915176481",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3822",
+        "addr:postcode": "63108",
+        "addr:state": "MO",
+        "addr:street": "Lalede Avenue",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "brand:wikipedia": "en:Jimmy John's",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "phone": "+1 314 531 8500",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2406942,
+          38.6357096
+        ]
+      },
+      "id": "node/3915176481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4324461091",
+        "amenity": "fast_food",
+        "name": "Anheuser-Busch Hippo Harbor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2938817,
+          38.6337899
+        ]
+      },
+      "id": "node/4324461091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4712641210",
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "Snarf’s Sandwiches"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2341585,
+          38.6321391
+        ]
+      },
+      "id": "node/4712641210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5793269392",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "brand:wikipedia": "en:Shake Shack",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2618462,
+          38.6416182
+        ]
+      },
+      "id": "node/5793269392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5793269398",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "brand:wikipedia": "en:Chick-fil-A",
+        "cuisine": "chicken",
+        "name": "Chick-fil-A",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2618274,
+          38.6368957
+        ]
+      },
+      "id": "node/5793269398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5895947768",
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "brand:wikipedia": "en:Papa John's",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2845875,
+          38.5700478
+        ]
+      },
+      "id": "node/5895947768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5897293107",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "6459",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "Chippewa Street",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "brand:wikipedia": "en:Jimmy John's",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "opening_hours": "Su-Sa 11:00-23:00",
+        "phone": "+13143510708",
+        "takeaway": "yes",
+        "website": "https://locations.jimmyjohns.com/mo/st-louis/sandwiches-1272.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3007887,
+          38.5933659
+        ]
+      },
+      "id": "node/5897293107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5909691990",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2282164,
+          38.6476757
+        ]
+      },
+      "id": "node/5909691990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5911014987",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1912395,
+          38.6278768
+        ]
+      },
+      "id": "node/5911014987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5911015008",
+        "amenity": "fast_food",
+        "brand": "Quiznos",
+        "brand:wikidata": "Q1936229",
+        "brand:wikipedia": "en:Quiznos",
+        "cuisine": "sandwich",
+        "name": "Quiznos",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1910434,
+          38.6281335
+        ]
+      },
+      "id": "node/5911015008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5911015024",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "brand:wikipedia": "en:Jimmy John's",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1897807,
+          38.6269635
+        ]
+      },
+      "id": "node/5911015024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5911015035",
+        "amenity": "fast_food",
+        "name": "Planet Sub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1938261,
+          38.6284612
+        ]
+      },
+      "id": "node/5911015035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5917086887",
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "brand:wikipedia": "en:Qdoba",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2420846,
+          38.602533
+        ]
+      },
+      "id": "node/5917086887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6031119073",
+        "amenity": "fast_food",
+        "cuisine": "chinese",
+        "name": "Jefferson Chop Suey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2204133,
+          38.616358
+        ]
+      },
+      "id": "node/6031119073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6413247246",
+        "amenity": "fast_food",
+        "cuisine": "juice;fruit;smoothie",
+        "drive_through": "no",
+        "name": "Tiki Fruit Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.291934,
+          38.6359635
+        ]
+      },
+      "id": "node/6413247246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6413247247",
+        "amenity": "fast_food",
+        "cuisine": "smoothie;ice_cream;popcorn",
+        "drive_through": "no",
+        "name": "Tiki Fruit Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2917825,
+          38.636189
+        ]
+      },
+      "id": "node/6413247247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6583128369",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2411544,
+          38.6098147
+        ]
+      },
+      "id": "node/6583128369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7885578693",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "6417",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "Chippewa Street",
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "brand:wikipedia": "en:Qdoba",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "opening_hours": "Mo-Sa 10:30-22:00, Su 10:30-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+13148321420",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/mo/st--louis/6417-chippewa-st.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2991071,
+          38.5939782
+        ]
+      },
+      "id": "node/7885578693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7885602909",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "6424",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "Chippewa Street",
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "brand:wikipedia": "en:Smoothie King",
+        "cuisine": "juice",
+        "drive_through": "yes",
+        "name": "Smoothie King",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 09:00-21:00",
+        "phone": "+13148334455",
+        "takeaway": "yes",
+        "website": "https://locations.smoothieking.com/ll/US/MO/St_-Louis/6424-Chippewa-St_"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2984812,
+          38.5936573
+        ]
+      },
+      "id": "node/7885602909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7885780146",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "6918",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "Chippewa Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Subway",
+        "opening_hours": "Su-Sa 10:00-19:00",
+        "phone": "+13145719377",
+        "takeaway": "yes",
+        "website": "https://subway.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3097455,
+          38.5883117
+        ]
+      },
+      "id": "node/7885780146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7885862857",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3801",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "brand:wikipedia": "en:Chick-fil-A",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "no",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+13148322748",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.294131,
+          38.5948666
+        ]
+      },
+      "id": "node/7885862857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7885879709",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3824",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Penn Station",
+        "brand:wikidata": "Q7163311",
+        "brand:wikipedia": "en:Penn Station (restaurant)",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Penn Station",
+        "opening_hours": "Su-Sa 10:30-20:00",
+        "phone": "+13143528423",
+        "takeaway": "yes",
+        "website": "http://www.penn-station.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2936667,
+          38.5944058
+        ]
+      },
+      "id": "node/7885879709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7965479872",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3429",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Watson Road",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Cecil Whittaker's Pizzeria",
+        "opening_hours": "Mo-Th 10:00-22:00, Fr-Sa 10:00-24:00, Su 11:00-22:00",
+        "phone": "+13146440515",
+        "website": "https://www.cwpizza.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3003049,
+          38.6002733
+        ]
+      },
+      "id": "node/7965479872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8122869885",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3740",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "South Kingshighway Boulevard",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "brand:wikipedia": "en:Little Caesars",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Little Caesars",
+        "opening_hours": "Mo-Sa 11:00-21:00, Su 11:00-20:00",
+        "phone": "+13147727492",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.270563,
+          38.5922106
+        ]
+      },
+      "id": "node/8122869885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8443170375",
+        "addr:city": "St. Louis",
+        "addr:housenumber": "5720",
+        "addr:postcode": "63110",
+        "addr:state": "MO",
+        "addr:street": "Oakland Avenue",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "brand:wikipedia": "en:Jimmy John's",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "opening_hours:covid19": "same",
+        "phone": "+13146443278",
+        "takeaway": "yes",
+        "website": "https://jimmyjohns.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2822356,
+          38.6300932
+        ]
+      },
+      "id": "node/8443170375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8751677377",
+        "addr:city": "St. Louis",
+        "addr:housenumber": "805",
+        "addr:postcode": "63110",
+        "addr:state": "MO",
+        "addr:street": "South Vandeventer Avenue",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "brand:wikipedia": "en:Raising Cane's Chicken Fingers",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes",
+        "website": "https://www.raisingcanes.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2463781,
+          38.6294702
+        ]
+      },
+      "id": "node/8751677377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8751700325",
+        "addr:city": "St. Louis",
+        "addr:housenumber": "4139",
+        "addr:postcode": "63108",
+        "addr:state": "MO",
+        "addr:street": "Lindell Boulevard",
+        "amenity": "fast_food",
+        "cuisine": "chinese",
+        "name": "Chong Wah",
+        "phone": "+13146527202",
+        "website": "http://go2chongwang.weebly.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2457697,
+          38.641226
+        ]
+      },
+      "id": "node/8751700325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8751700326",
+        "addr:city": "St. Louis",
+        "addr:housenumber": "4149",
+        "addr:postcode": "63108",
+        "addr:state": "MO",
+        "addr:street": "Lindell Boulevard",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2463054,
+          38.6414058
+        ]
+      },
+      "id": "node/8751700326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8993197284",
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "Zenwich",
+        "outdoor_seating": "yes",
+        "website": "https://www.zenwich.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2621096,
+          38.6399369
+        ]
+      },
+      "id": "node/8993197284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8993197285",
+        "amenity": "fast_food",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "Chick'nCone",
+        "outdoor_seating": "yes",
+        "website": "https://www.chickncone.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2622083,
+          38.6410474
+        ]
+      },
+      "id": "node/8993197285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9681198064",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "brand:wikipedia": "en:Chipotle Mexican Grill",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2338938,
+          38.6327631
+        ]
+      },
+      "id": "node/9681198064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9710254624",
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "brand:wikipedia": "en:Qdoba",
+        "cuisine": "mexican",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Qdoba_Guest",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.262486,
+          38.5577989
+        ]
+      },
+      "id": "node/9710254624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9738483365",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2213146,
+          38.6156327
+        ]
+      },
+      "id": "node/9738483365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9765755737",
+        "amenity": "fast_food",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "brand:wikipedia": "en:Wingstop",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.243798,
+          38.5912301
+        ]
+      },
+      "id": "node/9765755737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9793907778",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "brand:wikipedia": "en:Domino's Pizza",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2405803,
+          38.6099418
+        ]
+      },
+      "id": "node/9793907778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9793950623",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "brand:wikipedia": "en:Little Caesars",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2276699,
+          38.6472056
+        ]
+      },
+      "id": "node/9793950623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9793998938",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "brand:wikipedia": "en:Little Caesars",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2623477,
+          38.5577313
+        ]
+      },
+      "id": "node/9793998938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9930595834",
+        "amenity": "fast_food",
+        "brand": "Imo's Pizza",
+        "brand:wikidata": "Q6005623",
+        "cuisine": "pizza",
+        "name": "Imo's Pizza",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2544668,
+          38.5751775
+        ]
+      },
+      "id": "node/9930595834"
+    }
+  ]
+}
