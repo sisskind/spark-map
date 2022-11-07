@@ -1,0 +1,269 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-11-07T18:56:24Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374431744",
+        "addr:city": "St. Louis",
+        "addr:housenumber": "1005",
+        "addr:postcode": "63117",
+        "addr:state": "MO",
+        "addr:street": "McCausland Avenue",
+        "amenity": "cinema",
+        "building": "yes",
+        "name": "Hi-Pointe Theatre",
+        "wikidata": "Q42893156"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.3052313,
+              38.6327636
+            ],
+            [
+              -90.3052675,
+              38.6325677
+            ],
+            [
+              -90.3048204,
+              38.6325197
+            ],
+            [
+              -90.3047985,
+              38.6325681
+            ],
+            [
+              -90.3048211,
+              38.6326412
+            ],
+            [
+              -90.304854,
+              38.6326629
+            ],
+            [
+              -90.3049229,
+              38.6327322
+            ],
+            [
+              -90.3052313,
+              38.6327636
+            ]
+          ]
+        ]
+      },
+      "id": "way/374431744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374431745",
+        "addr:city": "St. Louis",
+        "addr:housenumber": "1002",
+        "addr:postcode": "63117",
+        "addr:state": "MO",
+        "addr:street": "Hi Pointe Place",
+        "amenity": "cinema",
+        "building": "yes",
+        "name": "Hi-Pointe Backlot",
+        "wikidata": "Q88235929"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.3056642,
+              38.632806
+            ],
+            [
+              -90.3056752,
+              38.6327363
+            ],
+            [
+              -90.3055593,
+              38.6327251
+            ],
+            [
+              -90.305562,
+              38.6327083
+            ],
+            [
+              -90.3054295,
+              38.6326955
+            ],
+            [
+              -90.3054312,
+              38.6326843
+            ],
+            [
+              -90.3053258,
+              38.6326741
+            ],
+            [
+              -90.3053103,
+              38.6327717
+            ],
+            [
+              -90.3056642,
+              38.632806
+            ]
+          ]
+        ]
+      },
+      "id": "way/374431745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/412505677",
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3821",
+        "addr:postcode": "63108",
+        "addr:state": "MO",
+        "addr:street": "Lindell Boulevard",
+        "amenity": "cinema",
+        "building": "yes",
+        "name": "Moolah Theater & Lounge",
+        "wikidata": "Q42893035"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.2393777,
+              38.6392308
+            ],
+            [
+              -90.2392946,
+              38.6391952
+            ],
+            [
+              -90.2393294,
+              38.6391449
+            ],
+            [
+              -90.2392651,
+              38.6391177
+            ],
+            [
+              -90.2392785,
+              38.6390926
+            ],
+            [
+              -90.2389352,
+              38.6389459
+            ],
+            [
+              -90.2389244,
+              38.6389648
+            ],
+            [
+              -90.2388466,
+              38.6389271
+            ],
+            [
+              -90.2388091,
+              38.6389836
+            ],
+            [
+              -90.238734,
+              38.6389459
+            ],
+            [
+              -90.2385597,
+              38.6391848
+            ],
+            [
+              -90.2392034,
+              38.6394697
+            ],
+            [
+              -90.2393777,
+              38.6392308
+            ]
+          ]
+        ]
+      },
+      "id": "way/412505677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2123864618",
+        "amenity": "cinema",
+        "name": "Cinema St. Louis",
+        "phone": "314-289-4150",
+        "website": "http://www.cinemastlouis.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2311677,
+          38.6378958
+        ]
+      },
+      "id": "node/2123864618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4489679881",
+        "amenity": "cinema",
+        "name": "MX Movies",
+        "wikidata": "Q42893088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1901677,
+          38.6300658
+        ]
+      },
+      "id": "node/4489679881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5116037260",
+        "amenity": "cinema",
+        "name": "Chase Park Plaza",
+        "website": "https://www.stlouiscinemas.com/Chase/NowPlaying.aspx",
+        "wikidata": "Q42893006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2635211,
+          38.6439064
+        ]
+      },
+      "id": "node/5116037260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6896564251",
+        "amenity": "cinema",
+        "name": "Omnimax Theater",
+        "screen": "1",
+        "website": "https://www.cincymuseum.org/omnimax/",
+        "wikidata": "Q88076853"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2706523,
+          38.6289444
+        ]
+      },
+      "id": "node/6896564251"
+    }
+  ]
+}
