@@ -75,12 +75,6 @@ var newLayer = L.geoJSON(null, {
 	}
 });
 
-var sidewalksCityLayer = St.LouisCitySidewalk.geojson(null,{
-	style: addStyle,
-	onEachFeature : function(feature,layer) {
-		addPopUp(feature,layer);
-	}
-});
 
 var sidewalksCountyLayer =  cinemaCity.geojson(null, {
 	style: addStyle,
