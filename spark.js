@@ -75,12 +75,6 @@ var newLayer = L.geoJSON(null, {
 	}
 });
 
-
-
-	}
-});
-
-
 	
 $.getJSON(GJson, function(data){
 	newLayer.addData(data).addTo(map);
