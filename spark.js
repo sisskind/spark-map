@@ -56,9 +56,16 @@ else {return OwaysStyle}
 else {
 return otherStyle
 }
+if (feature.properties.footway){
+if (feature.properties.footway == 'sidewalk') {return sidewalkStyle}
+else {return footwayStyle}
+}
+else{
+return otherStyle
+}
+	
 
 }
-
 function addGJLayer(GJson) {
 // Add buildings layer
 var newLayer = L.geoJSON(null, {
@@ -68,6 +75,22 @@ var newLayer = L.geoJSON(null, {
 	}
 });
 
+var sidewalksCityLayer = St.LouisCitySidewalk.geojson(null,{
+	style: addStyle,
+	onEachFeature : function(feature,layer) {
+		addPopUp(feature,layer);
+	}
+});
+
+var sidewalksCountyLayer =  cinemaCity.geojson(null, {
+	style: addStyle,
+	onEachFeature: function(feature,layer) {
+		addPopUp(feature,layer);
+	}
+});
+
+
+	
 $.getJSON(GJson, function(data){
 	newLayer.addData(data).addTo(map);
 });
@@ -112,6 +135,19 @@ success: function (response) {
 }
 });
 }
+var sidewalkStyle = {
+color: "#98817B"
+weight: 5,
+opacity: 0.85
+};
+
+
+var footwayStyle = {
+color: "#999999"
+weight: 5,
+opacity: 0.85
+};
+
 
 var buildingsStyle = {
 color: "#82f1f8", 
