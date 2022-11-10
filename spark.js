@@ -49,7 +49,7 @@ return otherStyle
 }
 
 if (feature.properties.footway){
-if (feature,properties.footesy == 'sidewalk') {return sidewalkStyle}
+if (feature,properties.footway == 'sidewalk') {return sidewalkStyle}
 if (feature.properties.highway){
 if (feature.properties.highway == 'railway') {return railwayStyle}
 else {return OwaysStyle}
