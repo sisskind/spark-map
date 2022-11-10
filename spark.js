@@ -115,8 +115,8 @@ success: function (response) {
 }
 var sidewalkStyle = {
 color: "#eb7734",
-weight: 5,
-}
+weight: 5
+};
 var buildingsStyle = {
 color: "#FA8072", 
 weight: 5, 
