@@ -78,7 +78,7 @@ var newLayer = L.geoJSON(null, {
 	
 var cinemaCityLayer = cinemaCity.geojson(null, {
 	style: addStyle,
-	onEachFeature : function(feature, layer) [
+	onEachFeature: function(feature, layer) {
 		addPopUp(feature,layer);
 		}
 });
