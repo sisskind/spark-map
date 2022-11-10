@@ -130,7 +130,7 @@ opacity: 0.85
 
 
 var footwayStyle = {
-color: "#999999"
+color: "#999999",
 weight: 5,
 opacity: 0.85
 };
