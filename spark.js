@@ -76,12 +76,7 @@ var newLayer = L.geoJSON(null, {
 });
 	
 	
-var cinemaCityLayer = cinemaCity.geojson(null, {
-	style: addStyle,
-	onEachFeature: function(feature, layer) {
-		addPopUp(feature,layer);
-		}
-});
+
 	
 $.getJSON(GJson, function(data){
 	newLayer.addData(data).addTo(map);
