@@ -123,7 +123,7 @@ success: function (response) {
 });
 }
 var sidewalkStyle = {
-color: "#98817B"
+color: "#98817B",
 weight: 5,
 opacity: 0.85
 };
