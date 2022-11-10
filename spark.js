@@ -76,10 +76,7 @@ var newLayer = L.geoJSON(null, {
 });
 
 
-var sidewalksCountyLayer =  cinemaCity.geojson(null, {
-	style: addStyle,
-	onEachFeature: function(feature,layer) {
-		addPopUp(feature,layer);
+
 	}
 });
 
