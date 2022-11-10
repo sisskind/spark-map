@@ -70,7 +70,7 @@
 								      
 		var sidewalksCountyLayer = addGJLayer(sidewalksCountyURL);
 								       
-		var cinemaCityLayer = addGJLayer(cinemacityURL);
+		var cinemaCityLayer = addGJLayer(cinemaCityURL);
 		// Add the layers to their layer group
 		var baseMaps = {
 			"OpenStreetMap": osmTiles,
@@ -79,7 +79,8 @@
 		};
 
 		var overlayMaps = {
-			"STL Cinemas": buildingsLayer
+			"STL Cinemas": buildingsLayer;
+			"STL City Cinemas" : cinemaCityLayer
 		};
 
 		var gjLayers = new L.LayerGroup();
