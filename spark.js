@@ -1,6 +1,6 @@
 function addPopUp(feature, layer){
 	var popupTxt = "";
-	var osmURL = ""
+	var osmURL = "";
 
 	// does this feature have a property named id?
 	if (feature.properties && feature.properties['@id']) {
@@ -36,7 +36,7 @@ function addPopUp(feature, layer){
 
 function addStyle(feature, layer){
 if (feature.properties.building) {
-if (feature.properties.building == 'house') {return houseStyle}
+if (feature.properties.building == 'house') {return houseStyle;}
 else if (feature.properties.building == 'apartments') {return apartmentsStyle}
 else if (feature.properties.building == 'school') {return schoolStyle}
 else if (feature.properties.building == 'garage') {return garageStyle}
@@ -49,7 +49,7 @@ return otherStyle
 }
 
 if (feature.properties.footway){
-if (feature,properties.footway == 'sidewalk') {return sidewalkStyle}
+if (feature.properties.footway == 'sidewalk') {return sidewalkStyle}
 if (feature.properties.highway){
 if (feature.properties.highway == 'railway') {return railwayStyle}
 else {return OwaysStyle}
