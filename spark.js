@@ -35,7 +35,7 @@ function addPopUp(feature, layer){
 }
 
 function addStyle(feature, layer){
-	switch(feature.properties.building {
+	switch(feature.properties.building){
 		case "house":
 			return houseStyle;
 			break;
@@ -87,8 +87,6 @@ function addStyle(feature, layer){
 	}
 }
 	
-
-}
 function addGJLayer(GJson) {
 // Add buildings layer
 var newLayer = L.geoJSON(null, {
