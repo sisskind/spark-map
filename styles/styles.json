@@ -1,0 +1,57 @@
+var featureStyle = 
+	{
+		"sidewalk":
+		{
+			"color": "#eb7734",
+			"weight": 5,
+			"opacity": 0.7
+		},
+		"building": 
+		{
+			"color": "#E22B2B",
+			"weight": 5,
+			"opacity": 0.7
+		},
+		"other":
+		{
+			"color": "#FFFF00",
+			"weight": 5,
+			"opacity": 0.5
+		},
+		"school":
+		{
+			"color": "#15cf5c",
+			"weight": 5,
+			"opacity": 0.7
+		},
+		"house":
+		{
+			"color": "#6f15cf",
+			"weight": 5,
+			"opacity": 0.7
+		},
+		"apartment":
+		{
+			"color": "#8a427f",
+			"weight": 5,
+			"opacity": 0.7
+		},
+		"garage":
+		{
+			"color": "#42898a",
+			"weight": 5,
+			"opacity": 0.7
+		},
+		"residential":
+		{
+			"color": "#24ff5e",
+			"weight": 5,
+			"opacity": 0.7
+		},
+		"service":
+		{
+			"color": "#ff7621",
+			"weight": 5,
+			"opacity": 0.7
+		}
+	};
