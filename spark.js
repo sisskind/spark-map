@@ -36,21 +36,50 @@ function addPopUp(feature, layer){
 
 function addStyle(feature, layer){
 if (feature.properties.building) {
-if (feature.properties.building == 'house') {return houseStyle}
-else if (feature.properties.building == 'apartments') {return apartmentsStyle}
-else if (feature.properties.building == 'school') {return schoolStyle}
-else if (feature.properties.building == 'garage') {return garageStyle}
-else if (feature.properties.building == 'garages') {return garagesStyle}
-else if (feature.properties.building == 'residential') {return residentialStyle}	
-else if (feature.properties.building == 'service') {return serviceStyle}
-else {return buildingsStyle}
-} else {
-return otherStyle
+	switch (feature.properties.building) {
+		case 'house': 
+			return featureStyle.house;
+			break;
+		case 'school':
+			return featureStyle.school;
+			break;
+		case 'apartments':
+			return featureStyle.apartment;
+			break;
+		case 'garage':
+		case 'garages':
+			return featureStyle.garage;
+			break;
+		case 'residential':
+			return featureStyle.residential;
+			break;
+		case 'service':
+			return featureStyle.service;
+			break;
+		default:
+			return featureStyle.other;
+			break;
+	}
 }
-
-if (feature.properties.highway){
-if (feature.properties.highway == 'railway') {return railwayStyle}
-else {return OwaysStyle}
+else if (feature.properties.footway){
+	switch (feature.properties.footway) {
+		case 'sidewalk':
+			return featureStyle.sidewalk;
+			break;
+		default:
+			return featureStyle.other;
+			break;
+	}
+}
+else if (feature.properties.highway){
+	switch (feature.properties.highway) {
+		case 'railway':
+			return featureStyle.railway;
+			break;
+		default:
+			return featureStyle.other;
+			break;
+	}
 }
 else {
 return otherStyle
@@ -111,80 +140,3 @@ success: function (response) {
 }
 });
 }
-
-var buildingsStyle = {
-color: "#E22B2B", 
-weight: 5, 
-opacity: 0.70
-};
-
-var otherStyle = {
-color: "#FFFF00", 
-weight: 5, 
-opacity: 0.5
-};
-
-var OwaysStyle = {
-color: "#E22B2B", 
-weight: 5, 
-opacity: 0.70
-};
-
-var EwaysStyle = {
-color: "#38f5a3", 
-weight: 5, 
-opacity: 0.70
-};
-
-var EbuildingsStyle = {
-color: "#E22B2B", 
-weight: 5, 
-opacity: 0.70
-};
-
-var schoolStyle = {
-color: "#15cf5c", 
-weight: 5, 
-opacity: 0.70
-};
-
-var houseStyle = {
-color: "#6f15cf", 
-weight: 5, 
-opacity: 0.70
-};
-
-var apartmentsStyle = {
-color: "#8a427f", 
-weight: 5, 
-opacity: 0.70}
-
-var garageStyle = {
-color: "#42898a", 
-weight: 5, 
-opacity: 0.70
-};
-
-var garagesStyle = {
-color: "#c9400e", 
-weight: 5, 
-opacity: 0.70
-};
-
-var yesStyle = {
-color: "#edf505", 
-weight: 5, 
-opacity: 0.70
-};
-
-var residentialStyle = {
-color: "#24ff5e",
-weight: 5,
-opactiy: 0.70
-};	
-
-var serviceStyle = {
-color: "#ff7621",
-weight: 5,
-opacity: 0.70
-};
